@@ -12,9 +12,9 @@ export const Topbar = ({
   setSearchQuery
 }) => {
   return (
-    <header className="h-12 sticky top-0 z-header bg-surface/95 backdrop-blur-xs border-b border-border-subtle px-4 sm:px-5 flex items-center justify-between gap-4">
+    <header className="h-12 sticky top-0 z-header bg-surface/95 backdrop-blur-xs border-b border-border-subtle px-2.5 sm:px-5 flex items-center justify-between gap-2 sm:gap-4">
       {/* Left: Mobile Toggle & Brand / Subtitle */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2 sm:gap-3 shrink-0">
         <button
           onClick={onMenuClick}
           className="p-1.5 rounded-md text-text-secondary hover:text-ink-primary hover:bg-primary-soft lg:hidden shrink-0"
@@ -23,7 +23,7 @@ export const Topbar = ({
           <Menu className="w-4 h-4" />
         </button>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <Leaf className="w-4 h-4 text-primary shrink-0" />
           <div className="flex items-baseline gap-2">
             <span className="font-serif font-bold text-sm tracking-tight text-ink-primary">

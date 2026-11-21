@@ -25,7 +25,7 @@ export const RecurrenceTable = ({ recurrences = [] }) => {
   }
 
   return (
-    <div className="bg-surface border border-border-subtle rounded-md shadow-sm overflow-hidden flex flex-col">
+    <div className="bg-surface border border-border-subtle rounded-md shadow-sm overflow-hidden flex flex-col min-w-0 w-full">
       <div className="p-4 border-b border-border-subtle flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <div>
           <div className="flex items-center gap-2">
@@ -42,7 +42,7 @@ export const RecurrenceTable = ({ recurrences = [] }) => {
         </div>
       </div>
 
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto min-w-0 w-full">
         <table className="w-full text-left text-xs border-collapse">
           <thead>
             <tr className="border-b border-border-subtle bg-sunken/40 text-text-secondary font-mono text-[11px] uppercase tracking-wider">

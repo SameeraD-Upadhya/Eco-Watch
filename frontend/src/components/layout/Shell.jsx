@@ -18,7 +18,7 @@ export const Shell = ({
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-canvas text-ink-primary pb-20 sm:pb-0">
+    <div className="min-h-screen flex flex-col bg-canvas text-ink-primary pb-20 sm:pb-0 overflow-x-hidden">
       <div className="flex-1 flex">
         {/* Desktop Sidebar & Mobile Drawer */}
         <Sidebar
@@ -43,7 +43,7 @@ export const Shell = ({
             setSearchQuery={setSearchQuery}
           />
 
-          <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto w-full">
+          <main className="flex-1 p-3 sm:p-6 lg:p-8 max-w-7xl mx-auto w-full min-w-0">
             {children}
           </main>
         </div>

@@ -30,12 +30,12 @@ export const HeaderBadge = ({ health, loading }) => {
 
   return (
     <div 
-      className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium border ${badgeClasses} transition-colors`}
+      className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-[11px] font-medium border ${badgeClasses} transition-colors shrink-0`}
       title={isConnected ? `Database: ${health.database} | Reports: ${health.collection_counts?.reports ?? 0}` : 'Cannot connect to MongoDB localhost:27017'}
     >
       <Database className="w-3 h-3 shrink-0" />
       <span className="w-1.5 h-1.5 rounded-full animate-pulse bg-current shrink-0"></span>
-      <span className="font-mono truncate max-w-[140px] sm:max-w-none">{label}</span>
+      <span className="font-mono truncate max-w-[85px] sm:max-w-none">{label}</span>
     </div>
   );
 };
