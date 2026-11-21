@@ -51,6 +51,8 @@ export const CitizenForm = ({
   // Duplicate Nudge State
   const [similarReports, setSimilarReports] = useState([]);
   const [corroboratingId, setCorroboratingId] = useState(null);
+  const uploadingPhoto = false;
+  const removePhoto = () => {};
 
   const selectedCategory = categories.find((c) => c.id === formData.category_id);
   const selectedLocation = locations.find((l) => l.id === formData.location_id);
