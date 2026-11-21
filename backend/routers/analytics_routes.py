@@ -24,6 +24,28 @@ def get_analytics():
     total_reports = db.reports.count_documents({})
 
     if total_reports == 0:
+        empty_points = []
+        unmapped_list = []
+        for loc in db.locations.find().sort("ward_no", 1):
+            lat = loc.get("lat")
+            lng = loc.get("lng")
+            is_m = bool(lat is not None and lng is not None)
+            if not is_m:
+                unmapped_list.append(loc["ward_name"])
+            empty_points.append(WardMapPoint(
+                ward_no=loc.get("ward_no"),
+                ward_name=loc["ward_name"],
+                zone=loc.get("zone", "General"),
+                lat=lat,
+                lng=lng,
+                count=0,
+                open_count=0,
+                resolved_count=0,
+                top_category="None",
+                top_category_color="var(--border-subtle)",
+                is_mapped=is_m
+            ))
+
         return AnalyticsResponse(
             total_reports=0,
             counts_by_status={"Open": 0, "In Progress": 0, "Resolved": 0},
@@ -51,7 +73,8 @@ def get_analytics():
             oldest_unresolved_reports=[],
             top_wards_by_volume=[],
             bottom_zones_by_resolution=[],
-            ward_map_points=[],
+            ward_map_points=empty_points,
+            unmapped_wards=unmapped_list,
             data_insights=["No incident reports currently recorded in the system."]
         )
 
@@ -402,8 +425,8 @@ def get_analytics():
     # 12. Top Wards by Report Volume
     top_wards_by_volume = location_counts[:5]
 
-    # 13. Centroid Map Points for Hotspot Visualization
-    locations_dict = {loc["ward_name"]: loc for loc in db.locations.find()}
+    # 13. Centroid Map Points for Hotspot Visualization (All 65 wards + unmapped notice)
+    locations_list = list(db.locations.find().sort("ward_no", 1))
     ward_cat_counts = {}
     ward_status_counts = {}
     for r in all_reports:
@@ -421,30 +444,41 @@ def get_analytics():
             ward_status_counts[loc_n]["Resolved"] += 1
 
     ward_map_points: list[WardMapPoint] = []
-    for loc_n, cat_dict in ward_cat_counts.items():
-        loc_data = locations_dict.get(loc_n, {})
-        lat = loc_data.get("lat")
-        lng = loc_data.get("lng")
-        if lat is None or lng is None:
-            continue
-        top_cat = max(cat_dict.items(), key=lambda x: x[1])[0]
-        color = category_colors.get(top_cat, "#2F5D46")
-        total_w = sum(cat_dict.values())
+    unmapped_wards: list[str] = []
+
+    for loc in locations_list:
+        loc_n = loc["ward_name"]
+        cat_dict = ward_cat_counts.get(loc_n, {})
         st_counts = ward_status_counts.get(loc_n, {"Open": 0, "Resolved": 0})
+        total_w = sum(cat_dict.values())
+        
+        lat = loc.get("lat")
+        lng = loc.get("lng")
+        is_mapped = bool(lat is not None and lng is not None)
+        if not is_mapped:
+            unmapped_wards.append(loc_n)
+
+        if total_w > 0 and cat_dict:
+            top_cat = max(cat_dict.items(), key=lambda x: x[1])[0]
+            color = category_colors.get(top_cat, "#2F5D46")
+        else:
+            top_cat = "None"
+            color = "var(--border-subtle)"
 
         ward_map_points.append(WardMapPoint(
-            ward_no=loc_data.get("ward_no"),
+            ward_no=loc.get("ward_no"),
             ward_name=loc_n,
-            zone=loc_data.get("zone", "General"),
+            zone=loc.get("zone", "General"),
             lat=lat,
             lng=lng,
             count=total_w,
             open_count=st_counts["Open"],
             resolved_count=st_counts["Resolved"],
             top_category=top_cat,
-            top_category_color=color
+            top_category_color=color,
+            is_mapped=is_mapped
         ))
-    ward_map_points.sort(key=lambda x: x.count, reverse=True)
+    ward_map_points.sort(key=lambda x: (x.count, x.ward_no or 0), reverse=True)
 
     # 14. Automated Data Insight Sentences
     data_insights = []
@@ -496,5 +530,6 @@ def get_analytics():
         top_wards_by_volume=top_wards_by_volume,
         bottom_zones_by_resolution=bottom_zones_by_resolution,
         ward_map_points=ward_map_points,
+        unmapped_wards=unmapped_wards,
         data_insights=data_insights
     )

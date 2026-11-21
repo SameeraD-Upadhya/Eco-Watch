@@ -99,7 +99,11 @@ export const AnalyticsDashboard = ({
 
           {/* 6. Geospatial Hotspot Map */}
           <section>
-            <HotspotMap wardPoints={analytics?.ward_map_points} />
+            <HotspotMap 
+              wardPoints={analytics?.ward_map_points} 
+              unmappedWards={analytics?.unmapped_wards}
+              onSelectWard={onSelectWard}
+            />
           </section>
 
           {/* 7. Reporting Intake Trends & Seasonality */}

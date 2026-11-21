@@ -13,7 +13,7 @@
       "id": "ward-1",
       "properties": {
         "ward_no": 1,
-        "ward_name": "Hebballu \u2013 Lakshmikantha Nagara",
+        "ward_name": "Hebballu – Lakshmikantha Nagara",
         "zone": "Zone 5",
         "verification_status": "verified",
         "source_url": "https://mysore.nic.in/en/document-category/elections/",
@@ -163,7 +163,7 @@
       "id": "ward-4",
       "properties": {
         "ward_no": 4,
-        "ward_name": "Hebbalu \u2013 Lokanayaka Nagara",
+        "ward_name": "Hebbalu – Lokanayaka Nagara",
         "zone": "Zone 5",
         "verification_status": "verified",
         "source_url": "https://mysore.nic.in/en/document-category/elections/",

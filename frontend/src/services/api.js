@@ -64,6 +64,7 @@ export const api = {
 
   // Locations / Wards Master Data
   getLocations: () => request('/config/locations'),
+  getLandmarks: () => request('/config/landmarks'),
   createLocation: (payload) => request('/config/locations', {
     method: 'POST',
     body: JSON.stringify(payload)

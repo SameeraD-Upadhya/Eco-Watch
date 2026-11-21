@@ -294,13 +294,14 @@ class WardMapPoint(BaseModel):
     ward_no: Optional[int] = None
     ward_name: str
     zone: str
-    lat: float
-    lng: float
-    count: int
-    open_count: int
-    resolved_count: int
-    top_category: str
-    top_category_color: str
+    lat: Optional[float] = None
+    lng: Optional[float] = None
+    count: int = 0
+    open_count: int = 0
+    resolved_count: int = 0
+    top_category: str = "None"
+    top_category_color: str = "var(--border-subtle)"
+    is_mapped: bool = True
 
 class AnalyticsResponse(BaseModel):
     total_reports: int
@@ -324,4 +325,5 @@ class AnalyticsResponse(BaseModel):
     top_wards_by_volume: List[LocationCount] = []
     bottom_zones_by_resolution: List[ZonePerformance] = []
     ward_map_points: List[WardMapPoint] = []
+    unmapped_wards: List[str] = []
     data_insights: List[str] = []
