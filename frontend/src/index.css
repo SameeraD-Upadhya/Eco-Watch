@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand Tokens - Deep Fresh Green */
+  --color-primary: #059669;
+  --color-primary-hover: #047857;
+  --color-primary-soft: rgba(5, 150, 105, 0.08);
+  --color-secondary: #4F46E5;
+
+  /* Status Colors */
+  --status-open: #E11D48;
+  --status-open-bg: rgba(225, 29, 72, 0.08);
+  --status-progress: #D97706;
+  --status-progress-bg: rgba(217, 119, 6, 0.08);
+  --status-resolved: #059669;
+  --status-resolved-bg: rgba(5, 150, 105, 0.08);
+
+  /* Severity Colors */
+  --severity-low: #0284C7;
+  --severity-low-bg: rgba(2, 132, 199, 0.08);
+  --severity-medium: #D97706;
+  --severity-medium-bg: rgba(217, 119, 6, 0.08);
+  --severity-high: #DC2626;
+  --severity-high-bg: rgba(220, 38, 38, 0.08);
+
+  /* Canvas & Neutral Surfaces (Light Mode) */
+  --bg-app: #F8FAF9;
+  --bg-surface: #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+  
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+
+  --border-subtle: #E2E8F0;
+  --border-strong: #CBD5E1;
+
+  --shadow-e1: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-e2: 0 4px 16px rgba(16, 24, 40, 0.06);
+  --shadow-e3: 0 16px 40px rgba(16, 24, 40, 0.10);
+}
+
+.dark {
+  /* Brand Tokens in Dark */
+  --color-primary: #10B981;
+  --color-primary-hover: #059669;
+  --color-primary-soft: rgba(16, 185, 129, 0.12);
+  --color-secondary: #6366F1;
+
+  /* Status Colors in Dark */
+  --status-open: #F43F5E;
+  --status-open-bg: rgba(244, 63, 94, 0.12);
+  --status-progress: #F59E0B;
+  --status-progress-bg: rgba(245, 158, 11, 0.12);
+  --status-resolved: #10B981;
+  --status-resolved-bg: rgba(16, 185, 129, 0.12);
+
+  /* Severity Colors in Dark */
+  --severity-low: #38BDF8;
+  --severity-low-bg: rgba(56, 189, 248, 0.12);
+  --severity-medium: #FBBF24;
+  --severity-medium-bg: rgba(251, 191, 36, 0.12);
+  --severity-high: #F87171;
+  --severity-high-bg: rgba(248, 113, 113, 0.12);
+
+  /* Canvas & Neutral Surfaces (Dark Mode) */
+  --bg-app: #0B0F12;
+  --bg-surface: #131920;
+  --bg-sidebar: #0E141B;
+
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+
+  --border-subtle: #1E293B;
+  --border-strong: #334155;
+
+  --shadow-e1: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-e2: 0 4px 16px rgba(0, 0, 0, 0.45);
+  --shadow-e3: 0 16px 40px rgba(0, 0, 0, 0.6);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 9999px;
+}
+
+/* Tabular figures for numbers and stats */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

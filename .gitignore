@@ -1,0 +1,27 @@
+# Ponytail philosophy document
+ponytail*
+ponytail.md
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+!.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

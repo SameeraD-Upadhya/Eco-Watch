@@ -1,0 +1,23 @@
+[
+  {
+    "citizen_name": "Anita Sharma",
+    "category_name": "Solid Waste Dumping",
+    "location_name": "Kuvempunagar",
+    "description": "Uncollected commercial packaging discarded near 8th main intersection.",
+    "severity": "High"
+  },
+  {
+    "citizen_name": "Vinay Prasad",
+    "category_name": "Water Body Contamination",
+    "location_name": "Gokulam",
+    "description": "Murky runoff observed entering the lake buffer stormwater trench.",
+    "severity": "Medium"
+  },
+  {
+    "citizen_name": "Deepak Murthy",
+    "category_name": "Noise Pollution",
+    "location_name": "Jayalakshmipuram",
+    "description": "Heavy industrial generator vibrations operating beyond 10 PM limit.",
+    "severity": "Low"
+  }
+]
