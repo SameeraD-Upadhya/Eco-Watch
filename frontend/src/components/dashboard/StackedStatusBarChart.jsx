@@ -8,9 +8,11 @@ import {
   Tooltip, 
   ResponsiveContainer 
 } from 'recharts';
+import { ChartFrame } from '../common/ChartFrame';
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
+    const total = payload.reduce((acc, curr) => acc + (curr.value || 0), 0);
     return (
       <div className="bg-surface border border-border-subtle p-2.5 rounded-md shadow-md text-xs space-y-1">
         <p className="font-semibold text-ink-primary font-serif border-b border-border-subtle pb-1">{label}</p>
@@ -20,35 +22,38 @@ const CustomTooltip = ({ active, payload, label }) => {
             <span className="font-bold text-ink-primary">{item.value}</span>
           </div>
         ))}
+        <div className="border-t border-border-subtle pt-1 mt-1 flex justify-between font-mono text-[11px] font-bold text-ink-primary">
+          <span>Total:</span>
+          <span>{total}</span>
+        </div>
       </div>
     );
   }
   return null;
 };
 
-export const StackedStatusBarChart = ({ data = [] }) => {
-  if (!data || data.length === 0) {
-    return (
-      <div className="bg-surface border border-border-subtle rounded-md shadow-sm p-4 h-76 flex flex-col items-center justify-center text-center">
-        <p className="text-xs text-text-muted">No ward breakdown data recorded yet.</p>
-      </div>
-    );
-  }
+export const StackedStatusBarChart = ({ data = [], onNavigateToCitizen }) => {
+  const hasData = data && data.length > 0;
+
+  const legendBadges = (
+    <div className="flex items-center gap-3 text-[11px] font-mono">
+      <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--status-open)' }} /> Open</span>
+      <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--status-progress)' }} /> In Progress</span>
+      <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--status-resolved)' }} /> Resolved</span>
+    </div>
+  );
 
   return (
-    <div className="bg-surface border border-border-subtle rounded-md shadow-sm p-4 flex flex-col h-76">
-      <div className="border-b border-border-subtle pb-2.5 mb-2.5 flex items-center justify-between">
-        <div>
-          <h3 className="text-xs font-semibold uppercase tracking-wider text-text-secondary font-mono">Status Composition per Ward</h3>
-          <p className="text-[11px] text-text-muted">Open, In Progress, and Resolved triage distribution</p>
-        </div>
-        <div className="flex items-center gap-3 text-[11px]">
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-status-open" /> Open</span>
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-status-progress" /> In Progress</span>
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-status-resolved" /> Resolved</span>
-        </div>
-      </div>
-
+    <ChartFrame
+      title="Status Composition per Ward"
+      subtitle="Open, In Progress, and Resolved triage distribution"
+      action={legendBadges}
+      hasData={hasData}
+      emptyMessage="No ward breakdown data recorded yet."
+      emptyActionText="Lodge Observation"
+      onEmptyAction={onNavigateToCitizen}
+      heightClass="h-[320px]"
+    >
       <div className="flex-1 w-full min-h-0">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} margin={{ top: 10, right: 10, left: -20, bottom: 20 }}>
@@ -71,6 +76,6 @@ export const StackedStatusBarChart = ({ data = [] }) => {
           </BarChart>
         </ResponsiveContainer>
       </div>
-    </div>
+    </ChartFrame>
   );
 };

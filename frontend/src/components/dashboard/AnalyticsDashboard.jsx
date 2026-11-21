@@ -8,6 +8,7 @@ import { TrendChart } from './TrendChart';
 import { PerformancePanel } from './PerformancePanel';
 import { WardRankings } from './WardRankings';
 import { CategoryChart } from './CategoryChart';
+import { StatusDistribution } from './StatusDistribution';
 import { LocalityDonut } from './LocalityDonut';
 import { StackedStatusBarChart } from './StackedStatusBarChart';
 import { AlertCircle, RefreshCw, PlusCircle, Database } from 'lucide-react';
@@ -18,16 +19,17 @@ export const AnalyticsDashboard = ({
   error, 
   onRefresh, 
   onNavigateToCitizen, 
-  onNavigateToMaster 
+  onNavigateToMaster,
+  onSelectWard
 }) => {
   if (loading && !analytics) {
     return (
       <div className="space-y-5">
         <div className="h-12 bg-surface border border-border-subtle rounded-md animate-pulse" />
         <div className="h-24 bg-surface border border-border-subtle rounded-md animate-pulse" />
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-          <div className="h-76 bg-surface border border-border-subtle rounded-md animate-pulse lg:col-span-2" />
-          <div className="h-76 bg-surface border border-border-subtle rounded-md animate-pulse" />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          <div className="h-[320px] bg-surface border border-border-subtle rounded-md animate-pulse" />
+          <div className="h-[320px] bg-surface border border-border-subtle rounded-md animate-pulse" />
         </div>
       </div>
     );
@@ -105,18 +107,25 @@ export const AnalyticsDashboard = ({
             <TrendChart 
               weeklyData={analytics?.time_trend_weekly} 
               monthlyData={analytics?.time_trend_monthly} 
+              onNavigateToCitizen={onNavigateToCitizen}
             />
           </section>
 
-          {/* 8. Incident Category & Locality Distribution */}
-          <section className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-            <div className="lg:col-span-2">
-              <CategoryChart data={analytics?.counts_by_category} />
+          {/* 8. Incident Category & Status Distribution */}
+          <section className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div>
+              <CategoryChart 
+                data={analytics?.counts_by_category} 
+                totalReports={analytics?.total_reports}
+                onNavigateToCitizen={onNavigateToCitizen}
+              />
             </div>
-            <div className="lg:col-span-1">
-              <LocalityDonut 
-                data={analytics?.counts_by_location} 
-                total={analytics?.total_reports} 
+            <div>
+              <StatusDistribution 
+                countsByStatus={analytics?.counts_by_status} 
+                totalReports={analytics?.total_reports}
+                resolutionRate={analytics?.resolution_rate}
+                onNavigateToCitizen={onNavigateToCitizen}
               />
             </div>
           </section>
@@ -141,12 +150,16 @@ export const AnalyticsDashboard = ({
               topWards={analytics?.top_wards_by_volume}
               bottomZones={analytics?.bottom_zones_by_resolution}
               totalReports={analytics?.total_reports}
+              onSelectWard={onSelectWard}
             />
           </section>
 
           {/* 11. Stacked Status per Ward */}
           <section>
-            <StackedStatusBarChart data={analytics?.stacked_status_per_location} />
+            <StackedStatusBarChart 
+              data={analytics?.stacked_status_per_location} 
+              onNavigateToCitizen={onNavigateToCitizen}
+            />
           </section>
         </div>
       )}

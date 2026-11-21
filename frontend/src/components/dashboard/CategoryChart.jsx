@@ -9,15 +9,17 @@ import {
   ResponsiveContainer,
   Cell
 } from 'recharts';
+import { ChartFrame } from '../common/ChartFrame';
 
-const CustomTooltip = ({ active, payload }) => {
+const CustomTooltip = ({ active, payload, total }) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
+    const pct = total > 0 ? ((data.count / total) * 100).toFixed(1) : '0.0';
     return (
       <div className="bg-surface border border-border-subtle px-3 py-2 rounded-md shadow-md text-xs">
         <p className="font-semibold text-ink-primary font-serif">{data.category_name}</p>
         <p className="text-text-secondary font-mono mt-0.5">
-          Reports: <span className="font-bold text-primary">{data.count}</span>
+          Reports: <span className="font-bold text-ink-primary">{data.count}</span> ({pct}%)
         </p>
       </div>
     );
@@ -25,42 +27,54 @@ const CustomTooltip = ({ active, payload }) => {
   return null;
 };
 
-export const CategoryChart = ({ data = [] }) => {
-  if (!data || data.length === 0) {
-    return (
-      <div className="bg-surface border border-border-subtle rounded-md shadow-sm p-4 h-76 flex flex-col items-center justify-center text-center">
-        <p className="text-xs text-text-muted">No category reports recorded yet.</p>
-      </div>
-    );
-  }
+export const CategoryChart = ({ data = [], totalReports = 0, onNavigateToCitizen }) => {
+  const hasData = data && data.length > 0;
+  const total = totalReports || data.reduce((sum, item) => sum + (item.count || 0), 0);
 
   return (
-    <div className="bg-surface border border-border-subtle rounded-md shadow-sm p-4 flex flex-col h-76">
-      <div className="border-b border-border-subtle pb-2.5 mb-2.5 flex items-center justify-between">
-        <div>
-          <h3 className="text-xs font-semibold uppercase tracking-wider text-text-secondary font-mono">Incidents by Category</h3>
-          <p className="text-[11px] text-text-muted">Dynamic category color fills from MongoDB</p>
-        </div>
-        <span className="text-[11px] font-mono text-text-muted">{data.length} categories</span>
-      </div>
-
+    <ChartFrame
+      title="Incidents by Category"
+      subtitle="Horizontal ranking: dynamic palette fills from MongoDB"
+      badge={`${data.length} categories`}
+      hasData={hasData}
+      emptyMessage="No category incidents recorded yet."
+      emptyActionText="Lodge Observation"
+      onEmptyAction={onNavigateToCitizen}
+      heightClass="h-[320px]"
+    >
       <div className="flex-1 w-full min-h-0">
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 10, right: 10, left: -20, bottom: 20 }}>
-            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-subtle)" />
+          <BarChart 
+            layout="vertical" 
+            data={data} 
+            margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="var(--border-subtle)" />
             <XAxis 
-              dataKey="category_name" 
-              tick={{ fontSize: 10, fill: 'var(--text-muted)' }}
-              interval={0}
-              angle={-20}
-              textAnchor="end"
-            />
-            <YAxis 
+              type="number"
               allowDecimals={false}
               tick={{ fontSize: 10, fill: 'var(--text-muted)' }}
             />
-            <Tooltip content={<CustomTooltip />} />
-            <Bar dataKey="count" radius={[3, 3, 0, 0]}>
+            <YAxis 
+              type="category"
+              dataKey="category_name" 
+              width={145}
+              tick={{ fontSize: 10, fill: 'var(--text-secondary)' }}
+            />
+            <Tooltip content={<CustomTooltip total={total} />} />
+            <Bar 
+              dataKey="count" 
+              radius={[0, 3, 3, 0]}
+              label={{
+                position: 'right',
+                formatter: (val) => {
+                  const pct = total > 0 ? Math.round((val / total) * 100) : 0;
+                  return `${val} (${pct}%)`;
+                },
+                fontSize: 10,
+                fill: 'var(--text-muted)'
+              }}
+            >
               {data.map((entry, index) => (
                 <Cell 
                   key={`cell-${index}`} 
@@ -71,6 +85,6 @@ export const CategoryChart = ({ data = [] }) => {
           </BarChart>
         </ResponsiveContainer>
       </div>
-    </div>
+    </ChartFrame>
   );
 };

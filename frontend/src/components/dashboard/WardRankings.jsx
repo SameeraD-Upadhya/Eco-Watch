@@ -1,7 +1,12 @@
 import React from 'react';
-import { Award, AlertTriangle, MapPin, Layers } from 'lucide-react';
+import { Award, AlertTriangle, ChevronRight, Layers } from 'lucide-react';
 
-export const WardRankings = ({ topWards = [], bottomZones = [], totalReports = 0 }) => {
+export const WardRankings = ({ 
+  topWards = [], 
+  bottomZones = [], 
+  totalReports = 0,
+  onSelectWard 
+}) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
       {/* Top Wards by Volume */}
@@ -12,36 +17,47 @@ export const WardRankings = ({ topWards = [], bottomZones = [], totalReports = 0
               Top Incident Load by Ward
             </h3>
             <p className="text-[11px] text-text-muted">
-              Municipal wards generating highest cumulative environmental reports
+              Click any ward to filter the Response Tracker
             </p>
           </div>
           <Award className="w-4 h-4 text-primary" />
         </div>
 
-        <div className="space-y-2.5 flex-1 justify-center flex flex-col">
-          {topWards.map((w, index) => {
-            const pct = totalReports > 0 ? Math.round((w.count / totalReports) * 100) : 0;
-            return (
-              <div key={w.location_name} className="space-y-1">
-                <div className="flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-1.5 font-medium text-ink-primary">
-                    <span className="font-mono text-text-muted w-4">#{index + 1}</span>
-                    <span className="truncate max-w-[220px]">{w.location_name}</span>
+        <div className="space-y-2 flex-1 justify-center flex flex-col">
+          {topWards.length === 0 ? (
+            <p className="text-xs text-text-muted text-center py-4">No ward rankings recorded yet.</p>
+          ) : (
+            topWards.map((w, index) => {
+              const pct = totalReports > 0 ? Math.round((w.count / totalReports) * 100) : 0;
+              return (
+                <button
+                  key={w.location_name}
+                  type="button"
+                  onClick={() => onSelectWard && onSelectWard(w.location_name)}
+                  className="w-full text-left p-1.5 rounded hover:bg-sunken/60 transition-colors group cursor-pointer space-y-1"
+                  title={`Filter Authority Response Tracker to ${w.location_name}`}
+                >
+                  <div className="flex items-center justify-between text-xs">
+                    <div className="flex items-center gap-1.5 font-medium text-ink-primary group-hover:text-primary transition-colors">
+                      <span className="font-mono text-text-muted w-4">#{index + 1}</span>
+                      <span className="truncate max-w-[200px] sm:max-w-[260px]">{w.location_name}</span>
+                      <ChevronRight className="w-3 h-3 text-text-muted opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </div>
+                    <div className="flex items-center gap-2 font-mono text-[11px]">
+                      <span className="font-bold text-ink-primary">{w.count} reports</span>
+                      <span className="text-text-muted">({pct}%)</span>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 font-mono text-[11px]">
-                    <span className="font-bold text-ink-primary">{w.count} reports</span>
-                    <span className="text-text-muted">({pct}%)</span>
+                  <div className="h-2 w-full bg-sunken rounded-full overflow-hidden">
+                    <div 
+                      className="h-full bg-primary rounded-full transition-all duration-500 group-hover:bg-primary-hover"
+                      style={{ width: `${Math.min(100, pct * 4)}%` }}
+                    />
                   </div>
-                </div>
-                <div className="h-2 w-full bg-sunken rounded-full overflow-hidden">
-                  <div 
-                    className="h-full bg-primary rounded-full transition-all duration-500"
-                    style={{ width: `${Math.min(100, pct * 4)}%` }}
-                  />
-                </div>
-              </div>
-            );
-          })}
+                </button>
+              );
+            })
+          )}
         </div>
       </div>
 
@@ -59,38 +75,42 @@ export const WardRankings = ({ topWards = [], bottomZones = [], totalReports = 0
           <Layers className="w-4 h-4 text-status-medium" />
         </div>
 
-        <div className="space-y-2.5 flex-1 justify-center flex flex-col">
-          {bottomZones.map((z) => {
-            const isLagging = z.resolution_rate < 30 || z.is_lagging;
+        <div className="space-y-2 flex-1 justify-center flex flex-col">
+          {bottomZones.length === 0 ? (
+            <p className="text-xs text-text-muted text-center py-4">No zone lag data recorded yet.</p>
+          ) : (
+            bottomZones.map((z) => {
+              const isLagging = z.resolution_rate < 30 || z.is_lagging;
 
-            return (
-              <div key={z.zone} className="p-2.5 bg-sunken/40 border border-border-subtle rounded-md flex items-center justify-between">
-                <div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="font-serif font-semibold text-xs text-ink-primary">{z.zone}</span>
-                    {isLagging && (
-                      <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-bold font-mono bg-status-open-soft text-status-open border border-status-open/30">
-                        <AlertTriangle className="w-2.5 h-2.5" />
-                        Lagging
-                      </span>
-                    )}
+              return (
+                <div key={z.zone} className="p-2.5 bg-sunken/40 border border-border-subtle rounded-md flex items-center justify-between">
+                  <div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="font-serif font-semibold text-xs text-ink-primary">{z.zone}</span>
+                      {isLagging && (
+                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-bold font-mono bg-status-open-soft text-status-open border border-status-open/30">
+                          <AlertTriangle className="w-2.5 h-2.5" />
+                          Lagging
+                        </span>
+                      )}
+                    </div>
+                    <span className="text-[10px] font-mono text-text-muted">
+                      {z.resolved_reports} of {z.total_reports} resolved • Turnaround: {z.avg_turnaround_hours ? `${z.avg_turnaround_hours}h` : 'N/A'}
+                    </span>
                   </div>
-                  <span className="text-[10px] font-mono text-text-muted">
-                    {z.resolved_reports} of {z.total_reports} resolved • Turnaround: {z.avg_turnaround_hours ? `${z.avg_turnaround_hours}h` : 'N/A'}
-                  </span>
-                </div>
 
-                <div className="text-right">
-                  <span className={`text-sm font-bold font-mono ${
-                    z.resolution_rate >= 70 ? 'text-status-resolved' : z.resolution_rate >= 40 ? 'text-status-medium' : 'text-status-open'
-                  }`}>
-                    {z.resolution_rate}%
-                  </span>
-                  <p className="text-[10px] text-text-muted uppercase font-mono">Closure</p>
+                  <div className="text-right">
+                    <span className={`text-sm font-bold font-mono ${
+                      z.resolution_rate >= 70 ? 'text-status-resolved' : z.resolution_rate >= 40 ? 'text-status-medium' : 'text-status-open'
+                    }`}>
+                      {z.resolution_rate}%
+                    </span>
+                    <p className="text-[10px] text-text-muted uppercase font-mono">Closure</p>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })
+          )}
         </div>
       </div>
     </div>

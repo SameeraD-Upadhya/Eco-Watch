@@ -205,6 +205,10 @@ export function AppContent() {
               onRefresh={handleAllRefresh}
               onNavigateToCitizen={() => setCurrentTab('citizen')}
               onNavigateToMaster={() => setCurrentTab('master')}
+              onSelectWard={(wardName) => {
+                handleFilterChange({ ...filters, location_name: wardName });
+                setCurrentTab('tracker');
+              }}
             />
           )}
 
