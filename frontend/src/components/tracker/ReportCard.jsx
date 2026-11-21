@@ -14,7 +14,6 @@ import {
   Clock, 
   AlertTriangle, 
   CheckCircle2, 
-  Image as ImageIcon, 
   X, 
   RotateCcw, 
   PlayCircle 
@@ -42,7 +41,6 @@ export const ReportCard = ({
   onQuickStatusChange
 }) => {
   const [expanded, setExpanded] = useState(false);
-  const [activePhotoModal, setActivePhotoModal] = useState(null);
 
   const responseCount = report.responses?.length || 0;
   const categoryColor = categoryColors[report.category_name] || '#2F5D46';
@@ -123,29 +121,6 @@ export const ReportCard = ({
           <p className="text-xs text-ink-secondary leading-relaxed">
             {report.description}
           </p>
-
-          {/* Photo Evidence Preview Thumbnail */}
-          {report.evidence?.length > 0 && (
-            <div className="mt-2.5 flex items-center gap-2 flex-wrap">
-              {report.evidence.map((ev, idx) => (
-                <div 
-                  key={idx}
-                  onClick={() => setActivePhotoModal(ev.url)}
-                  className="group relative cursor-pointer border border-border-subtle rounded overflow-hidden w-16 h-12 bg-sunken hover:border-primary transition-colors"
-                  title="Click to view full photo evidence"
-                >
-                  <img 
-                    src={ev.url} 
-                    alt="Evidence" 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform" 
-                  />
-                  <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
-                    <ImageIcon className="w-3.5 h-3.5 text-white" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
 
           <div className="mt-2 flex items-center gap-3.5 text-[11px] text-text-muted flex-wrap">
             <span className="flex items-center gap-1 font-medium text-text-secondary">
@@ -269,28 +244,6 @@ export const ReportCard = ({
           </div>
         </div>
       </div>
-
-      {/* Photo Modal */}
-      {activePhotoModal && (
-        <div 
-          onClick={() => setActivePhotoModal(null)}
-          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-xs flex items-center justify-center p-4 cursor-pointer"
-        >
-          <div className="relative max-w-2xl max-h-[90vh] overflow-hidden rounded-md bg-surface p-2 shadow-2xl">
-            <button
-              onClick={() => setActivePhotoModal(null)}
-              className="absolute top-4 right-4 p-1.5 rounded-full bg-black/60 text-white hover:bg-status-open transition-colors z-10"
-            >
-              <X className="w-4 h-4" />
-            </button>
-            <img 
-              src={activePhotoModal} 
-              alt="Report photo evidence" 
-              className="w-full h-auto max-h-[80vh] object-contain rounded" 
-            />
-          </div>
-        </div>
-      )}
     </div>
   );
 };

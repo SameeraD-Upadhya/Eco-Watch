@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { WifiOff } from 'lucide-react';
 import { Shell } from './components/layout/Shell';
 import { api } from './services/api';
 import { useConfig } from './hooks/useConfig';
@@ -10,6 +9,7 @@ import { CitizenForm } from './components/citizen/CitizenForm';
 import { MasterDataManager } from './components/master/MasterDataManager';
 import { ResponseTracker } from './components/tracker/ResponseTracker';
 import { AnalyticsDashboard } from './components/dashboard/AnalyticsDashboard';
+import { GuidedWalkthrough } from './components/common/GuidedWalkthrough';
 
 // Toast Notification Context
 export const ToastContext = React.createContext({ addToast: () => {} });
@@ -42,6 +42,8 @@ export function AppContent() {
   const [health, setHealth] = useState(null);
   const [healthLoading, setHealthLoading] = useState(true);
   const [isRefreshing, setIsRefreshing] = useState(false);
+  const [isResettingDemo, setIsResettingDemo] = useState(false);
+  const [isTourOpen, setIsTourOpen] = useState(false);
 
   // Sync Topbar search query into filter and reset page
   useEffect(() => {
@@ -80,55 +82,18 @@ export function AppContent() {
     }
   }, []);
 
-  // Synchronize offline queued reports
-  const syncOfflineReports = useCallback(async () => {
+  const handleResetDemo = useCallback(async () => {
     try {
-      const offlineQueueKey = 'ecowatch_offline_reports';
-      const queue = JSON.parse(localStorage.getItem(offlineQueueKey) || '[]');
-      if (queue.length === 0) return;
-
-      let syncedCount = 0;
-      const remaining = [];
-      for (const item of queue) {
-        try {
-          const { queued_at, offline_id, ...payload } = item;
-          await api.createReport(payload);
-          syncedCount++;
-        } catch {
-          remaining.push(item);
-        }
-      }
-      localStorage.setItem(offlineQueueKey, JSON.stringify(remaining));
-      if (syncedCount > 0) {
-        addToast(`Synchronized ${syncedCount} offline report${syncedCount > 1 ? 's' : ''} with municipal server`);
-        triggerRefresh();
-      }
+      setIsResettingDemo(true);
+      const res = await api.resetDemoData();
+      addToast(res.message || 'Demonstration data reset with rebased timestamps');
+      triggerRefresh();
     } catch (err) {
-      console.warn('Offline sync attempt failed:', err);
+      addToast(err.message || 'Failed to reset demonstration state', 'error');
+    } finally {
+      setIsResettingDemo(false);
     }
   }, [addToast, triggerRefresh]);
-
-  useEffect(() => {
-    const handleOnline = () => {
-      setIsOnline(true);
-      syncOfflineReports();
-    };
-    const handleOffline = () => {
-      setIsOnline(false);
-    };
-
-    window.addEventListener('online', handleOnline);
-    window.addEventListener('offline', handleOffline);
-
-    if (navigator.onLine) {
-      syncOfflineReports();
-    }
-
-    return () => {
-      window.removeEventListener('online', handleOnline);
-      window.removeEventListener('offline', handleOffline);
-    };
-  }, [syncOfflineReports]);
 
   // Poll health on mount and every 12 seconds
   useEffect(() => {
@@ -184,17 +149,10 @@ export function AppContent() {
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         analytics={analytics}
+        onResetDemo={handleResetDemo}
+        isResettingDemo={isResettingDemo}
+        onOpenTour={() => setIsTourOpen(true)}
       >
-        {/* Offline Connectivity Notification Banner */}
-        {!isOnline && (
-          <div className="mb-4 px-4 py-2.5 rounded-md bg-status-medium-soft text-status-medium border border-status-medium/30 flex items-center gap-2.5 text-xs font-medium">
-            <WifiOff className="w-4 h-4 shrink-0" />
-            <span>
-              You are currently offline. New reports will be queued locally and transmitted automatically when connectivity is restored.
-            </span>
-          </div>
-        )}
-
         {/* Render Active View */}
         <div className="space-y-6">
           {currentTab === 'dashboard' && (
@@ -282,6 +240,11 @@ export function AppContent() {
           ))}
         </div>
       </Shell>
+
+      <GuidedWalkthrough
+        isOpen={isTourOpen}
+        onClose={() => setIsTourOpen(false)}
+      />
     </ToastContext.Provider>
   );
 }

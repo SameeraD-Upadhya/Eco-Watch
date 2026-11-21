@@ -298,10 +298,13 @@ class WardMapPoint(BaseModel):
     lng: Optional[float] = None
     count: int = 0
     open_count: int = 0
+    in_progress_count: int = 0
     resolved_count: int = 0
     top_category: str = "None"
     top_category_color: str = "var(--border-subtle)"
     is_mapped: bool = True
+    has_boundary: bool = True
+    boundary_source: Optional[str] = "KGIS / MCC Delimitation (ODbL-1.0)"
 
 class AnalyticsResponse(BaseModel):
     total_reports: int

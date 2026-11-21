@@ -437,9 +437,11 @@ def get_analytics():
         ward_cat_counts.setdefault(loc_n, {}).setdefault(c_n, 0)
         ward_cat_counts[loc_n][c_n] += 1
 
-        ward_status_counts.setdefault(loc_n, {"Open": 0, "Resolved": 0})
-        if r.get("status") in ["Open", "In Progress"]:
+        ward_status_counts.setdefault(loc_n, {"Open": 0, "In Progress": 0, "Resolved": 0})
+        if r.get("status") == "Open":
             ward_status_counts[loc_n]["Open"] += 1
+        elif r.get("status") == "In Progress":
+            ward_status_counts[loc_n]["In Progress"] += 1
         elif r.get("status") == "Resolved":
             ward_status_counts[loc_n]["Resolved"] += 1
 
@@ -449,7 +451,7 @@ def get_analytics():
     for loc in locations_list:
         loc_n = loc["ward_name"]
         cat_dict = ward_cat_counts.get(loc_n, {})
-        st_counts = ward_status_counts.get(loc_n, {"Open": 0, "Resolved": 0})
+        st_counts = ward_status_counts.get(loc_n, {"Open": 0, "In Progress": 0, "Resolved": 0})
         total_w = sum(cat_dict.values())
         
         lat = loc.get("lat")
@@ -473,10 +475,13 @@ def get_analytics():
             lng=lng,
             count=total_w,
             open_count=st_counts["Open"],
+            in_progress_count=st_counts["In Progress"],
             resolved_count=st_counts["Resolved"],
             top_category=top_cat,
             top_category_color=color,
-            is_mapped=is_mapped
+            is_mapped=is_mapped,
+            has_boundary=True,
+            boundary_source="KGIS / MCC Delimitation (ODbL-1.0)"
         ))
     ward_map_points.sort(key=lambda x: (x.count, x.ward_no or 0), reverse=True)
 

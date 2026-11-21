@@ -12,7 +12,10 @@ export const Shell = ({
   isRefreshing,
   searchQuery,
   setSearchQuery,
-  analytics
+  analytics,
+  onResetDemo,
+  isResettingDemo,
+  onOpenTour
 }) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -41,11 +44,24 @@ export const Shell = ({
             isRefreshing={isRefreshing}
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
+            onResetDemo={onResetDemo}
+            isResettingDemo={isResettingDemo}
+            onOpenTour={onOpenTour}
           />
 
           <main className="flex-1 p-3 sm:p-6 lg:p-8 max-w-7xl mx-auto w-full min-w-0">
             {children}
           </main>
+
+          {/* Academic Simulation Disclaimer Footer */}
+          <footer className="py-4 px-4 sm:px-6 lg:px-8 border-t border-border-subtle text-center text-[11px] text-text-muted font-sans bg-sunken/30">
+            <p>
+              EcoWatch Mysuru • Academic Civic Simulation Prototype • Mysuru City Corporation (MCC) Jurisdictional Area
+            </p>
+            <p className="text-[10px] text-text-muted mt-0.5">
+              All citizen names and incident narratives are synthetic demonstration records based on authentic 65-ward delimitation data.
+            </p>
+          </footer>
         </div>
       </div>
 

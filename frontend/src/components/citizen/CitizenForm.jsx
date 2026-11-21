@@ -10,7 +10,6 @@ import {
   FileText, 
   Clock, 
   Building2, 
-  Camera, 
   X, 
   Phone, 
   Mail, 
@@ -21,56 +20,6 @@ import { api } from '../../services/api';
 import { EmptyMasterDataPrompt } from './EmptyMasterDataPrompt';
 import { WardCombobox } from './WardCombobox';
 import { CategoryIcon } from '../common/CategoryIcon';
-
-// Client-side image resize via HTML5 canvas (max 1600px, JPEG 0.82)
-async function resizeImage(file, maxDimension = 1600, quality = 0.82) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      const img = new Image();
-      img.onload = () => {
-        let width = img.width;
-        let height = img.height;
-
-        if (width > maxDimension || height > maxDimension) {
-          if (width > height) {
-            height = Math.round((height * maxDimension) / width);
-            width = maxDimension;
-          } else {
-            width = Math.round((width * maxDimension) / height);
-            height = maxDimension;
-          }
-        }
-
-        const canvas = document.createElement('canvas');
-        canvas.width = width;
-        canvas.height = height;
-        const ctx = canvas.getContext('2d');
-        ctx.drawImage(img, 0, 0, width, height);
-
-        canvas.toBlob(
-          (blob) => {
-            if (!blob) {
-              reject(new Error('Canvas compression failed'));
-              return;
-            }
-            const resizedFile = new File([blob], file.name.replace(/\.[^.]+$/, '.jpg'), {
-              type: 'image/jpeg',
-              lastModified: Date.now()
-            });
-            resolve({ file: resizedFile, previewUrl: URL.createObjectURL(blob) });
-          },
-          'image/jpeg',
-          quality
-        );
-      };
-      img.onerror = reject;
-      img.src = e.target.result;
-    };
-    reader.onerror = reject;
-    reader.readAsDataURL(file);
-  });
-}
 
 const SEVERITY_DESCRIPTIONS = {
   Low: 'Localized nuisance, low environmental urgency',
@@ -95,10 +44,6 @@ export const CitizenForm = ({
     description: ''
   });
 
-  const [photoFile, setPhotoFile] = useState(null);
-  const [photoPreview, setPhotoPreview] = useState(null);
-  const [uploadingPhoto, setUploadingPhoto] = useState(false);
-
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
   const [lodgedReport, setLodgedReport] = useState(null);
@@ -106,7 +51,6 @@ export const CitizenForm = ({
   // Duplicate Nudge State
   const [similarReports, setSimilarReports] = useState([]);
   const [corroboratingId, setCorroboratingId] = useState(null);
-  const fileInputRef = useRef(null);
 
   const selectedCategory = categories.find((c) => c.id === formData.category_id);
   const selectedLocation = locations.find((l) => l.id === formData.location_id);
@@ -153,35 +97,6 @@ export const CitizenForm = ({
     return <EmptyMasterDataPrompt onNavigateToMaster={onNavigateToMaster} />;
   }
 
-  const handlePhotoSelect = async (e) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-
-    if (!file.type.startsWith('image/')) {
-      setErrors((prev) => ({ ...prev, photo: 'Only image files (.jpg, .png, .webp) are supported.' }));
-      return;
-    }
-
-    try {
-      setUploadingPhoto(true);
-      const { file: resized, previewUrl } = await resizeImage(file, 1600, 0.82);
-      setPhotoFile(resized);
-      setPhotoPreview(previewUrl);
-      setErrors((prev) => ({ ...prev, photo: null }));
-    } catch (err) {
-      setErrors((prev) => ({ ...prev, photo: 'Failed to process image preview.' }));
-    } finally {
-      setUploadingPhoto(false);
-    }
-  };
-
-  const removePhoto = () => {
-    setPhotoFile(null);
-    if (photoPreview) URL.revokeObjectURL(photoPreview);
-    setPhotoPreview(null);
-    if (fileInputRef.current) fileInputRef.current.value = '';
-  };
-
   const validate = () => {
     const newErrors = {};
     if (!formData.citizen_name.trim() || formData.citizen_name.trim().length < 2) {
@@ -215,23 +130,6 @@ export const CitizenForm = ({
       setSubmitting(true);
       setErrors({});
 
-      let evidenceList = [];
-      // Upload photo if present
-      if (photoFile) {
-        try {
-          const uploadRes = await api.uploadEvidence(photoFile);
-          if (uploadRes?.url) {
-            evidenceList.push({
-              url: uploadRes.url,
-              type: 'photo',
-              uploaded_at: new Date().toISOString()
-            });
-          }
-        } catch (uploadErr) {
-          console.warn('Evidence photo upload failed:', uploadErr);
-        }
-      }
-
       const payload = {
         citizen_name: formData.citizen_name.trim(),
         category_id: formData.category_id,
@@ -239,38 +137,11 @@ export const CitizenForm = ({
         landmark: formData.landmark.trim(),
         severity: formData.severity,
         description: formData.description.trim(),
-        evidence: evidenceList
+        evidence: []
       };
 
-      let res;
-      if (!navigator.onLine) {
-        const offlineQueueKey = 'ecowatch_offline_reports';
-        const existing = JSON.parse(localStorage.getItem(offlineQueueKey) || '[]');
-        const offlineId = `OFFLINE-${Date.now().toString().slice(-6)}`;
-        existing.push({ ...payload, offline_id: offlineId, queued_at: new Date().toISOString() });
-        localStorage.setItem(offlineQueueKey, JSON.stringify(existing));
-        setLodgedReport({ report_no: offlineId, is_offline: true });
-        removePhoto();
-        return;
-      }
-
-      try {
-        res = await api.createReport(payload);
-        setLodgedReport(res);
-        removePhoto();
-      } catch (submitErr) {
-        if (!navigator.onLine || submitErr.message?.includes('fetch') || submitErr.message?.includes('Network')) {
-          const offlineQueueKey = 'ecowatch_offline_reports';
-          const existing = JSON.parse(localStorage.getItem(offlineQueueKey) || '[]');
-          const offlineId = `OFFLINE-${Date.now().toString().slice(-6)}`;
-          existing.push({ ...payload, offline_id: offlineId, queued_at: new Date().toISOString() });
-          localStorage.setItem(offlineQueueKey, JSON.stringify(existing));
-          setLodgedReport({ report_no: offlineId, is_offline: true });
-          removePhoto();
-        } else {
-          throw submitErr;
-        }
-      }
+      const res = await api.createReport(payload);
+      setLodgedReport(res);
     } catch (err) {
       setErrors({ form: err.message || 'Failed to submit report. Please check backend connectivity.' });
     } finally {
@@ -593,53 +464,6 @@ export const CitizenForm = ({
           />
           {errors.description && (
             <p className="text-[11px] text-status-open mt-1">{errors.description}</p>
-          )}
-        </div>
-
-        {/* Optional Photo Upload */}
-        <div>
-          <label className="block text-xs font-semibold text-ink-primary mb-1 flex items-center gap-1.5 font-mono">
-            <Camera className="w-3.5 h-3.5 text-text-muted" />
-            <span>Photo Evidence (Optional, resized on device to max 1600px)</span>
-          </label>
-
-          {photoPreview ? (
-            <div className="relative inline-block border border-border-subtle rounded-md overflow-hidden bg-sunken p-1">
-              <img 
-                src={photoPreview} 
-                alt="Evidence preview" 
-                className="w-32 h-24 object-cover rounded" 
-              />
-              <button
-                type="button"
-                onClick={removePhoto}
-                className="absolute top-2 right-2 p-1 rounded-full bg-black/60 text-white hover:bg-status-open transition-colors"
-                title="Remove photo"
-              >
-                <X className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          ) : (
-            <div
-              onClick={() => fileInputRef.current?.click()}
-              className="border border-dashed border-border-strong rounded-sm p-3 text-center cursor-pointer hover:bg-sunken/50 transition-colors"
-            >
-              <input
-                ref={fileInputRef}
-                type="file"
-                accept="image/*"
-                onChange={handlePhotoSelect}
-                className="hidden"
-              />
-              <div className="flex items-center justify-center gap-2 text-xs text-text-muted">
-                <Camera className="w-4 h-4 text-text-muted" />
-                <span>Click to attach photo evidence (JPEG / PNG / WebP)</span>
-              </div>
-            </div>
-          )}
-
-          {errors.photo && (
-            <p className="text-[11px] text-status-open mt-1">{errors.photo}</p>
           )}
         </div>
 

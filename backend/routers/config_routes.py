@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from fastapi import APIRouter, HTTPException, status
 from bson import ObjectId
@@ -274,6 +275,22 @@ def create_location(payload: LocationCreate):
             detail={"code": "DUPLICATE_LOCATION", "message": f"Ward/Location '{payload.ward_name}' already exists"}
         )
 
+# Civic Landmarks Endpoint
+@router.get("/config/landmarks", response_model=list[LandmarkResponse])
+def get_landmarks():
+    db = get_db()
+    docs = list(db.landmarks.find())
+    return [
+        LandmarkResponse(
+            name=d.get("name", ""),
+            type=d.get("type", "Civic Landmark"),
+            lat=float(d.get("lat", 0.0)),
+            lng=float(d.get("lng", 0.0)),
+            source_url=d.get("source_url", "")
+        )
+        for d in docs
+    ]
+
 # Load Master Data Trigger
 @router.post("/config/load-master")
 def load_master_data(include_samples: bool = False):
@@ -443,4 +460,119 @@ def load_master_data(include_samples: bool = False):
             "approximate": approximate_wards,
             "unverified": unverified_wards
         }
+    }
+
+@router.post("/config/reset-demo")
+def reset_demo_data():
+    """Resets demonstration reports, restores official MCC 65 wards and categories,
+    and dynamically rebases timestamps relative to the current real date within the past 6 months."""
+    db = get_db()
+    data_dir = Path(__file__).resolve().parent.parent.parent / "docs" / "data"
+
+    # 1. Clean reports collection & reset sequence counter
+    db.reports.delete_many({})
+    db.counters.update_one({"_id": "report_no"}, {"$set": {"seq": 0}}, upsert=True)
+
+    # 2. Idempotently load master wards, categories, authorities, landmarks
+    load_master_data(include_samples=False)
+
+    # 3. Load sample reports with dynamic timestamp rebasing
+    reports_file = data_dir / "mysuru-sample-reports.json"
+    if not reports_file.exists():
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail={"code": "FILE_NOT_FOUND", "message": "mysuru-sample-reports.json not found"}
+        )
+
+    with open(reports_file, "r", encoding="utf-8") as f:
+        rep_data = json.load(f)
+
+    # Calculate max reported date to compute shift delta
+    now_utc = datetime.now(timezone.utc)
+    max_dt = None
+    for item in rep_data:
+        try:
+            dt = datetime.fromisoformat(item["reported_at"].replace("Z", "+00:00"))
+            if max_dt is None or dt > max_dt:
+                max_dt = dt
+        except Exception:
+            pass
+
+    time_shift = (now_utc - max_dt) if max_dt else timedelta(0)
+
+    from db import get_next_report_no
+    reports_seeded = 0
+    for item in rep_data:
+        c_name = item.get("category") or item.get("category_name", "")
+        l_name = item.get("ward_name") or item.get("location_name", "")
+
+        c_doc = db.categories.find_one({"name_key": normalize_key(c_name)})
+        l_doc = db.locations.find_one({"ward_no": item.get("ward_no")}) or db.locations.find_one({"ward_key": normalize_key(l_name)})
+
+        # Shift timestamps
+        orig_reported_at = item.get("reported_at")
+        shifted_reported_at = orig_reported_at
+        shifted_resolved_at = None
+
+        try:
+            r_dt = datetime.fromisoformat(orig_reported_at.replace("Z", "+00:00")) + time_shift
+            shifted_reported_at = r_dt.isoformat()
+        except Exception:
+            pass
+
+        if item.get("resolved_at"):
+            try:
+                res_dt = datetime.fromisoformat(item["resolved_at"].replace("Z", "+00:00")) + time_shift
+                shifted_resolved_at = res_dt.isoformat()
+            except Exception:
+                pass
+
+        # Shift response action timestamps
+        shifted_actions = []
+        for act in item.get("response_actions", []):
+            act_copy = dict(act)
+            if act_copy.get("timestamp"):
+                try:
+                    act_dt = datetime.fromisoformat(act_copy["timestamp"].replace("Z", "+00:00")) + time_shift
+                    act_copy["timestamp"] = act_dt.isoformat()
+                except Exception:
+                    pass
+            shifted_actions.append(act_copy)
+
+        rep_no = get_next_report_no(db)
+        doc = {
+            "report_no": rep_no,
+            "citizen_name": item.get("citizen_name", "Resident"),
+            "contact": item.get("contact", ""),
+            "category_id": str(c_doc["_id"]) if c_doc else "",
+            "category_name": c_doc["name"] if c_doc else c_name,
+            "location_id": str(l_doc["_id"]) if l_doc else "",
+            "location_name": l_doc["ward_name"] if l_doc else l_name,
+            "ward_no": l_doc.get("ward_no") if l_doc else item.get("ward_no"),
+            "zone": l_doc.get("zone", "") if l_doc else "",
+            "landmark": item.get("landmark", ""),
+            "lat": item.get("lat") or (l_doc.get("lat") if l_doc else None),
+            "lng": item.get("lng") or (l_doc.get("lng") if l_doc else None),
+            "description": item.get("description", ""),
+            "severity": item.get("severity", "Medium"),
+            "status": item.get("status", "Open"),
+            "reported_at": shifted_reported_at,
+            "resolved_at": shifted_resolved_at,
+            "authority_id": str(c_doc.get("responsible_authority_id", "")) if c_doc else item.get("authority_id", ""),
+            "authority_name": item.get("authority_name") or (c_doc.get("responsible_authority_name", "") if c_doc else ""),
+            "evidence": [],
+            "response_actions": shifted_actions,
+            "reopened_count": int(item.get("reopened_count", 0)),
+            "corroborations": int(item.get("corroborations", 0)),
+            "source": "demo_seed"
+        }
+        db.reports.insert_one(doc)
+        reports_seeded += 1
+
+    return {
+        "status": "success",
+        "message": f"Successfully reset demonstration state: {reports_seeded} reports rebased with active 6-month chronology across 65 MCC wards.",
+        "reports_seeded": reports_seeded,
+        "total_wards": db.locations.count_documents({}),
+        "total_categories": db.categories.count_documents({})
     }

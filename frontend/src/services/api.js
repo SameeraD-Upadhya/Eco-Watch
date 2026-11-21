@@ -101,14 +101,9 @@ export const api = {
     method: 'POST',
     body: JSON.stringify(payload)
   }),
-  uploadEvidence: (file) => {
-    const formData = new FormData();
-    formData.append('file', file);
-    return request('/uploads', {
-      method: 'POST',
-      body: formData
-    });
-  },
+  resetDemoData: () => request('/config/reset-demo', {
+    method: 'POST'
+  }),
   updateReportStatus: (reportNo, payload) => request(`/reports/${reportNo}`, {
     method: 'PATCH',
     body: JSON.stringify(payload)

@@ -8,13 +8,13 @@ A civic-tech environmental monitoring, citizen grievance reporting, and municipa
 
 EcoWatch bridges citizens, field officers, and municipal supervisors to detect, report, track, and analyze recurring civic environmental issues across 65 municipal wards and 9 administrative revenue zones in Mysuru.
 
-- **Citizen Observation Portal:** Progressive Web App (PWA) with client-side image compression (HTML5 Canvas max 1600px), ward combobox with zone grouping and locality search, landmark precision, 3-tier civic severity indicators, and duplicate nudge with 1-click corroboration.
-- **Offline Resilience:** Service Worker shell cache with local queueing in `localStorage` and automatic background synchronization upon network reconnection.
-- **Response Tracker & Audit Trail:** Coordinator dashboard with server-side pagination, sorting, SLA countdown badges ("Within SLA" vs "Overdue"), evidence expansion modal, session-persisted coordinator identity, and finite-state machine transitions (`Open` → `In Progress` → `Resolved`, with reopen tracking).
-- **Recurrence & Hotspot Analytics:** MongoDB aggregation pipelines computing top 10 recurrence clusters, median successive intervals, Chronic/Recurring/Isolated classifications, weekly intake velocity, monthly seasonality (highlighting Dasara festival surge), SLA compliance % per statutory authority, and lagging administrative zones.
-- **Geographic Hotspot Map:** Interactive SVG centroid map of Mysuru wards with circles proportional to complaint volume, color-coded by prevailing environmental issue, and accessible data table alternative.
+- **Citizen Observation Portal:** Lightweight public reporting with ward combobox, zone grouping and locality search, landmark precision, 3-tier civic severity indicators, and duplicate nudge with 1-click corroboration.
+- **Response Tracker & Audit Trail:** Coordinator dashboard with server-side pagination, sorting, SLA countdown badges ("Within SLA" vs "Overdue"), session-persisted officer identity, and finite-state machine transitions (`Open` → `In Progress` → `Resolved`, with reopen tracking).
+- **Recurrence & Hotspot Analytics:** Real-time MongoDB aggregation pipelines computing top 10 recurrence clusters, median successive intervals, Chronic/Recurring/Isolated classifications, weekly intake velocity, monthly seasonality (highlighting Dasara festival surge), SLA compliance % per statutory authority, and lagging administrative zones.
+- **65-Ward Offline SVG Choropleth Map:** Interactive offline choropleth of Mysuru's 65 official MCC wards with polygons color-coded by complaint volume, proportional incident markers, click-through filtering to the Response Tracker, and accessible touch controls.
 - **Zero Hardcoded Data Architecture:** Zero mock datasets or embedded locality/category arrays. All categories, wards, authorities, reports, and chart datasets load dynamically from MongoDB.
 - **Warm Paper Civic Design System:** Thoughtful light-only palette (`#F6F2E9` canvas, `#1F2A24` ink, `#2F5D46` forest green) with self-hosted typography (`@fontsource/source-serif-4` and `@fontsource/public-sans`), WCAG AA contrast compliance, and `@media print` municipal report stylesheet.
+- **Demonstration Reset & Guided Tour:** Interactive 5-step guided walkthrough and 1-click demonstration state reset with dynamic 6-month timestamp rebasing relative to the current date.
 
 ---
 
@@ -22,11 +22,11 @@ EcoWatch bridges citizens, field officers, and municipal supervisors to detect, 
 
 | Layer | Technology |
 |---|---|
-| **Frontend** | React 18, Vite 5, Tailwind CSS, Lucide React, Framer Motion, Recharts |
+| **Frontend** | React 18, Vite 5, Tailwind CSS 3.4, Lucide React, Framer Motion, Recharts, D3-Geo |
 | **Backend** | Python 3.14 / 3.10+, FastAPI, Pydantic v2, PyMongo 4, Uvicorn |
 | **Database** | Local MongoDB 8.x (`mongodb://127.0.0.1:27017/eco_monitor`) |
 | **Design System** | Warm Paper Civic Palette, 100% semantic CSS variables, self-hosted fonts |
-| **PWA & Offline** | Web Manifest (`manifest.webmanifest`), Service Worker (`sw.js`), `localStorage` queue |
+| **Mapping** | Offline SVG choropleth projected from official MCC ward delimitation GeoJSON |
 
 ---
 
