@@ -112,6 +112,16 @@ export const CitizenForm = ({
   const selectedLocation = locations.find((l) => l.id === formData.location_id);
   const severities = enums.severities?.length ? enums.severities : ['Low', 'Medium', 'High'];
 
+  // Clear or revalidate if selected category or location no longer exists in master data
+  useEffect(() => {
+    if (formData.category_id && !categories.some((c) => c.id === formData.category_id)) {
+      setFormData((prev) => ({ ...prev, category_id: '' }));
+    }
+    if (formData.location_id && !locations.some((l) => l.id === formData.location_id)) {
+      setFormData((prev) => ({ ...prev, location_id: '', landmark: '' }));
+    }
+  }, [categories, locations, formData.category_id, formData.location_id]);
+
   // Debounced Duplicate Nudge check when category & ward are both selected
   useEffect(() => {
     let active = true;
@@ -511,6 +521,7 @@ export const CitizenForm = ({
             <span>Specific Spot / Landmark (Optional, max 120 chars)</span>
           </label>
           <input
+            id="citizen-landmark"
             type="text"
             maxLength={120}
             value={formData.landmark}
@@ -571,6 +582,7 @@ export const CitizenForm = ({
             </span>
           </div>
           <textarea
+            id="citizen-description"
             rows={4}
             value={formData.description}
             onChange={(e) => setFormData({ ...formData, description: e.target.value })}

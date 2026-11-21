@@ -152,10 +152,15 @@ export const FilterBar = ({
               <button onClick={() => setFilters({ ...filters, severity: '' })}><X className="w-3 h-3 hover:text-status-open" /></button>
             </span>
           )}
+          {filters.search && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-sunken text-ink-primary text-[11px] font-medium border border-border-subtle">
+              Search: "{filters.search}"
+              <button onClick={() => setFilters({ ...filters, search: '' })}><X className="w-3 h-3 hover:text-status-open" /></button>
+            </span>
+          )}
         </div>
-
-        <div className="font-mono text-[11px] font-medium">
-          Showing <span className="font-bold text-ink-primary">{totalResults}</span> reports
+        <div className="text-[11px] font-mono text-text-muted">
+          Showing {totalResults} result{totalResults === 1 ? '' : 's'}
         </div>
       </div>
     </div>

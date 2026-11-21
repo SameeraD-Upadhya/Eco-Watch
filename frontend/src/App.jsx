@@ -32,6 +32,9 @@ export function AppContent() {
     severity: '',
     search: ''
   });
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(20);
+  const [sortBy, setSortBy] = useState('newest');
   const [toasts, setToasts] = useState([]);
   const [isOnline, setIsOnline] = useState(() => (typeof navigator !== 'undefined' ? navigator.onLine : true));
   
@@ -40,10 +43,21 @@ export function AppContent() {
   const [healthLoading, setHealthLoading] = useState(true);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
-  // Sync Topbar search query into filter
+  // Sync Topbar search query into filter and reset page
   useEffect(() => {
     setFilters((prev) => ({ ...prev, search: searchQuery }));
+    setPage(1);
   }, [searchQuery]);
+
+  const handleFilterChange = useCallback((newFilters) => {
+    setFilters(newFilters);
+    setPage(1);
+  }, []);
+
+  const handleSortChange = useCallback((newSort) => {
+    setSortBy(newSort);
+    setPage(1);
+  }, []);
 
   const addToast = useCallback((message, type = 'success') => {
     const id = Date.now() + Math.random();
@@ -144,7 +158,15 @@ export function AppContent() {
   // Data hooks
   const { categories, locations, enums } = useConfig(refreshSignal);
   const { analytics, loading: analyticsLoading } = useAnalytics(refreshSignal);
-  const { reports, loading: reportsLoading } = useReports(filters, refreshSignal);
+  const { reports, total, loading: reportsLoading } = useReports(filters, refreshSignal, page, pageSize, sortBy);
+
+  // Clamp current page when total results change
+  const totalPages = Math.max(1, Math.ceil(total / pageSize));
+  useEffect(() => {
+    if (page > totalPages && totalPages > 0) {
+      setPage(totalPages);
+    }
+  }, [page, totalPages]);
 
   const handleAllRefresh = () => {
     triggerRefresh();
@@ -216,7 +238,13 @@ export function AppContent() {
               locations={locations}
               enums={enums}
               filters={filters}
-              setFilters={setFilters}
+              setFilters={handleFilterChange}
+              sortBy={sortBy}
+              setSortBy={handleSortChange}
+              page={page}
+              pageSize={pageSize}
+              total={total}
+              setPage={setPage}
               loading={reportsLoading}
               onRefresh={handleAllRefresh}
               addToast={addToast}

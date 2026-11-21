@@ -30,13 +30,11 @@ async function request(endpoint, options = {}) {
     }
 
     if (!res.ok) {
-      const errInfo = data?.error || {};
-      throw new ApiError(
-        errInfo.message || data.message || `Request failed with status ${res.status}`,
-        errInfo.code || `HTTP_${res.status}`,
-        errInfo.details || null,
-        res.status
-      );
+      const errObj = data?.error || (typeof data?.detail === 'object' && data.detail !== null ? data.detail : null);
+      const msg = errObj?.message || (typeof data?.detail === 'string' ? data.detail : null) || data?.message || `Request failed with status ${res.status}`;
+      const code = errObj?.code || `HTTP_${res.status}`;
+      const details = errObj?.details || null;
+      throw new ApiError(msg, code, details, res.status);
     }
 
     return data;

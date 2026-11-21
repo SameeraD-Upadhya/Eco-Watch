@@ -206,7 +206,7 @@ export const ResponseTracker = ({
       {totalPages > 1 && setPage && (
         <div className="flex items-center justify-between pt-3 border-t border-border-subtle flex-wrap gap-2 text-xs">
           <div className="text-text-muted font-mono text-[11px]">
-            Page <strong className="text-ink-primary font-bold">{page}</strong> of <strong>{totalPages}</strong> ({total} total records)
+            Showing <strong className="text-ink-primary font-bold">{total === 0 ? 0 : (page - 1) * pageSize + 1}</strong> to <strong className="text-ink-primary font-bold">{Math.min(page * pageSize, total)}</strong> of <strong className="text-ink-primary font-bold">{total}</strong> records (Page {page} of {totalPages})
           </div>
 
           <div className="flex items-center gap-1.5">
