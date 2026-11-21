@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { UploadCloud, FileText, CheckCircle2, AlertTriangle, Download, RefreshCw, XCircle } from 'lucide-react';
+import { UploadCloud, Download, RefreshCw, XCircle, AlertTriangle } from 'lucide-react';
 import { api } from '../../services/api';
 
 export const BulkImportPanel = ({ onImportComplete, addToast }) => {
@@ -42,7 +42,7 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
           });
           setPreviewRows(rows);
         }
-      } catch (err) {
+      } catch {
         setPreviewRows([]);
       }
     };
@@ -93,11 +93,11 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
   };
 
   return (
-    <div className="bg-surface border border-border-subtle rounded-lg shadow-e1 p-5 space-y-5">
+    <div className="bg-surface border border-border-subtle rounded-md shadow-sm p-4.5 space-y-4">
       <div className="border-b border-border-subtle pb-3 flex items-center justify-between flex-wrap gap-2">
         <div>
-          <h3 className="text-sm font-semibold text-text-primary flex items-center gap-2">
-            <UploadCloud className="w-4 h-4 text-emerald-600" />
+          <h3 className="text-sm font-semibold font-serif text-ink-primary flex items-center gap-2">
+            <UploadCloud className="w-4 h-4 text-primary" />
             <span>Bulk Dataset Ingestion (JSON / CSV)</span>
           </h3>
           <p className="text-[11px] text-text-secondary mt-0.5">
@@ -107,14 +107,14 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
         <div className="flex items-center gap-2">
           <button
             onClick={() => handleDownloadSample('json')}
-            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-app border border-border-subtle text-[11px] font-medium text-text-secondary hover:text-text-primary transition-colors"
+            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-sunken border border-border-subtle text-[11px] font-medium text-text-secondary hover:text-ink-primary transition-colors"
           >
             <Download className="w-3 h-3" />
             <span>Template .json</span>
           </button>
           <button
             onClick={() => handleDownloadSample('csv')}
-            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-app border border-border-subtle text-[11px] font-medium text-text-secondary hover:text-text-primary transition-colors"
+            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-sunken border border-border-subtle text-[11px] font-medium text-text-secondary hover:text-ink-primary transition-colors"
           >
             <Download className="w-3 h-3" />
             <span>Template .csv</span>
@@ -123,7 +123,7 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
       </div>
 
       {error && (
-        <div className="p-3 rounded-md text-xs bg-rose-50 border border-rose-200 dark:bg-rose-950/40 dark:border-rose-800 text-rose-700 dark:text-rose-300 flex items-center gap-2">
+        <div className="p-2.5 rounded-md text-xs bg-status-open-soft border border-status-open/30 text-status-open flex items-center gap-2">
           <AlertTriangle className="w-4 h-4 shrink-0" />
           <span>{error}</span>
         </div>
@@ -136,10 +136,10 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
         onDragOver={handleDrag}
         onDrop={handleDrop}
         onClick={() => fileInputRef.current?.click()}
-        className={`border-2 border-dashed rounded-lg p-6 text-center cursor-pointer transition-all ${
+        className={`border-2 border-dashed rounded-md p-6 text-center cursor-pointer transition-all ${
           dragActive
-            ? 'border-emerald-500 bg-emerald-500/5'
-            : 'border-border-strong bg-app/30 hover:bg-app/60'
+            ? 'border-primary bg-primary-soft'
+            : 'border-border-strong bg-sunken/30 hover:bg-sunken/60'
         }`}
       >
         <input
@@ -149,24 +149,24 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
           onChange={(e) => handleFile(e.target.files?.[0])}
           className="hidden"
         />
-        <UploadCloud className="w-8 h-8 text-text-muted mx-auto mb-2" />
-        <p className="text-xs font-semibold text-text-primary">
+        <UploadCloud className="w-7 h-7 text-text-muted mx-auto mb-2" />
+        <p className="text-xs font-semibold text-ink-primary font-serif">
           {selectedFile ? selectedFile.name : 'Drag & drop JSON or CSV file here, or click to browse'}
         </p>
-        <p className="text-[11px] text-text-muted mt-1">
-          Supported fields: citizen_name, category_name, location_name, description, severity
+        <p className="text-[11px] text-text-muted mt-1 font-mono">
+          Required fields: citizen_name, category_name, location_name, description, severity
         </p>
       </div>
 
       {/* File Preview */}
       {previewRows.length > 0 && (
         <div className="space-y-2">
-          <div className="text-[11px] font-semibold text-text-secondary uppercase tracking-wider">
+          <div className="text-[10px] font-semibold text-text-secondary uppercase tracking-wider font-mono">
             Sample File Preview (First {previewRows.length} Records)
           </div>
-          <div className="overflow-x-auto border border-border-subtle rounded-md bg-app/40 text-[11px]">
+          <div className="overflow-x-auto border border-border-subtle rounded-sm bg-sunken/30 text-[11px]">
             <table className="w-full text-left">
-              <thead className="bg-app border-b border-border-subtle text-text-muted">
+              <thead className="bg-sunken border-b border-border-subtle text-text-muted font-mono">
                 <tr>
                   <th className="p-2 font-medium">Citizen</th>
                   <th className="p-2 font-medium">Category</th>
@@ -178,7 +178,7 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
               <tbody className="divide-y divide-border-subtle font-mono text-[10px]">
                 {previewRows.map((r, i) => (
                   <tr key={i} className="hover:bg-surface/50">
-                    <td className="p-2 font-sans font-medium text-text-primary">{r.citizen_name || '-'}</td>
+                    <td className="p-2 font-sans font-medium text-ink-primary">{r.citizen_name || '-'}</td>
                     <td className="p-2">{r.category_name || r.category || '-'}</td>
                     <td className="p-2">{r.location_name || r.ward_name || r.ward || '-'}</td>
                     <td className="p-2">{r.severity || 'Medium'}</td>
@@ -192,7 +192,7 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
           <button
             onClick={executeImport}
             disabled={loading}
-            className="w-full py-2 px-4 rounded-md bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold shadow-sm transition-colors flex items-center justify-center gap-2 disabled:opacity-50 mt-3"
+            className="w-full py-2 px-3.5 rounded-md bg-primary hover:bg-primary-hover text-white text-xs font-semibold shadow-xs transition-colors flex items-center justify-center gap-2 disabled:opacity-50 mt-2.5"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
             <span>{loading ? 'Processing Import...' : `Ingest Dataset (${selectedFile?.name})`}</span>
@@ -202,43 +202,43 @@ export const BulkImportPanel = ({ onImportComplete, addToast }) => {
 
       {/* Import Result Summary & Error Table */}
       {result && (
-        <div className="space-y-4 pt-3 border-t border-border-subtle">
-          <div className="grid grid-cols-3 gap-3">
-            <div className="p-3 rounded-md bg-app border border-border-subtle text-center">
-              <div className="text-xs text-text-muted">Total Rows</div>
-              <div className="text-base font-bold tabular-nums text-text-primary">{result.total_rows}</div>
+        <div className="space-y-3 pt-3 border-t border-border-subtle">
+          <div className="grid grid-cols-3 gap-2.5">
+            <div className="p-2.5 rounded-md bg-sunken border border-border-subtle text-center">
+              <div className="text-[11px] text-text-muted font-mono">Total Rows</div>
+              <div className="text-base font-bold tabular-nums text-ink-primary font-serif">{result.total_rows}</div>
             </div>
-            <div className="p-3 rounded-md bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 text-center">
-              <div className="text-xs text-emerald-700 dark:text-emerald-400">Inserted</div>
-              <div className="text-base font-bold tabular-nums text-emerald-800 dark:text-emerald-300">{result.inserted}</div>
+            <div className="p-2.5 rounded-md bg-status-resolved-soft border border-status-resolved/30 text-center">
+              <div className="text-[11px] text-status-resolved font-mono">Inserted</div>
+              <div className="text-base font-bold tabular-nums text-status-resolved font-serif">{result.inserted}</div>
             </div>
-            <div className="p-3 rounded-md bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/50 text-center">
-              <div className="text-xs text-rose-700 dark:text-rose-400">Skipped</div>
-              <div className="text-base font-bold tabular-nums text-rose-800 dark:text-rose-300">{result.skipped}</div>
+            <div className="p-2.5 rounded-md bg-status-open-soft border border-status-open/30 text-center">
+              <div className="text-[11px] text-status-open font-mono">Skipped</div>
+              <div className="text-base font-bold tabular-nums text-status-open font-serif">{result.skipped}</div>
             </div>
           </div>
 
           {result.errors?.length > 0 && (
-            <div className="space-y-2">
-              <div className="text-xs font-semibold text-rose-600 dark:text-rose-400 flex items-center gap-1.5">
+            <div className="space-y-1.5">
+              <div className="text-xs font-semibold text-status-open flex items-center gap-1.5 font-mono">
                 <XCircle className="w-3.5 h-3.5" />
                 <span>Per-Row Error Table ({result.errors.length} failed)</span>
               </div>
-              <div className="max-h-40 overflow-y-auto border border-rose-200 dark:border-rose-900/40 rounded-md bg-rose-50/40 dark:bg-rose-950/20 text-[11px]">
+              <div className="max-h-36 overflow-y-auto border border-status-open/30 rounded-sm bg-status-open-soft/30 text-[11px]">
                 <table className="w-full text-left">
-                  <thead className="bg-rose-100/50 dark:bg-rose-900/30 border-b border-rose-200 dark:border-rose-900/50 text-rose-800 dark:text-rose-300">
+                  <thead className="bg-status-open-soft border-b border-status-open/30 text-status-open font-mono text-[10px]">
                     <tr>
-                      <th className="p-2 w-16">Row #</th>
-                      <th className="p-2">Validation Failure</th>
-                      <th className="p-2">Data Excerpt</th>
+                      <th className="p-1.5 w-14">Row #</th>
+                      <th className="p-1.5">Validation Failure</th>
+                      <th className="p-1.5">Data Excerpt</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-rose-200/50 dark:divide-rose-900/30 font-mono text-[10px]">
+                  <tbody className="divide-y divide-status-open/20 font-mono text-[10px]">
                     {result.errors.map((err, i) => (
                       <tr key={i}>
-                        <td className="p-2 font-bold">{err.row}</td>
-                        <td className="p-2 text-rose-700 dark:text-rose-400">{err.error}</td>
-                        <td className="p-2 max-w-xs truncate text-text-muted">{JSON.stringify(err.data || {})}</td>
+                        <td className="p-1.5 font-bold">{err.row}</td>
+                        <td className="p-1.5 text-status-open">{err.error}</td>
+                        <td className="p-1.5 max-w-xs truncate text-text-muted">{JSON.stringify(err.data || {})}</td>
                       </tr>
                     ))}
                   </tbody>

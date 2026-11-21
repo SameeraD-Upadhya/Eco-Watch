@@ -6,19 +6,18 @@ import {
   YAxis, 
   CartesianGrid, 
   Tooltip, 
-  Legend, 
   ResponsiveContainer 
 } from 'recharts';
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     return (
-      <div className="bg-surface border border-border-subtle p-3 rounded-md shadow-e2 text-xs space-y-1">
-        <p className="font-semibold text-text-primary border-b border-border-subtle pb-1">{label}</p>
+      <div className="bg-surface border border-border-subtle p-2.5 rounded-md shadow-md text-xs space-y-1">
+        <p className="font-semibold text-ink-primary font-serif border-b border-border-subtle pb-1">{label}</p>
         {payload.map((item, idx) => (
-          <div key={idx} className="flex items-center justify-between gap-4 font-mono text-[11px]">
+          <div key={idx} className="flex items-center justify-between gap-3 font-mono text-[11px]">
             <span style={{ color: item.color }} className="font-medium">{item.name}:</span>
-            <span className="font-bold text-text-primary">{item.value}</span>
+            <span className="font-bold text-ink-primary">{item.value}</span>
           </div>
         ))}
       </div>
@@ -30,23 +29,23 @@ const CustomTooltip = ({ active, payload, label }) => {
 export const StackedStatusBarChart = ({ data = [] }) => {
   if (!data || data.length === 0) {
     return (
-      <div className="bg-surface border border-border-subtle rounded-lg shadow-e1 p-5 h-80 flex flex-col items-center justify-center text-center">
+      <div className="bg-surface border border-border-subtle rounded-md shadow-sm p-4 h-76 flex flex-col items-center justify-center text-center">
         <p className="text-xs text-text-muted">No ward breakdown data recorded yet.</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-surface border border-border-subtle rounded-lg shadow-e1 p-5 flex flex-col h-80">
-      <div className="border-b border-border-subtle pb-3 mb-3 flex items-center justify-between">
+    <div className="bg-surface border border-border-subtle rounded-md shadow-sm p-4 flex flex-col h-76">
+      <div className="border-b border-border-subtle pb-2.5 mb-2.5 flex items-center justify-between">
         <div>
-          <h3 className="text-sm font-semibold text-text-primary">Status Composition per Ward</h3>
-          <p className="text-[11px] text-text-secondary">Open, In Progress, and Resolved distribution</p>
+          <h3 className="text-xs font-semibold uppercase tracking-wider text-text-secondary font-mono">Status Composition per Ward</h3>
+          <p className="text-[11px] text-text-muted">Open, In Progress, and Resolved triage distribution</p>
         </div>
         <div className="flex items-center gap-3 text-[11px]">
-          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-rose-500" /> Open</span>
-          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-amber-500" /> In Progress</span>
-          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-emerald-500" /> Resolved</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-status-open" /> Open</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-status-progress" /> In Progress</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-status-resolved" /> Resolved</span>
         </div>
       </div>
 
@@ -68,7 +67,7 @@ export const StackedStatusBarChart = ({ data = [] }) => {
             <Tooltip content={<CustomTooltip />} />
             <Bar dataKey="Open" stackId="a" fill="var(--status-open)" radius={[0, 0, 0, 0]} />
             <Bar dataKey="In Progress" stackId="a" fill="var(--status-progress)" radius={[0, 0, 0, 0]} />
-            <Bar dataKey="Resolved" stackId="a" fill="var(--status-resolved)" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="Resolved" stackId="a" fill="var(--status-resolved)" radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>

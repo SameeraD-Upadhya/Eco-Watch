@@ -1,93 +1,87 @@
+@import '@fontsource/source-serif-4/600.css';
+@import '@fontsource/source-serif-4/700.css';
+@import '@fontsource/public-sans/400.css';
+@import '@fontsource/public-sans/500.css';
+@import '@fontsource/public-sans/600.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  /* Brand Tokens - Deep Fresh Green */
-  --color-primary: #059669;
-  --color-primary-hover: #047857;
-  --color-primary-soft: rgba(5, 150, 105, 0.08);
-  --color-secondary: #4F46E5;
+  /* Canvas & Neutral Surfaces (Light Mode Only) */
+  --bg-canvas: #F6F2E9;
+  --bg-app: #F6F2E9;
+  --bg-surface: #FFFDF8;
+  --bg-sunken: #EFE9DB;
+  --bg-sidebar: #FFFDF8;
+
+  /* Borders */
+  --border-subtle: #E2DAC8;
+  --border-strong: #CFC4AB;
+
+  /* Inks / Typography */
+  --ink-primary: #1F2A24;
+  --text-primary: #1F2A24;
+  --ink-secondary: #4A574F;
+  --text-secondary: #4A574F;
+  --ink-muted: #6B766D;
+  --text-muted: #6B766D;
+
+  /* Brand / Civic Primary (Forest Green) */
+  --color-primary: #2F5D46;
+  --color-primary-hover: #254B38;
+  --color-primary-soft: rgba(47, 93, 70, 0.09);
+
+  /* Accent (Turmeric / Warm Ochre) */
+  --color-accent: #B7791F;
+  --color-accent-soft: rgba(183, 121, 31, 0.09);
 
   /* Status Colors */
-  --status-open: #E11D48;
-  --status-open-bg: rgba(225, 29, 72, 0.08);
-  --status-progress: #D97706;
-  --status-progress-bg: rgba(217, 119, 6, 0.08);
-  --status-resolved: #059669;
-  --status-resolved-bg: rgba(5, 150, 105, 0.08);
+  --status-open: #B4432F;
+  --status-open-soft: rgba(180, 67, 47, 0.09);
+  --status-open-bg: rgba(180, 67, 47, 0.09);
+  --status-progress: #B7791F;
+  --status-progress-soft: rgba(183, 121, 31, 0.09);
+  --status-progress-bg: rgba(183, 121, 31, 0.09);
+  --status-resolved: #3F7D5A;
+  --status-resolved-soft: rgba(63, 125, 90, 0.09);
+  --status-resolved-bg: rgba(63, 125, 90, 0.09);
 
   /* Severity Colors */
-  --severity-low: #0284C7;
-  --severity-low-bg: rgba(2, 132, 199, 0.08);
-  --severity-medium: #D97706;
-  --severity-medium-bg: rgba(217, 119, 6, 0.08);
-  --severity-high: #DC2626;
-  --severity-high-bg: rgba(220, 38, 38, 0.08);
+  --severity-low: #2F6F8F;
+  --severity-low-soft: rgba(47, 111, 143, 0.09);
+  --severity-low-bg: rgba(47, 111, 143, 0.09);
+  --severity-medium: #B7791F;
+  --severity-medium-soft: rgba(183, 121, 31, 0.09);
+  --severity-medium-bg: rgba(183, 121, 31, 0.09);
+  --severity-high: #A8322B;
+  --severity-high-soft: rgba(168, 50, 43, 0.09);
+  --severity-high-bg: rgba(168, 50, 43, 0.09);
 
-  /* Canvas & Neutral Surfaces (Light Mode) */
-  --bg-app: #F8FAF9;
-  --bg-surface: #FFFFFF;
-  --bg-sidebar: #FFFFFF;
-  
-  --text-primary: #0F172A;
-  --text-secondary: #475569;
-  --text-muted: #94A3B8;
-
-  --border-subtle: #E2E8F0;
-  --border-strong: #CBD5E1;
-
-  --shadow-e1: 0 1px 2px rgba(16, 24, 40, 0.05);
-  --shadow-e2: 0 4px 16px rgba(16, 24, 40, 0.06);
-  --shadow-e3: 0 16px 40px rgba(16, 24, 40, 0.10);
+  /* Quiet Paper-like Shadows */
+  --shadow-sm: 0 1px 2px rgba(31, 42, 36, 0.04);
+  --shadow-md: 0 4px 12px rgba(31, 42, 36, 0.06);
+  --shadow-e1: 0 1px 2px rgba(31, 42, 36, 0.04);
+  --shadow-e2: 0 4px 12px rgba(31, 42, 36, 0.06);
+  --shadow-e3: 0 12px 28px rgba(31, 42, 36, 0.09);
 }
 
-.dark {
-  /* Brand Tokens in Dark */
-  --color-primary: #10B981;
-  --color-primary-hover: #059669;
-  --color-primary-soft: rgba(16, 185, 129, 0.12);
-  --color-secondary: #6366F1;
-
-  /* Status Colors in Dark */
-  --status-open: #F43F5E;
-  --status-open-bg: rgba(244, 63, 94, 0.12);
-  --status-progress: #F59E0B;
-  --status-progress-bg: rgba(245, 158, 11, 0.12);
-  --status-resolved: #10B981;
-  --status-resolved-bg: rgba(16, 185, 129, 0.12);
-
-  /* Severity Colors in Dark */
-  --severity-low: #38BDF8;
-  --severity-low-bg: rgba(56, 189, 248, 0.12);
-  --severity-medium: #FBBF24;
-  --severity-medium-bg: rgba(251, 191, 36, 0.12);
-  --severity-high: #F87171;
-  --severity-high-bg: rgba(248, 113, 113, 0.12);
-
-  /* Canvas & Neutral Surfaces (Dark Mode) */
-  --bg-app: #0B0F12;
-  --bg-surface: #131920;
-  --bg-sidebar: #0E141B;
-
-  --text-primary: #F1F5F9;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
-
-  --border-subtle: #1E293B;
-  --border-strong: #334155;
-
-  --shadow-e1: 0 1px 3px rgba(0, 0, 0, 0.4);
-  --shadow-e2: 0 4px 16px rgba(0, 0, 0, 0.45);
-  --shadow-e3: 0 16px 40px rgba(0, 0, 0, 0.6);
+html {
+  font-size: 15px;
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  min-height: 100vh;
-  background-color: var(--bg-app);
+  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.55;
+  background-color: var(--bg-canvas);
   color: var(--text-primary);
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Source Serif 4', Georgia, serif;
 }
 
 /* Custom Scrollbars */
@@ -104,6 +98,65 @@ body {
 }
 
 /* Tabular figures for numbers and stats */
+.font-mono {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Municipal Print Stylesheet */
+@media print {
+  /* Hide non-printable layout chrome */
+  header,
+  aside,
+  nav,
+  button,
+  .no-print,
+  input,
+  select,
+  .fixed {
+    display: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #111111 !important;
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Force borders and tables to render sharply */
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+
+  th, td {
+    border: 1px solid #CCCCCC !important;
+    padding: 6px 8px !important;
+  }
+
+  .shadow-sm, .shadow-md, .shadow-lg {
+    box-shadow: none !important;
+  }
+
+  .border, .border-b, .border-t {
+    border-color: #DDDDDD !important;
+  }
+
+  /* Page break rules */
+  .break-inside-avoid,
+  tr,
+  .bg-surface {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }

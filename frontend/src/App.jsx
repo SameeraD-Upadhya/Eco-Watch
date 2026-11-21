@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { ThemeProvider } from './theme';
+import { WifiOff } from 'lucide-react';
 import { Shell } from './components/layout/Shell';
 import { api } from './services/api';
 import { useConfig } from './hooks/useConfig';
@@ -11,7 +11,7 @@ import { MasterDataManager } from './components/master/MasterDataManager';
 import { ResponseTracker } from './components/tracker/ResponseTracker';
 import { AnalyticsDashboard } from './components/dashboard/AnalyticsDashboard';
 
-// Simple Toast Container
+// Toast Notification Context
 export const ToastContext = React.createContext({ addToast: () => {} });
 
 export function AppContent() {
@@ -33,6 +33,7 @@ export function AppContent() {
     search: ''
   });
   const [toasts, setToasts] = useState([]);
+  const [isOnline, setIsOnline] = useState(() => (typeof navigator !== 'undefined' ? navigator.onLine : true));
   
   // MongoDB Health polling
   const [health, setHealth] = useState(null);
@@ -65,6 +66,56 @@ export function AppContent() {
     }
   }, []);
 
+  // Synchronize offline queued reports
+  const syncOfflineReports = useCallback(async () => {
+    try {
+      const offlineQueueKey = 'ecowatch_offline_reports';
+      const queue = JSON.parse(localStorage.getItem(offlineQueueKey) || '[]');
+      if (queue.length === 0) return;
+
+      let syncedCount = 0;
+      const remaining = [];
+      for (const item of queue) {
+        try {
+          const { queued_at, offline_id, ...payload } = item;
+          await api.createReport(payload);
+          syncedCount++;
+        } catch {
+          remaining.push(item);
+        }
+      }
+      localStorage.setItem(offlineQueueKey, JSON.stringify(remaining));
+      if (syncedCount > 0) {
+        addToast(`Synchronized ${syncedCount} offline report${syncedCount > 1 ? 's' : ''} with municipal server`);
+        triggerRefresh();
+      }
+    } catch (err) {
+      console.warn('Offline sync attempt failed:', err);
+    }
+  }, [addToast, triggerRefresh]);
+
+  useEffect(() => {
+    const handleOnline = () => {
+      setIsOnline(true);
+      syncOfflineReports();
+    };
+    const handleOffline = () => {
+      setIsOnline(false);
+    };
+
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+
+    if (navigator.onLine) {
+      syncOfflineReports();
+    }
+
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, [syncOfflineReports]);
+
   // Poll health on mount and every 12 seconds
   useEffect(() => {
     let mounted = true;
@@ -91,9 +142,9 @@ export function AppContent() {
   }, [refreshSignal]);
 
   // Data hooks
-  const { categories, locations, enums, refreshConfig } = useConfig(refreshSignal);
-  const { analytics, loading: analyticsLoading, refreshAnalytics } = useAnalytics(refreshSignal);
-  const { reports, loading: reportsLoading, refreshReports } = useReports(filters, refreshSignal);
+  const { categories, locations, enums } = useConfig(refreshSignal);
+  const { analytics, loading: analyticsLoading } = useAnalytics(refreshSignal);
+  const { reports, loading: reportsLoading } = useReports(filters, refreshSignal);
 
   const handleAllRefresh = () => {
     triggerRefresh();
@@ -112,6 +163,16 @@ export function AppContent() {
         setSearchQuery={setSearchQuery}
         analytics={analytics}
       >
+        {/* Offline Connectivity Notification Banner */}
+        {!isOnline && (
+          <div className="mb-4 px-4 py-2.5 rounded-md bg-status-medium-soft text-status-medium border border-status-medium/30 flex items-center gap-2.5 text-xs font-medium">
+            <WifiOff className="w-4 h-4 shrink-0" />
+            <span>
+              You are currently offline. New reports will be queued locally and transmitted automatically when connectivity is restored.
+            </span>
+          </div>
+        )}
+
         {/* Render Active View */}
         <div className="space-y-6">
           {currentTab === 'dashboard' && (
@@ -128,7 +189,7 @@ export function AppContent() {
           {currentTab === 'citizen' && (
             <div className="space-y-6">
               <div className="border-b border-border-subtle pb-4">
-                <h1 className="text-xl font-bold tracking-tight text-text-primary">Citizen Observation Portal</h1>
+                <h1 className="text-xl font-bold tracking-tight text-ink-primary font-serif">Citizen Observation Portal</h1>
                 <p className="text-xs text-text-secondary mt-1">
                   Submit localized environmental alerts, hazards, and civic maintenance requests.
                 </p>
@@ -178,10 +239,10 @@ export function AppContent() {
           {toasts.map((toast) => (
             <div
               key={toast.id}
-              className={`pointer-events-auto px-4 py-3 rounded-md shadow-e2 text-xs font-medium border flex items-center gap-2.5 transition-all ${
+              className={`pointer-events-auto px-4 py-3 rounded-md shadow-md text-xs font-medium border flex items-center gap-2.5 transition-all ${
                 toast.type === 'error'
-                  ? 'bg-rose-50 text-rose-800 border-rose-200 dark:bg-rose-950/80 dark:text-rose-200 dark:border-rose-800'
-                  : 'bg-emerald-50 text-emerald-800 border-emerald-200 dark:bg-emerald-950/80 dark:text-emerald-200 dark:border-emerald-800'
+                  ? 'bg-status-open-soft text-status-open border-status-open/30'
+                  : 'bg-status-resolved-soft text-status-resolved border-status-resolved/30'
               }`}
             >
               <span>{toast.message}</span>
@@ -194,9 +255,5 @@ export function AppContent() {
 }
 
 export default function App() {
-  return (
-    <ThemeProvider>
-      <AppContent />
-    </ThemeProvider>
-  );
+  return <AppContent />;
 }

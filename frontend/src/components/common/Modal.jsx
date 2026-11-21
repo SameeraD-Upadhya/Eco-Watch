@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export const Modal = ({ isOpen, onClose, title, subtitle, children, maxWidth = 'max-w-lg' }) => {
   useEffect(() => {
@@ -21,32 +21,32 @@ export const Modal = ({ isOpen, onClose, title, subtitle, children, maxWidth = '
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         onClick={onClose}
-        className="absolute inset-0 bg-black/50 backdrop-blur-xs"
+        className="absolute inset-0 bg-ink-primary/30 backdrop-blur-xs"
       />
 
       {/* Modal Surface */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.96, y: 8 }}
+        initial={{ opacity: 0, scale: 0.98, y: 6 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
-        exit={{ opacity: 0, scale: 0.96, y: 8 }}
-        transition={{ duration: 0.16, ease: [0.2, 0.8, 0.2, 1] }}
-        className={`relative w-full ${maxWidth} bg-surface border border-border-subtle rounded-lg shadow-e3 overflow-hidden z-10`}
+        exit={{ opacity: 0, scale: 0.98, y: 6 }}
+        transition={{ duration: 0.15, ease: [0.2, 0.8, 0.2, 1] }}
+        className={`relative w-full ${maxWidth} bg-surface border border-border-subtle rounded-md shadow-md overflow-hidden z-10`}
       >
-        <div className="flex items-center justify-between p-5 border-b border-border-subtle">
+        <div className="flex items-center justify-between p-4 border-b border-border-subtle">
           <div>
-            <h3 className="text-base font-semibold text-text-primary">{title}</h3>
+            <h3 className="text-sm font-semibold font-serif text-ink-primary">{title}</h3>
             {subtitle && <p className="text-xs text-text-secondary mt-0.5">{subtitle}</p>}
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-md text-text-muted hover:text-text-primary hover:bg-primary-soft transition-colors"
+            className="p-1 rounded text-text-muted hover:text-ink-primary hover:bg-sunken transition-colors"
             aria-label="Close dialog"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
 
-        <div className="p-5">{children}</div>
+        <div className="p-4">{children}</div>
       </motion.div>
     </div>
   );

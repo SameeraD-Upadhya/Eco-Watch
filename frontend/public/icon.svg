@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#F6F2E9"/>
+  <rect x="24" y="24" width="464" height="464" rx="72" fill="#2F5D46"/>
+  <!-- Leaf and Shield Civic Icon -->
+  <path d="M256 96 C256 96 360 144 360 264 C360 360 256 416 256 416 C256 416 152 360 152 264 C152 144 256 96 256 96 Z" fill="#F6F2E9" fill-opacity="0.15" stroke="#F6F2E9" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M256 160 C256 160 320 192 320 272 C320 336 256 368 256 368 C256 368 192 336 192 272 C192 192 256 160 256 160 Z" fill="#F6F2E9"/>
+  <path d="M256 180 L256 350" stroke="#2F5D46" stroke-width="12" stroke-linecap="round"/>
+  <path d="M256 240 Q290 220 300 210" stroke="#2F5D46" stroke-width="10" stroke-linecap="round"/>
+  <path d="M256 280 Q220 260 210 250" stroke="#2F5D46" stroke-width="10" stroke-linecap="round"/>
+</svg>

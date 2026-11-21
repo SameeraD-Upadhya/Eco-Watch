@@ -49,9 +49,13 @@ async function request(endpoint, options = {}) {
 }
 
 export const api = {
-  // System Health & Enums
+  // System Health & Enums & App Config
   getHealth: () => request('/health'),
   getEnums: () => request('/config/enums'),
+  getAppConfig: () => request('/config/app'),
+
+  // Authorities Master Data
+  getAuthorities: () => request('/config/authorities'),
 
   // Categories Master Data
   getCategories: () => request('/config/categories'),
@@ -67,21 +71,45 @@ export const api = {
     body: JSON.stringify(payload)
   }),
 
+  // Master Data & Demonstration Loader
+  loadMasterData: (includeSamples = true) => request(`/config/load-master?include_samples=${includeSamples}`, {
+    method: 'POST'
+  }),
+
   // Reports
-  getReports: (filters = {}) => {
+  getReports: (filters = {}, page = 1, pageSize = 50) => {
     const params = new URLSearchParams();
     if (filters.status) params.append('status', filters.status);
     if (filters.category_name) params.append('category_name', filters.category_name);
     if (filters.location_name) params.append('location_name', filters.location_name);
     if (filters.severity) params.append('severity', filters.severity);
     if (filters.search) params.append('search', filters.search);
+    if (page) params.append('page', page);
+    if (pageSize) params.append('page_size', pageSize);
     const qs = params.toString();
     return request(`/reports${qs ? `?${qs}` : ''}`);
+  },
+  getReportByNo: (reportNo) => request(`/reports/${reportNo}`),
+  getSimilarReports: (ward, category) => {
+    const params = new URLSearchParams({ ward, category });
+    return request(`/reports/similar?${params.toString()}`);
   },
   createReport: (payload) => request('/reports', {
     method: 'POST',
     body: JSON.stringify(payload)
   }),
+  corroborateReport: (reportNo, payload = {}) => request(`/reports/${reportNo}/corroborate`, {
+    method: 'POST',
+    body: JSON.stringify(payload)
+  }),
+  uploadEvidence: (file) => {
+    const formData = new FormData();
+    formData.append('file', file);
+    return request('/uploads', {
+      method: 'POST',
+      body: formData
+    });
+  },
   updateReportStatus: (reportNo, payload) => request(`/reports/${reportNo}`, {
     method: 'PATCH',
     body: JSON.stringify(payload)
@@ -97,6 +125,7 @@ export const api = {
       body: formData
     });
   },
+  exportReports: (format = 'json') => request(`/reports/export?format=${format}`),
 
   // Analytics
   getAnalytics: () => request('/analytics')

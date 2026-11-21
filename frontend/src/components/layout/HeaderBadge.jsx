@@ -4,9 +4,9 @@ import { Database, AlertTriangle, CheckCircle2, XCircle } from 'lucide-react';
 export const HeaderBadge = ({ health, loading }) => {
   if (loading && !health) {
     return (
-      <div className="flex items-center gap-2 px-3 py-1.5 rounded-pill bg-primary-soft text-text-muted text-xs border border-border-subtle animate-pulse">
-        <span className="w-2 h-2 rounded-full bg-text-muted"></span>
-        <span className="font-mono">Connecting...</span>
+      <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-soft text-text-muted text-xs border border-border-subtle animate-pulse">
+        <span className="w-1.5 h-1.5 rounded-full bg-text-muted"></span>
+        <span className="font-mono text-[11px]">Connecting...</span>
       </div>
     );
   }
@@ -14,31 +14,28 @@ export const HeaderBadge = ({ health, loading }) => {
   const isConnected = health?.connected;
   const isHealthy = health?.status === 'healthy';
 
-  let statusColor = 'bg-status-open text-status-open';
-  let badgeBorder = 'border-rose-200 dark:border-rose-900/40 bg-rose-50/50 dark:bg-rose-950/20 text-rose-700 dark:text-rose-400';
+  let badgeClasses = 'border-status-open/30 bg-status-open-soft text-status-open';
   let label = 'MongoDB: Disconnected';
   let Icon = XCircle;
 
   if (isConnected && isHealthy) {
-    statusColor = 'bg-status-resolved text-status-resolved';
-    badgeBorder = 'border-emerald-200 dark:border-emerald-900/40 bg-emerald-50/50 dark:bg-emerald-950/20 text-emerald-700 dark:text-emerald-400';
-    label = `eco_monitor (${health?.collection_counts?.reports ?? 0} reports)`;
+    badgeClasses = 'border-status-resolved/30 bg-status-resolved-soft text-status-resolved';
+    label = `eco_monitor (${health?.collection_counts?.reports ?? 0})`;
     Icon = CheckCircle2;
   } else if (isConnected && !isHealthy) {
-    statusColor = 'bg-status-progress text-status-progress';
-    badgeBorder = 'border-amber-200 dark:border-amber-900/40 bg-amber-50/50 dark:bg-amber-950/20 text-amber-700 dark:text-amber-400';
+    badgeClasses = 'border-status-progress/30 bg-status-progress-soft text-status-progress';
     label = 'MongoDB: Degraded';
     Icon = AlertTriangle;
   }
 
   return (
     <div 
-      className={`flex items-center gap-2 px-3 py-1.5 rounded-pill text-xs font-medium border ${badgeBorder} transition-colors`}
+      className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium border ${badgeClasses} transition-colors`}
       title={isConnected ? `Database: ${health.database} | Reports: ${health.collection_counts?.reports ?? 0}` : 'Cannot connect to MongoDB localhost:27017'}
     >
-      <Database className="w-3.5 h-3.5" />
-      <span className="w-1.5 h-1.5 rounded-full animate-pulse bg-current"></span>
-      <span className="font-medium tracking-tight truncate max-w-[160px] sm:max-w-none">{label}</span>
+      <Database className="w-3 h-3 shrink-0" />
+      <span className="w-1.5 h-1.5 rounded-full animate-pulse bg-current shrink-0"></span>
+      <span className="font-mono truncate max-w-[140px] sm:max-w-none">{label}</span>
     </div>
   );
 };

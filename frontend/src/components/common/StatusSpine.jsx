@@ -2,19 +2,19 @@ import React from 'react';
 
 /**
  * StatusSpine - The domain signature detail for EcoWatch.
- * A thin vertical rail whose color encodes current status and whose notches
+ * A 3 px solid vertical rail whose color encodes current status and whose notches
  * visually mark each recorded authority response intervention.
  */
 export const StatusSpine = ({ status, responseCount = 0, className = "" }) => {
-  let railColor = 'bg-rose-500';
-  let notchColor = 'bg-rose-300 dark:bg-rose-400 border-rose-600';
+  let railColor = 'bg-status-open';
+  let notchColor = 'bg-surface border-status-open';
 
   if (status === 'In Progress') {
-    railColor = 'bg-amber-500';
-    notchColor = 'bg-amber-200 dark:bg-amber-400 border-amber-600';
+    railColor = 'bg-status-progress';
+    notchColor = 'bg-surface border-status-progress';
   } else if (status === 'Resolved') {
-    railColor = 'bg-emerald-500';
-    notchColor = 'bg-emerald-200 dark:bg-emerald-400 border-emerald-600';
+    railColor = 'bg-status-resolved';
+    notchColor = 'bg-surface border-status-resolved';
   }
 
   // Cap visible notches to max 6 for visual neatness
@@ -22,13 +22,13 @@ export const StatusSpine = ({ status, responseCount = 0, className = "" }) => {
 
   return (
     <div 
-      className={`relative w-1.5 self-stretch rounded-full flex flex-col justify-around items-center py-2 shrink-0 ${railColor} ${className}`}
+      className={`relative w-[3px] self-stretch rounded-full flex flex-col justify-around items-center py-2 shrink-0 ${railColor} ${className}`}
       title={`Status: ${status} | Responses logged: ${responseCount}`}
     >
       {notches.map((_, i) => (
         <span 
           key={i} 
-          className={`w-2.5 h-2.5 rounded-full border border-surface shadow-xs ${notchColor} transform transition-transform hover:scale-125`}
+          className={`w-2 h-2 rounded-full border-2 shadow-xs ${notchColor} transform transition-transform hover:scale-125 -mx-[2.5px]`}
         />
       ))}
     </div>
