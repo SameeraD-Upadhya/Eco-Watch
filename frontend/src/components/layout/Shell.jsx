@@ -18,7 +18,7 @@ export const Shell = ({
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-canvas text-ink-primary pb-14 sm:pb-0">
+    <div className="min-h-screen flex flex-col bg-canvas text-ink-primary pb-20 sm:pb-0">
       <div className="flex-1 flex">
         {/* Desktop Sidebar & Mobile Drawer */}
         <Sidebar
@@ -50,7 +50,7 @@ export const Shell = ({
       </div>
 
       {/* Mobile Bottom Navigation Bar (<640px) */}
-      <nav className="fixed bottom-0 left-0 right-0 z-40 bg-surface border-t border-border-subtle flex sm:hidden items-center justify-around h-13 px-2 shadow-sm">
+      <nav className="fixed bottom-0 left-0 right-0 z-mobile-nav bg-surface border-t border-border-subtle flex sm:hidden items-center justify-around h-13 px-2 shadow-sm">
         {NAV_ITEMS.map((item) => {
           const Icon = item.icon;
           const isActive = currentTab === item.id;

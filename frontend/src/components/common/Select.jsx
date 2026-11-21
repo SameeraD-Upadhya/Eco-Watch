@@ -162,7 +162,7 @@ export const Select = ({
               left: `${coords.left}px`,
               width: `${coords.width}px`,
               maxHeight: `${coords.maxHeight}px`,
-              zIndex: 9999
+              zIndex: 'var(--z-portal, 40)'
             }}
             className="bg-surface border border-border-subtle rounded-md shadow-md overflow-y-auto py-1 text-xs focus:outline-none"
           >

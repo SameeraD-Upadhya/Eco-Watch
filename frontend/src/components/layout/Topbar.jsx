@@ -12,7 +12,7 @@ export const Topbar = ({
   setSearchQuery
 }) => {
   return (
-    <header className="h-12 sticky top-0 z-30 bg-surface/95 backdrop-blur-xs border-b border-border-subtle px-4 sm:px-5 flex items-center justify-between gap-4">
+    <header className="h-12 sticky top-0 z-header bg-surface/95 backdrop-blur-xs border-b border-border-subtle px-4 sm:px-5 flex items-center justify-between gap-4">
       {/* Left: Mobile Toggle & Brand / Subtitle */}
       <div className="flex items-center gap-3">
         <button

@@ -127,7 +127,7 @@ export const Sidebar = ({
     <>
       {/* Desktop Persistent Sidebar */}
       <aside 
-        className={`hidden lg:block shrink-0 transition-all duration-200 z-20 ${
+        className={`hidden lg:block shrink-0 transition-all duration-200 z-header ${
           isCollapsed ? 'w-[56px]' : 'w-[200px]'
         }`}
       >
@@ -139,7 +139,7 @@ export const Sidebar = ({
       {/* Mobile Overlay Drawer */}
       <AnimatePresence>
         {mobileOpen && (
-          <div className="fixed inset-0 z-50 lg:hidden">
+          <div className="fixed inset-0 z-modal lg:hidden">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

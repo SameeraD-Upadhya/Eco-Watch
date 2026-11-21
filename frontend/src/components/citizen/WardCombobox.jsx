@@ -323,7 +323,7 @@ export const WardCombobox = ({
               left: `${coords.left}px`,
               width: `${coords.width}px`,
               maxHeight: `${coords.maxHeight}px`,
-              zIndex: 9999
+              zIndex: 'var(--z-portal, 40)'
             }}
             className="bg-surface border border-border-subtle rounded-md shadow-md overflow-hidden flex flex-col text-xs"
             onKeyDown={handleKeyDown}

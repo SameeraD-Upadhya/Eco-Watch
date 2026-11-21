@@ -267,7 +267,7 @@ export function AppContent() {
         </div>
 
         {/* Global Toast Notifications */}
-        <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2 pointer-events-none max-w-sm">
+        <div className="fixed top-4 right-4 z-toast flex flex-col gap-2 pointer-events-none max-w-sm max-sm:left-4 max-sm:right-4 max-sm:items-center">
           {toasts.map((toast) => (
             <div
               key={toast.id}
