@@ -1,27 +1,76 @@
-# Ponytail philosophy document
-ponytail*
-ponytail.md
+# EcoWatch Comprehensive .gitignore
 
 # Python
-venv/
-.venv/
 __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
 
-# Node
+# Node & Frontend Build
 node_modules/
 dist/
 dist-ssr/
-*.local
+build/
+.vite/
+.parcel-cache/
+.turbo/
+coverage/
 
-# Environment variables
+# Environment Configurations (keep .env.example only)
 .env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
 !.env.example
 
-# IDE & OS
-.vscode/
-.idea/
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pip-log.txt
+
+# OS & Editor Metadata
 .DS_Store
 Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Runtime Uploads & Database
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.bson
+dbpath/
+mongod.lock
+
+# Verification, Local DevTools & Private Files
+.devtools/
+.agent/
+.antigravity/
+brain/
+scratch/
+tmp/
+*.tmp
+*.bak
+*.orig
+ponytail*
+docs/screens/
+*.png
+!frontend/public/*.png
+*.jpg
+*.jpeg
