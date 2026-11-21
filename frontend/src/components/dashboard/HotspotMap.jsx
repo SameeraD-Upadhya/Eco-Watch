@@ -37,7 +37,7 @@ export const HotspotMap = ({ wardPoints = [] }) => {
             <h3 className="text-xs font-semibold uppercase tracking-wider text-text-secondary font-mono">
               Mysuru Ward Geographic Hotspot Map
             </h3>
-            <span className="px-1.5 py-0.2 rounded text-[10px] font-mono font-semibold bg-sunken border border-border-subtle text-text-secondary">
+            <span className="px-1.5 py-0.5 rounded text-[10px] font-mono font-semibold bg-sunken border border-border-subtle text-text-secondary">
               {wardPoints.length} Wards Active
             </span>
           </div>

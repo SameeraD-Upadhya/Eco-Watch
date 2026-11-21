@@ -130,7 +130,7 @@ export const WardCombobox = ({
         {selectedWard ? (
           <div className="flex items-center gap-2 min-w-0">
             {selectedWard.ward_no && (
-              <span className="text-[10px] font-mono px-1.5 py-0.2 bg-primary-soft text-primary font-bold rounded">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 bg-primary-soft text-primary font-bold rounded">
                 #{selectedWard.ward_no}
               </span>
             )}

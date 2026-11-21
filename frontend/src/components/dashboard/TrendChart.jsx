@@ -95,7 +95,7 @@ export const TrendChart = ({ weeklyData = [], monthlyData = [] }) => {
               iconSize={8}
             />
             <Bar dataKey="Open" stackId="a" fill="var(--status-open)" />
-            <Bar dataKey="In Progress" stackId="a" fill="var(--status-in-progress)" />
+            <Bar dataKey="In Progress" stackId="a" fill="var(--status-progress)" />
             <Bar dataKey="Resolved" stackId="a" fill="var(--status-resolved)" radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>

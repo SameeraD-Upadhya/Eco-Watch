@@ -108,11 +108,6 @@ export const CitizenForm = ({
   const [corroboratingId, setCorroboratingId] = useState(null);
   const fileInputRef = useRef(null);
 
-  // If DB has no categories or locations, prompt user cleanly
-  if (categories.length === 0 || locations.length === 0) {
-    return <EmptyMasterDataPrompt onNavigateToMaster={onNavigateToMaster} />;
-  }
-
   const selectedCategory = categories.find((c) => c.id === formData.category_id);
   const selectedLocation = locations.find((l) => l.id === formData.location_id);
   const severities = enums.severities?.length ? enums.severities : ['Low', 'Medium', 'High'];
@@ -141,7 +136,12 @@ export const CitizenForm = ({
     } else {
       setSimilarReports([]);
     }
-  }, [formData.category_id, formData.location_id]);
+  }, [formData.category_id, formData.location_id, selectedCategory, selectedLocation]);
+
+  // If DB has no categories or locations, prompt user cleanly
+  if (categories.length === 0 || locations.length === 0) {
+    return <EmptyMasterDataPrompt onNavigateToMaster={onNavigateToMaster} />;
+  }
 
   const handlePhotoSelect = async (e) => {
     const file = e.target.files?.[0];

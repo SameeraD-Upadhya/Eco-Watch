@@ -84,7 +84,7 @@ export const ReportCard = ({
             </span>
             <SeverityBadge severity={report.severity} />
             {report.corroborations > 0 && (
-              <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-accent-soft text-accent border border-accent/30 font-semibold" title="Resident corroboration endorsements">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-accent-soft text-accent border border-accent/30 font-semibold" title="Resident corroboration endorsements">
                 +{report.corroborations} corroborated
               </span>
             )}

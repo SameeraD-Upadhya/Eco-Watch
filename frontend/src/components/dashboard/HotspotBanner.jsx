@@ -20,7 +20,7 @@ export const HotspotBanner = ({ hotspot }) => {
               <span className="text-xs font-bold uppercase tracking-wider text-status-progress font-mono">
                 Municipal Hotspot Alert
               </span>
-              <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-status-progress/20 text-status-progress font-bold">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-status-progress/20 text-status-progress font-bold">
                 {hotspot.count} repeat incidents
               </span>
             </div>

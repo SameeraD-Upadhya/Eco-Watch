@@ -64,12 +64,33 @@ export default {
         lg: '12px',
         pill: '9999px',
       },
+      height: {
+        '13': '3.25rem',
+        '76': '19rem',
+      },
+      spacing: {
+        '13': '3.25rem',
+        '76': '19rem',
+      },
+      backdropBlur: {
+        xs: '2px',
+      },
       boxShadow: {
+        '2xs': '0 1px 2px rgba(31, 42, 36, 0.03)',
         sm: 'var(--shadow-sm)',
         md: 'var(--shadow-md)',
         e1: 'var(--shadow-e1)',
         e2: 'var(--shadow-e2)',
         e3: 'var(--shadow-e3)',
+      },
+      zIndex: {
+        content: 'var(--z-content)',
+        header: 'var(--z-header)',
+        'mobile-nav': 'var(--z-mobile-nav)',
+        portal: 'var(--z-portal)',
+        modal: 'var(--z-modal)',
+        toast: 'var(--z-toast)',
+        tooltip: 'var(--z-tooltip)',
       },
       fontFamily: {
         sans: ["'Public Sans'", "-apple-system", "BlinkMacSystemFont", "'Segoe UI'", "Roboto", "sans-serif"],

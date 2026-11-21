@@ -88,7 +88,7 @@ export const Sidebar = ({
               )}
 
               {(!isCollapsed || mobileOpen) && badgeVal !== null && (
-                <span className={`text-[10px] tabular-nums font-semibold px-1.5 py-0.2 rounded-full font-mono ${
+                <span className={`text-[10px] tabular-nums font-semibold px-1.5 py-0.5 rounded-full font-mono ${
                   isActive 
                     ? 'bg-primary text-white' 
                     : item.badgeKey === 'open' 

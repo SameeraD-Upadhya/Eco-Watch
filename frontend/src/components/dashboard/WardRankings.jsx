@@ -69,7 +69,7 @@ export const WardRankings = ({ topWards = [], bottomZones = [], totalReports = 0
                   <div className="flex items-center gap-1.5">
                     <span className="font-serif font-semibold text-xs text-ink-primary">{z.zone}</span>
                     {isLagging && (
-                      <span className="inline-flex items-center gap-0.5 px-1.5 py-0.2 rounded text-[9px] font-bold font-mono bg-status-open-soft text-status-open border border-status-open/30">
+                      <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-bold font-mono bg-status-open-soft text-status-open border border-status-open/30">
                         <AlertTriangle className="w-2.5 h-2.5" />
                         Lagging
                       </span>
