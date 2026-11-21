@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Solid Waste Blackspot & Garbage Dumping",
+    "description": "Uncollected street garbage, open vacant site debris accumulation, commercial waste dumping",
+    "color_hex": "#2F5D46",
+    "sla_hours": 24,
+    "icon": "Trash2",
+    "authority_short_name": "MCC"
+  },
+  {
+    "name": "Underground Drainage (UGD) Overflow",
+    "description": "Sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills",
+    "color_hex": "#2F6F8F",
+    "sla_hours": 24,
+    "icon": "Droplets",
+    "authority_short_name": "MCC"
+  },
+  {
+    "name": "Lake Water Contamination & Runoff",
+    "description": "Untreated sewage inlets, chemical frothing, plastic accumulation along Kukkarahalli, Karanji, and Lingambudhi lakes",
+    "color_hex": "#3F7D5A",
+    "sla_hours": 72,
+    "icon": "Waves",
+    "authority_short_name": "MUDA"
+  },
+  {
+    "name": "Industrial Effluent & Toxic Emissions",
+    "description": "Chemical smoke discharge, foul odours, untreated factory wash release in industrial zones",
+    "color_hex": "#A8322B",
+    "sla_hours": 48,
+    "icon": "Factory",
+    "authority_short_name": "KSPCB"
+  },
+  {
+    "name": "Construction Debris & Road Encroachment",
+    "description": "Unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways",
+    "color_hex": "#8C5E32",
+    "sla_hours": 48,
+    "icon": "Truck",
+    "authority_short_name": "MCC"
+  },
+  {
+    "name": "Air Quality & Vehicular Smoke Hazard",
+    "description": "Visible particulate emissions, bus stand diesel soot concentration, leaf burning in public open spaces",
+    "color_hex": "#4A574F",
+    "sla_hours": 48,
+    "icon": "Wind",
+    "authority_short_name": "KSPCB"
+  },
+  {
+    "name": "Noise Pollution & High-Decibel Amplifiers",
+    "description": "Commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances",
+    "color_hex": "#B7791F",
+    "sla_hours": 12,
+    "icon": "Volume2",
+    "authority_short_name": "KSPCB"
+  },
+  {
+    "name": "Dead Animal Carcasses & Stray Hazard",
+    "description": "Unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades",
+    "color_hex": "#B4432F",
+    "sla_hours": 12,
+    "icon": "AlertTriangle",
+    "authority_short_name": "MCC"
+  },
+  {
+    "name": "Hazardous Tree Pruning & Fallen Branches",
+    "description": "Weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels",
+    "color_hex": "#5A6B5C",
+    "sla_hours": 36,
+    "icon": "Trees",
+    "authority_short_name": "Forest Dept"
+  },
+  {
+    "name": "Stormwater Drain Clogging & Flooding",
+    "description": "Silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging",
+    "color_hex": "#2F6F8F",
+    "sla_hours": 24,
+    "icon": "CloudRain",
+    "authority_short_name": "MCC"
+  }
+]

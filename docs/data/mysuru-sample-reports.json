@@ -1,0 +1,2967 @@
+[
+  {
+    "citizen_name": "Usha Shankar",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 62 - Vijayanagar 3rd Stage",
+    "landmark": "Near Abhishek Circle",
+    "description": "Civic issue reported in developing layout: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-11-19T18:22:15+05:30",
+    "resolved_at": "2026-11-21T09:22:15+05:30",
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Zone 9 maintenance staff dispatched and remediated.",
+        "updated_by": "Field Inspector - Zone 9 Bogadi Office",
+        "updated_at": "2026-11-21T09:22:15+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Poornima Swamy",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 60 - Dattagalli",
+    "landmark": "Near Andolana Circle",
+    "description": "Civic issue reported in developing layout: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-11-18T05:37:48+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-11-19T05:37:48+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 49 - Industrial Estate South",
+    "landmark": "Opposite South Ring Road",
+    "description": "Civic environmental observation: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades near residential locality.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-11-17T12:22:41+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Poornima Swamy",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 38 - Agrahara",
+    "landmark": "Near 101 Ganesha Temple, Thyagaraja Road Cross 7",
+    "description": "Severe underground drainage manhole backflow flooding pedestrian footpath near Thyagaraja Road. Strong sewage odour affecting adjacent residences and shopfronts.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-11-15T08:45:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Vinayaka H. S.",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 64 - Hootagalli",
+    "landmark": "Near Automotive Axles Road",
+    "description": "Civic issue reported in developing layout: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-11-13T10:22:52+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Raghavendra K.",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 51 - Kuvempunagar M-Block",
+    "landmark": "Kukkarahalli Lake South Feeder Channel inlet, near Kuvempu Trust Road",
+    "description": "Untreated residential runoff and floating plastic choke observed at feeder canal discharging into Kukkarahalli Lake. Distinct foul odour and algae bloom visible.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-11-12T08:15:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MUDA",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 10
+  },
+  {
+    "citizen_name": "Sneha Deshpande",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 8 - Gokulam 1st Stage",
+    "landmark": "Opposite 8th Cross Gokulam",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-11-10T07:18:13+05:30",
+    "resolved_at": null,
+    "authority_name": "MUDA",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Divya Patil",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 9 - Gokulam 2nd Stage",
+    "landmark": "Corner of Kalidasa Road & 3rd Main Gokulam",
+    "description": "Recurring chronic garbage blackspot. Commercial kitchen waste from nearby cafes dumped illegally along vacant plot boundary, attracting stray dogs and cattle.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-11-08T16:00:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Poornima Swamy",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 7 - Mahajana Layout",
+    "landmark": "Opposite Jayalakshmi Layout",
+    "description": "Civic environmental observation: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-11-08T14:58:42+05:30",
+    "resolved_at": "2026-11-10T09:58:42+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 1.",
+        "updated_by": "Health Officer - Zone 1",
+        "updated_at": "2026-11-10T09:58:42+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 59 - Bogadi 2nd Stage",
+    "landmark": "Near Bank Colony",
+    "description": "Civic issue reported in developing layout: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-11-07T13:59:28+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Sneha Deshpande",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 18 - Shivarampet",
+    "landmark": "Opposite Chikka Gadiyara",
+    "description": "Civic environmental observation: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-11-06T09:53:21+05:30",
+    "resolved_at": "2026-11-07T14:53:21+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 3.",
+        "updated_by": "Health Officer - Zone 3",
+        "updated_at": "2026-11-07T14:53:21+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 42 - Kannegowdana Koppal",
+    "landmark": "Opposite KG Koppal Underpass",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-11-05T07:58:32+05:30",
+    "resolved_at": null,
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 6",
+        "updated_at": "2026-11-05T17:58:32+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Meenakshi Sundaram",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 47 - Kanakagiri",
+    "landmark": "Opposite Gundu Rao Nagar",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-11-05T07:11:08+05:30",
+    "resolved_at": "2026-11-06T14:11:08+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 7.",
+        "updated_by": "Health Officer - Zone 7",
+        "updated_at": "2026-11-06T14:11:08+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 26 - Rajendranagar",
+    "landmark": "Opposite Rajendranagar Ring Road",
+    "description": "Civic environmental observation: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances near residential locality.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-11-02T13:55:13+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 4",
+        "updated_at": "2026-11-02T23:55:13+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Divya Patil",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 60 - Dattagalli",
+    "landmark": "Near Andolana Circle",
+    "description": "Civic issue reported in developing layout: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-10-31T07:41:52+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "K. S. Venkatesh",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 38 - Agrahara",
+    "landmark": "Near 101 Ganesha Temple, Thyagaraja Road Cross 6",
+    "description": "Severe underground drainage manhole backflow flooding pedestrian footpath near Thyagaraja Road. Strong sewage odour affecting adjacent residences and shopfronts.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-10-28T15:10:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Work order issued to emergency UGD maintenance crew. Jetting vehicle scheduled.",
+        "updated_by": "Health Inspector - Ward 38 Agrahara",
+        "updated_at": "2026-10-28T23:10:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 28 - Udayagiri",
+    "landmark": "Opposite Udayagiri Circle",
+    "description": "Civic environmental observation: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-10-28T13:16:38+05:30",
+    "resolved_at": "2026-10-29T14:16:38+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-10-29T14:16:38+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Usha Shankar",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near St. Philomena's Church, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-24T02:33:40+05:30",
+    "resolved_at": "2026-10-24T15:33:40+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-24T15:33:40+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 29 - Nazarbad",
+    "landmark": "Near Mysore Club Road, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-24T01:18:45+05:30",
+    "resolved_at": "2026-10-24T21:18:45+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-24T21:18:45+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Vinayaka H. S.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 29 - Nazarbad",
+    "landmark": "Near SP Office Circle, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-10-23T20:37:01+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 21 - Subbarayanakere",
+    "landmark": "Near Chamaraja Double Road, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-23T09:01:48+05:30",
+    "resolved_at": "2026-10-24T04:01:48+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-24T04:01:48+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Divya Patil",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near St. Philomena's Church, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-23T05:00:41+05:30",
+    "resolved_at": "2026-10-23T19:00:41+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-23T19:00:41+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Poornima Swamy",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near Irwin Road, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-23T01:08:23+05:30",
+    "resolved_at": "2026-10-23T20:08:23+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-23T20:08:23+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Rekha Somasekhar",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 30 - Ittigegud",
+    "landmark": "Near Mysore Zoo, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-22T09:40:03+05:30",
+    "resolved_at": "2026-10-23T03:40:03+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-23T03:40:03+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 55 - Vivekananda Nagar",
+    "landmark": "Opposite D-Block",
+    "description": "Civic environmental observation: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging near residential locality.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-10-22T02:24:09+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 10 - Gokulam 3rd Stage",
+    "landmark": "Opposite Contours Road",
+    "description": "Civic environmental observation: uncollected street garbage, open vacant site debris accumulation, commercial waste dumping near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-21T16:13:54+05:30",
+    "resolved_at": "2026-10-22T13:13:54+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-10-22T13:13:54+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Sayyaji Rao Road, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-10-21T15:45:41+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Sayyaji Rao Road, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-10-21T10:15:56+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Vinayaka H. S.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 30 - Ittigegud",
+    "landmark": "Near Indira Gandhi Rashtriya Manav Sangrahalaya, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-10-21T02:26:05+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Devaraja Market, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-20T23:54:32+05:30",
+    "resolved_at": "2026-10-21T14:54:32+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-21T14:54:32+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 25 - Subashnagar",
+    "landmark": "Opposite Subashnagar Main",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-20T16:12:17+05:30",
+    "resolved_at": "2026-10-21T18:12:17+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-10-21T18:12:17+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 36 - Fort Mohalla",
+    "landmark": "Near Gun House Circle, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-20T12:06:48+05:30",
+    "resolved_at": "2026-10-21T02:06:48+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-21T02:06:48+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 21 - Subbarayanakere",
+    "landmark": "Near Subbarayanakere Ground, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-10-20T08:10:34+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Prasanna Kumar",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near City Bus Stand, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-10-20T02:35:01+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Manjunatha B.",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 42 - Kannegowdana Koppal",
+    "landmark": "Opposite KG Koppal Underpass",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-10-19T18:07:29+05:30",
+    "resolved_at": null,
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 6",
+        "updated_at": "2026-10-20T04:07:29+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Gopalakrishna Bhat",
+    "category_name": "Air Quality & Vehicular Smoke Hazard",
+    "location_name": "Ward 46 - J.P. Nagar 2nd Stage",
+    "landmark": "Opposite Cauvery School Road",
+    "description": "Civic environmental observation: visible particulate emissions, bus stand diesel soot concentration, leaf burning in public open spaces near residential locality.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-10-19T09:30:25+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 7",
+        "updated_at": "2026-10-19T19:30:25+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Chandrashekhar S.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 36 - Fort Mohalla",
+    "landmark": "Near Basaveshwara Road, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-18T14:05:20+05:30",
+    "resolved_at": "2026-10-18T22:05:20+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-18T22:05:20+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Dr. B. R. Srinivas",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 36 - Fort Mohalla",
+    "landmark": "Near Mysore Palace South Gate, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-18T10:46:02+05:30",
+    "resolved_at": "2026-10-19T04:46:02+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-19T04:46:02+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Devaraja Market, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-18T09:53:13+05:30",
+    "resolved_at": "2026-10-19T01:53:13+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-19T01:53:13+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near St. Philomena's Church, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-10-18T06:20:06+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 18 - Shivarampet",
+    "landmark": "Near Santhapet, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-17T21:00:55+05:30",
+    "resolved_at": "2026-10-18T06:00:55+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-18T06:00:55+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Dufferin Clock Tower, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-17T06:17:05+05:30",
+    "resolved_at": "2026-10-17T17:17:05+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-17T17:17:05+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 9 - Gokulam 2nd Stage",
+    "landmark": "Corner of Kalidasa Road & 3rd Main Gokulam",
+    "description": "Recurring chronic garbage blackspot. Commercial kitchen waste from nearby cafes dumped illegally along vacant plot boundary, attracting stray dogs and cattle.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-10-16T09:30:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Pourakarmikas notified for afternoon clearance shift.",
+        "updated_by": "Ward Health Inspector - Zone 2",
+        "updated_at": "2026-10-16T13:30:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Prasanna Kumar",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near City Bus Stand, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-15T19:12:15+05:30",
+    "resolved_at": "2026-10-16T04:12:15+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-16T04:12:15+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Dr. B. R. Srinivas",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 18 - Shivarampet",
+    "landmark": "Near Santhapet, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-15T15:52:24+05:30",
+    "resolved_at": "2026-10-16T08:52:24+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-16T08:52:24+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 39 - Chamundipuram",
+    "landmark": "Opposite Ramanuja Road South",
+    "description": "Civic environmental observation: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills near residential locality.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-10-15T12:51:22+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 6",
+        "updated_at": "2026-10-15T22:51:22+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Gopalakrishna Bhat",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Opposite Devaraja Market",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-10-15T10:58:34+05:30",
+    "resolved_at": "2026-10-16T19:58:34+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 3.",
+        "updated_by": "Health Officer - Zone 3",
+        "updated_at": "2026-10-16T19:58:34+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Vinayaka H. S.",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 36 - Fort Mohalla",
+    "landmark": "Near Mysore Palace South Gate, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-15T09:04:59+05:30",
+    "resolved_at": "2026-10-15T15:04:59+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-15T15:04:59+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Chethan Gowda",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 8 - Gokulam 1st Stage",
+    "landmark": "Opposite Doctor's Corner",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-15T08:11:11+05:30",
+    "resolved_at": "2026-10-16T14:11:11+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-10-16T14:11:11+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Sneha Deshpande",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Sayyaji Rao Road, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-15T04:49:34+05:30",
+    "resolved_at": "2026-10-15T23:49:34+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-15T23:49:34+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Raghavendra K.",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 29 - Nazarbad",
+    "landmark": "Opposite Mysore Club Road",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-10-15T03:26:52+05:30",
+    "resolved_at": null,
+    "authority_name": "Forest Dept",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Meenakshi Sundaram",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 29 - Nazarbad",
+    "landmark": "Near Mysore Club Road, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-15T02:04:38+05:30",
+    "resolved_at": "2026-10-15T21:04:38+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-15T21:04:38+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Manjunatha B.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near City Bus Stand, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-14T19:35:11+05:30",
+    "resolved_at": "2026-10-15T02:35:11+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-15T02:35:11+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Poornima Swamy",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 16 - Lashkar Mohalla",
+    "landmark": "Near Irwin Road, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-10-14T09:17:23+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Dr. B. R. Srinivas",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 29 - Nazarbad",
+    "landmark": "Near Hardings Circle, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-10-12T20:59:17+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 18 - Shivarampet",
+    "landmark": "Near Santhapet, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-12T15:28:42+05:30",
+    "resolved_at": "2026-10-12T22:28:42+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-12T22:28:42+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Sayyaji Rao Road, Mysore Dasara Zone",
+    "description": "High-decibel sound amplifier operating past 11:30 PM exceeding regulatory ambient noise thresholds.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-12T02:39:59+05:30",
+    "resolved_at": "2026-10-12T16:39:59+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-12T16:39:59+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Gopalakrishna Bhat",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 21 - Subbarayanakere",
+    "landmark": "Near K.R. Hospital, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-10-11T12:35:19+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "K. S. Venkatesh",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 60 - Dattagalli",
+    "landmark": "Near Andolana Circle",
+    "description": "Civic issue reported in developing layout: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-10-10T21:50:40+05:30",
+    "resolved_at": null,
+    "authority_name": "Forest Dept",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 30 - Ittigegud",
+    "landmark": "Near Mysore Zoo, Mysore Dasara Zone",
+    "description": "Overflowing municipal waste bins around procession route and food vendor stalls.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-10T10:27:19+05:30",
+    "resolved_at": "2026-10-11T06:27:19+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Special Dasara sanitation squad deployed; mobile squad impounded unauthorized loudspeakers / cleared litter.",
+        "updated_by": "Dasara Civic Control Cell Officer",
+        "updated_at": "2026-10-11T06:27:19+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 3 - Kumbarakoppal",
+    "landmark": "Opposite Mahajana High School",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-10-08T12:03:32+05:30",
+    "resolved_at": "2026-10-10T00:03:32+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 1.",
+        "updated_by": "Health Officer - Zone 1",
+        "updated_at": "2026-10-10T00:03:32+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 52 - Saraswathipuram",
+    "landmark": "Opposite Maruthi Temple Road",
+    "description": "Civic environmental observation: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones near residential locality.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-10-06T16:40:12+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 8",
+        "updated_at": "2026-10-07T02:40:12+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Raghavendra K.",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 59 - Bogadi 2nd Stage",
+    "landmark": "Near Nirmithi Kendra Bogadi",
+    "description": "Civic issue reported in developing layout: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-10-06T05:45:58+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-10-07T05:45:58+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Rekha Somasekhar",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 51 - Kuvempunagar M-Block",
+    "landmark": "Kukkarahalli Lake South Feeder Channel inlet, near Kuvempu Trust Road",
+    "description": "Untreated residential runoff and floating plastic choke observed at feeder canal discharging into Kukkarahalli Lake. Distinct foul odour and algae bloom visible.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-10-05T11:45:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Site inspection completed with KSPCB regional laboratory team for water sampling.",
+        "updated_by": "Environment Officer - MUDA",
+        "updated_at": "2026-10-06T11:45:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 65 - Belavadi",
+    "landmark": "Near Belavadi Grama Panchayat",
+    "description": "Civic issue reported in developing layout: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-10-03T03:58:18+05:30",
+    "resolved_at": "2026-10-05T13:58:18+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Zone 9 maintenance staff dispatched and remediated.",
+        "updated_by": "Field Inspector - Zone 9 Bogadi Office",
+        "updated_at": "2026-10-05T13:58:18+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Manjunatha B.",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 63 - Vijayanagar 4th Stage",
+    "landmark": "Near Police Station Road",
+    "description": "Civic issue reported in developing layout: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-10-02T16:44:48+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-10-03T16:44:48+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Divya Patil",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 59 - Bogadi 2nd Stage",
+    "landmark": "Near Bank Colony",
+    "description": "Civic issue reported in developing layout: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-10-02T14:10:18+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-10-03T14:10:18+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 38 - Agrahara",
+    "landmark": "Near 101 Ganesha Temple, Thyagaraja Road Cross 5",
+    "description": "Severe underground drainage manhole backflow flooding pedestrian footpath near Thyagaraja Road. Strong sewage odour affecting adjacent residences and shopfronts.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-10-02T11:20:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Work order issued to emergency UGD maintenance crew. Jetting vehicle scheduled.",
+        "updated_by": "Health Inspector - Ward 38 Agrahara",
+        "updated_at": "2026-10-02T19:20:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Dr. B. R. Srinivas",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 59 - Bogadi 2nd Stage",
+    "landmark": "Near Nirmithi Kendra Bogadi",
+    "description": "Civic issue reported in developing layout: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-10-01T04:39:27+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-10-02T04:39:27+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 17 - Tilak Nagar",
+    "landmark": "Opposite Pulikeshi Road",
+    "description": "Civic environmental observation: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-09-29T13:33:33+05:30",
+    "resolved_at": "2026-09-30T23:33:33+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 3.",
+        "updated_by": "Health Officer - Zone 3",
+        "updated_at": "2026-09-30T23:33:33+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Dr. B. R. Srinivas",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 42 - Kannegowdana Koppal",
+    "landmark": "Opposite KG Koppal Underpass",
+    "description": "Civic environmental observation: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-27T14:06:49+05:30",
+    "resolved_at": "2026-09-29T04:06:49+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 6.",
+        "updated_by": "Health Officer - Zone 6",
+        "updated_at": "2026-09-29T04:06:49+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Poornima Swamy",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Opposite Sayyaji Rao Road",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-09-26T07:05:57+05:30",
+    "resolved_at": "2026-09-27T09:05:57+05:30",
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 3.",
+        "updated_by": "Health Officer - Zone 3",
+        "updated_at": "2026-09-27T09:05:57+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Air Quality & Vehicular Smoke Hazard",
+    "location_name": "Ward 28 - Udayagiri",
+    "landmark": "Opposite Mahadevapura Road",
+    "description": "Civic environmental observation: visible particulate emissions, bus stand diesel soot concentration, leaf burning in public open spaces near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-09-25T23:09:13+05:30",
+    "resolved_at": "2026-09-26T18:09:13+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-09-26T18:09:13+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 43 - Vidyaranyapuram",
+    "landmark": "Opposite Sewage Farm Road",
+    "description": "Civic environmental observation: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones near residential locality.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-09-22T23:12:14+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 7",
+        "updated_at": "2026-09-23T09:12:14+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Chandrashekhar S.",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 42 - Kannegowdana Koppal",
+    "landmark": "Opposite New Kantharaj Urs Road",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-22T15:12:14+05:30",
+    "resolved_at": "2026-09-24T11:12:14+05:30",
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 6.",
+        "updated_by": "Health Officer - Zone 6",
+        "updated_at": "2026-09-24T11:12:14+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Chethan Gowda",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 35 - Chamundi Hill Foothills",
+    "landmark": "Opposite Foothill Steps",
+    "description": "Civic environmental observation: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging near residential locality.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-09-21T21:23:06+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 5",
+        "updated_at": "2026-09-22T07:23:06+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Meenakshi Sundaram",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 9 - Gokulam 2nd Stage",
+    "landmark": "Corner of Kalidasa Road & 3rd Main Gokulam",
+    "description": "Recurring chronic garbage blackspot. Commercial kitchen waste from nearby cafes dumped illegally along vacant plot boundary, attracting stray dogs and cattle.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-09-21T14:15:00+05:30",
+    "resolved_at": "2026-09-22T02:15:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Tipper auto and sanitary workers deployed. Cleared 1.5 tonnes of unsegregated refuse.",
+        "updated_by": "Ward Sanitary Supervisor - Gokulam",
+        "updated_at": "2026-09-22T02:15:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 8
+  },
+  {
+    "citizen_name": "Prasanna Kumar",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 65 - Belavadi",
+    "landmark": "Near Belavadi Grama Panchayat",
+    "description": "Civic issue reported in developing layout: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-20T10:37:40+05:30",
+    "resolved_at": "2026-09-23T15:37:40+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Zone 9 maintenance staff dispatched and remediated.",
+        "updated_by": "Field Inspector - Zone 9 Bogadi Office",
+        "updated_at": "2026-09-23T15:37:40+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Nagaraj V.",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 62 - Vijayanagar 3rd Stage",
+    "landmark": "Near Abhishek Circle",
+    "description": "Civic issue reported in developing layout: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-09-20T01:09:30+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-09-21T01:09:30+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 27 - Kesare",
+    "landmark": "Opposite Kesare 2nd Stage",
+    "description": "Civic environmental observation: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-19T03:01:41+05:30",
+    "resolved_at": "2026-09-20T09:01:41+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-09-20T09:01:41+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Meenakshi Sundaram",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 35 - Chamundi Hill Foothills",
+    "landmark": "Opposite Nandi Statue Route",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-09-18T06:14:12+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 64 - Hootagalli",
+    "landmark": "Near Koorgalli Main",
+    "description": "Civic issue reported in developing layout: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-09-18T01:21:49+05:30",
+    "resolved_at": null,
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-09-19T01:21:49+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Prasanna Kumar",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 59 - Bogadi 2nd Stage",
+    "landmark": "Near Nirmithi Kendra Bogadi",
+    "description": "Civic issue reported in developing layout: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-09-17T20:55:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "S. Ravikumar",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 3 - Kumbarakoppal",
+    "landmark": "Opposite Kumbarakoppal Main Road",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-15T09:23:08+05:30",
+    "resolved_at": "2026-09-17T00:23:08+05:30",
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 1.",
+        "updated_by": "Health Officer - Zone 1",
+        "updated_at": "2026-09-17T00:23:08+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 38 - Agrahara",
+    "landmark": "Near 101 Ganesha Temple, Thyagaraja Road Cross 4",
+    "description": "Severe underground drainage manhole backflow flooding pedestrian footpath near Thyagaraja Road. Strong sewage odour affecting adjacent residences and shopfronts.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-14T16:45:00+05:30",
+    "resolved_at": "2026-09-16T00:45:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Jetting machine dispatched from MCC Zone 6 workshop. Desilted secondary line.",
+        "updated_by": "Inspector R. N. Swamy - MCC Zone 6",
+        "updated_at": "2026-09-15T04:45:00+05:30"
+      },
+      {
+        "action_taken": "Manhole chamber cleared and sealed. Overflow arrested successfully.",
+        "updated_by": "Assistant Executive Engineer UGD - MCC",
+        "updated_at": "2026-09-16T00:45:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Rekha Somasekhar",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 27 - Kesare",
+    "landmark": "Opposite R.S. Naidu Nagar",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-14T03:32:12+05:30",
+    "resolved_at": "2026-09-15T16:32:12+05:30",
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-09-15T16:32:12+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Meenakshi Sundaram",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 59 - Bogadi 2nd Stage",
+    "landmark": "Near Bank Colony",
+    "description": "Civic issue reported in developing layout: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-09-13T20:54:45+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 63 - Vijayanagar 4th Stage",
+    "landmark": "Near BEL Layout",
+    "description": "Civic issue reported in developing layout: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-09-12T11:16:07+05:30",
+    "resolved_at": "2026-09-14T19:16:07+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Zone 9 maintenance staff dispatched and remediated.",
+        "updated_by": "Field Inspector - Zone 9 Bogadi Office",
+        "updated_at": "2026-09-14T19:16:07+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 63 - Vijayanagar 4th Stage",
+    "landmark": "Near Police Station Road",
+    "description": "Civic issue reported in developing layout: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-09-11T05:27:13+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-09-12T05:27:13+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 51 - Kuvempunagar M-Block",
+    "landmark": "Kukkarahalli Lake South Feeder Channel inlet, near Kuvempu Trust Road",
+    "description": "Untreated residential runoff and floating plastic choke observed at feeder canal discharging into Kukkarahalli Lake. Distinct foul odour and algae bloom visible.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-09-08T16:20:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Site inspection completed with KSPCB regional laboratory team for water sampling.",
+        "updated_by": "Environment Officer - MUDA",
+        "updated_at": "2026-09-09T16:20:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 10
+  },
+  {
+    "citizen_name": "Sneha Deshpande",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 62 - Vijayanagar 3rd Stage",
+    "landmark": "Near Hebbal Link Road",
+    "description": "Civic issue reported in developing layout: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-09-06T11:58:24+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 26 - Rajendranagar",
+    "landmark": "Opposite KSRTC Depot 2",
+    "description": "Civic environmental observation: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-09-04T18:21:47+05:30",
+    "resolved_at": "2026-09-06T00:21:47+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-09-06T00:21:47+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Nagaraj V.",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 53 - Sharadadevinagar",
+    "landmark": "Opposite Shanthiveera Circle",
+    "description": "Civic environmental observation: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-09-04T09:40:00+05:30",
+    "resolved_at": "2026-09-06T04:40:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 8.",
+        "updated_by": "Health Officer - Zone 8",
+        "updated_at": "2026-09-06T04:40:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Rekha Somasekhar",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 25 - Subashnagar",
+    "landmark": "Opposite N.R. Police Station",
+    "description": "Civic environmental observation: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-09-03T15:16:46+05:30",
+    "resolved_at": "2026-09-05T06:16:46+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-09-05T06:16:46+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Near Devaraja Market North Entrance, Sayyaji Rao Road",
+    "description": "Stormwater drain silt barrier broke again after moderate rain. Debris is choking the box drain under shopfronts.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-09-02T10:00:00+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Cleared silt and flushed drain line with fire tender pressure hose.",
+        "updated_by": "Ward 19 Health Inspector",
+        "updated_at": "2026-09-03T06:00:00+05:30"
+      },
+      {
+        "action_taken": "Citizen reopened report: heavy blockage recurred within 48 hours; structural repair required.",
+        "updated_by": "Citizen Service Desk Coordinator",
+        "updated_at": "2026-09-05T10:00:00+05:30"
+      }
+    ],
+    "reopened_count": 1,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 58 - Bogadi 1st Stage",
+    "landmark": "Near Amritha Vidyalayam",
+    "description": "Civic issue reported in developing layout: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-09-02T07:39:11+05:30",
+    "resolved_at": null,
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-09-03T07:39:11+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Nagaraj V.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 9 - Gokulam 2nd Stage",
+    "landmark": "Corner of Kalidasa Road & 3rd Main Gokulam",
+    "description": "Recurring chronic garbage blackspot. Commercial kitchen waste from nearby cafes dumped illegally along vacant plot boundary, attracting stray dogs and cattle.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-08-30T07:45:00+05:30",
+    "resolved_at": "2026-08-31T03:45:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Tipper auto and sanitary workers deployed. Cleared 1.5 tonnes of unsegregated refuse.",
+        "updated_by": "Ward Sanitary Supervisor - Gokulam",
+        "updated_at": "2026-08-31T03:45:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Prasanna Kumar",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 65 - Belavadi",
+    "landmark": "Near JK Tyre Factory Road",
+    "description": "Civic issue reported in developing layout: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-08-30T00:07:07+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Raghavendra K.",
+    "category_name": "Air Quality & Vehicular Smoke Hazard",
+    "location_name": "Ward 23 - Bannimantap 'B' Layout",
+    "landmark": "Opposite LIC Office Circle",
+    "description": "Civic environmental observation: visible particulate emissions, bus stand diesel soot concentration, leaf burning in public open spaces near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-08-26T05:55:19+05:30",
+    "resolved_at": "2026-08-27T16:55:19+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-08-27T16:55:19+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "R. Shridhar",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 1 - Hebbal",
+    "landmark": "Opposite Hebbal 1st Stage",
+    "description": "Civic environmental observation: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-08-22T19:38:16+05:30",
+    "resolved_at": "2026-08-24T08:38:16+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 1.",
+        "updated_by": "Health Officer - Zone 1",
+        "updated_at": "2026-08-24T08:38:16+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Sneha Deshpande",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 38 - Agrahara",
+    "landmark": "Near 101 Ganesha Temple, Thyagaraja Road Cross 3",
+    "description": "Severe underground drainage manhole backflow flooding pedestrian footpath near Thyagaraja Road. Strong sewage odour affecting adjacent residences and shopfronts.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-08-22T09:00:00+05:30",
+    "resolved_at": "2026-08-23T08:00:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Jetting machine dispatched from MCC Zone 6 workshop. Desilted secondary line.",
+        "updated_by": "Inspector R. N. Swamy - MCC Zone 6",
+        "updated_at": "2026-08-22T21:00:00+05:30"
+      },
+      {
+        "action_taken": "Manhole chamber cleared and sealed. Overflow arrested successfully.",
+        "updated_by": "Assistant Executive Engineer UGD - MCC",
+        "updated_at": "2026-08-23T08:00:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 35 - Chamundi Hill Foothills",
+    "landmark": "Opposite Nandi Statue Route",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-08-21T08:18:52+05:30",
+    "resolved_at": "2026-08-22T08:18:52+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 5.",
+        "updated_by": "Health Officer - Zone 5",
+        "updated_at": "2026-08-22T08:18:52+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 25 - Subashnagar",
+    "landmark": "Opposite Subashnagar Main",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-08-17T07:28:04+05:30",
+    "resolved_at": null,
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 4",
+        "updated_at": "2026-08-17T17:28:04+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Usha Shankar",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 6 - Surya Bakery Layout",
+    "landmark": "Opposite KRS Link Road",
+    "description": "Civic environmental observation: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills near residential locality.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-08-16T12:49:56+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 1",
+        "updated_at": "2026-08-16T22:49:56+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 51 - Kuvempunagar M-Block",
+    "landmark": "Kukkarahalli Lake South Feeder Channel inlet, near Kuvempu Trust Road",
+    "description": "Untreated residential runoff and floating plastic choke observed at feeder canal discharging into Kukkarahalli Lake. Distinct foul odour and algae bloom visible.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-08-14T10:15:00+05:30",
+    "resolved_at": "2026-08-17T05:15:00+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Lake inlet screen cleaned; floating debris trap repaired.",
+        "updated_by": "Assistant Engineer - MUDA Lake Cell",
+        "updated_at": "2026-08-17T05:15:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 6
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 8 - Gokulam 1st Stage",
+    "landmark": "Opposite Yoga Shala Circle",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-08-14T06:31:56+05:30",
+    "resolved_at": "2026-08-15T18:31:56+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-08-15T18:31:56+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "R. Shridhar",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 9 - Gokulam 2nd Stage",
+    "landmark": "Corner of Kalidasa Road & 3rd Main Gokulam",
+    "description": "Recurring chronic garbage blackspot. Commercial kitchen waste from nearby cafes dumped illegally along vacant plot boundary, attracting stray dogs and cattle.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-08-10T11:00:00+05:30",
+    "resolved_at": "2026-08-11T08:00:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Tipper auto and sanitary workers deployed. Cleared 1.5 tonnes of unsegregated refuse.",
+        "updated_by": "Ward Sanitary Supervisor - Gokulam",
+        "updated_at": "2026-08-11T08:00:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 8
+  },
+  {
+    "citizen_name": "Chethan Gowda",
+    "category_name": "Air Quality & Vehicular Smoke Hazard",
+    "location_name": "Ward 64 - Hootagalli",
+    "landmark": "Near Hootagalli Industrial Area",
+    "description": "Civic issue reported in developing layout: visible particulate emissions, bus stand diesel soot concentration, leaf burning in public open spaces.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-08-09T23:21:09+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 13 - Yadavagiri",
+    "landmark": "Opposite Railway Officers Colony",
+    "description": "Civic environmental observation: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-08-08T11:21:42+05:30",
+    "resolved_at": "2026-08-09T16:21:42+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-08-09T16:21:42+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 12 - V.V. Mohalla",
+    "landmark": "Opposite Kalidasa Road North",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-08-08T01:27:49+05:30",
+    "resolved_at": null,
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 2",
+        "updated_at": "2026-08-08T11:27:49+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Opposite Sayyaji Rao Road",
+    "description": "Civic environmental observation: uncollected street garbage, open vacant site debris accumulation, commercial waste dumping near residential locality.",
+    "severity": "Medium",
+    "status": "In Progress",
+    "reported_at": "2026-08-04T11:44:49+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 3",
+        "updated_at": "2026-08-04T21:44:49+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Manjunatha B.",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 38 - Agrahara",
+    "landmark": "Near 101 Ganesha Temple, Thyagaraja Road Cross 2",
+    "description": "Severe underground drainage manhole backflow flooding pedestrian footpath near Thyagaraja Road. Strong sewage odour affecting adjacent residences and shopfronts.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-08-03T14:15:00+05:30",
+    "resolved_at": "2026-08-04T10:15:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Jetting machine dispatched from MCC Zone 6 workshop. Desilted secondary line.",
+        "updated_by": "Inspector R. N. Swamy - MCC Zone 6",
+        "updated_at": "2026-08-04T02:15:00+05:30"
+      },
+      {
+        "action_taken": "Manhole chamber cleared and sealed. Overflow arrested successfully.",
+        "updated_by": "Assistant Executive Engineer UGD - MCC",
+        "updated_at": "2026-08-04T10:15:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 34 - K.C. Layout",
+    "landmark": "Opposite K.C. Layout Park",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-08-02T01:00:48+05:30",
+    "resolved_at": "2026-08-03T10:00:48+05:30",
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 5.",
+        "updated_by": "Health Officer - Zone 5",
+        "updated_at": "2026-08-03T10:00:48+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Dr. B. R. Srinivas",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 2 - Lakshmikanthanagar",
+    "landmark": "Opposite KRS Road",
+    "description": "Civic environmental observation: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-07-31T13:05:53+05:30",
+    "resolved_at": "2026-08-02T09:05:53+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 1.",
+        "updated_by": "Health Officer - Zone 1",
+        "updated_at": "2026-08-02T09:05:53+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Prasanna Kumar",
+    "category_name": "Air Quality & Vehicular Smoke Hazard",
+    "location_name": "Ward 64 - Hootagalli",
+    "landmark": "Near Koorgalli Main",
+    "description": "Civic issue reported in developing layout: visible particulate emissions, bus stand diesel soot concentration, leaf burning in public open spaces.",
+    "severity": "Medium",
+    "status": "Open",
+    "reported_at": "2026-07-30T14:41:05+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Nagaraj V.",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 65 - Belavadi",
+    "landmark": "Near Ring Road Belavadi",
+    "description": "Civic issue reported in developing layout: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-07-28T04:34:08+05:30",
+    "resolved_at": null,
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Awaiting contractor clearance equipment allocation.",
+        "updated_by": "Assistant Engineer - Zone 9",
+        "updated_at": "2026-07-29T04:34:08+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Nagaraj V.",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 63 - Vijayanagar 4th Stage",
+    "landmark": "Near Hootagalli Junction",
+    "description": "Civic issue reported in developing layout: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-07-27T04:37:44+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Nagaraj V.",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 21 - Subbarayanakere",
+    "landmark": "Opposite Chamaraja Double Road",
+    "description": "Civic environmental observation: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-07-25T00:24:47+05:30",
+    "resolved_at": "2026-07-25T21:24:47+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 3.",
+        "updated_by": "Health Officer - Zone 3",
+        "updated_at": "2026-07-25T21:24:47+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "R. Shridhar",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 29 - Nazarbad",
+    "landmark": "Opposite Hardings Circle",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-07-24T23:26:11+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 5",
+        "updated_at": "2026-07-25T09:26:11+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 12 - V.V. Mohalla",
+    "landmark": "Opposite Vontikoppal Temple Circle",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-07-23T19:56:56+05:30",
+    "resolved_at": "2026-07-24T16:56:56+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-07-24T16:56:56+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "S. Ravikumar",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 63 - Vijayanagar 4th Stage",
+    "landmark": "Near Police Station Road",
+    "description": "Civic issue reported in developing layout: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-07-22T22:11:50+05:30",
+    "resolved_at": null,
+    "authority_name": "Forest Dept",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 63 - Vijayanagar 4th Stage",
+    "landmark": "Near Hootagalli Junction",
+    "description": "Civic issue reported in developing layout: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-07-21T12:08:47+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 18 - Shivarampet",
+    "landmark": "Opposite D. Devaraj Urs Road North",
+    "description": "Civic environmental observation: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging near residential locality.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-07-20T22:01:22+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 3",
+        "updated_at": "2026-07-21T08:01:22+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Chethan Gowda",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 9 - Gokulam 2nd Stage",
+    "landmark": "Corner of Kalidasa Road & 3rd Main Gokulam",
+    "description": "Recurring chronic garbage blackspot. Commercial kitchen waste from nearby cafes dumped illegally along vacant plot boundary, attracting stray dogs and cattle.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-07-20T08:30:00+05:30",
+    "resolved_at": "2026-07-21T07:30:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Tipper auto and sanitary workers deployed. Cleared 1.5 tonnes of unsegregated refuse.",
+        "updated_by": "Ward Sanitary Supervisor - Gokulam",
+        "updated_at": "2026-07-21T07:30:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Chandrashekhar S.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 40 - Ramanuja Road",
+    "landmark": "Opposite Jayanagar 1st Block",
+    "description": "Civic environmental observation: uncollected street garbage, open vacant site debris accumulation, commercial waste dumping near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-07-19T05:26:38+05:30",
+    "resolved_at": "2026-07-20T09:26:38+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 6.",
+        "updated_by": "Health Officer - Zone 6",
+        "updated_at": "2026-07-20T09:26:38+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 51 - Kuvempunagar M-Block",
+    "landmark": "Kukkarahalli Lake South Feeder Channel inlet, near Kuvempu Trust Road",
+    "description": "Untreated residential runoff and floating plastic choke observed at feeder canal discharging into Kukkarahalli Lake. Distinct foul odour and algae bloom visible.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-07-18T15:30:00+05:30",
+    "resolved_at": "2026-07-21T10:30:00+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Lake inlet screen cleaned; floating debris trap repaired.",
+        "updated_by": "Assistant Engineer - MUDA Lake Cell",
+        "updated_at": "2026-07-21T10:30:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 7
+  },
+  {
+    "citizen_name": "Meenakshi Sundaram",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 28 - Udayagiri",
+    "landmark": "Opposite Udayagiri Circle",
+    "description": "Civic environmental observation: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-07-18T08:07:38+05:30",
+    "resolved_at": "2026-07-19T13:07:38+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-07-19T13:07:38+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 55 - Vivekananda Nagar",
+    "landmark": "Opposite Vivekananda Circle",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-07-16T13:34:17+05:30",
+    "resolved_at": "2026-07-18T04:34:17+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 8.",
+        "updated_by": "Health Officer - Zone 8",
+        "updated_at": "2026-07-18T04:34:17+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 22 - Bannimantap 'A' Layout",
+    "landmark": "Opposite JSS Dental College",
+    "description": "Civic environmental observation: uncollected street garbage, open vacant site debris accumulation, commercial waste dumping near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-07-14T19:13:13+05:30",
+    "resolved_at": "2026-07-15T17:13:13+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 4.",
+        "updated_by": "Health Officer - Zone 4",
+        "updated_at": "2026-07-15T17:13:13+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 49 - Industrial Estate South",
+    "landmark": "Opposite KRS Road Industrial",
+    "description": "Civic environmental observation: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-07-14T08:54:40+05:30",
+    "resolved_at": "2026-07-15T21:54:40+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 7.",
+        "updated_by": "Health Officer - Zone 7",
+        "updated_at": "2026-07-15T21:54:40+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "S. Ravikumar",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 38 - Agrahara",
+    "landmark": "Near 101 Ganesha Temple, Thyagaraja Road Cross 1",
+    "description": "Severe underground drainage manhole backflow flooding pedestrian footpath near Thyagaraja Road. Strong sewage odour affecting adjacent residences and shopfronts.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-07-12T10:30:00+05:30",
+    "resolved_at": "2026-07-13T06:30:00+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Jetting machine dispatched from MCC Zone 6 workshop. Desilted secondary line.",
+        "updated_by": "Inspector R. N. Swamy - MCC Zone 6",
+        "updated_at": "2026-07-12T22:30:00+05:30"
+      },
+      {
+        "action_taken": "Manhole chamber cleared and sealed. Overflow arrested successfully.",
+        "updated_by": "Assistant Executive Engineer UGD - MCC",
+        "updated_at": "2026-07-13T06:30:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Raghavendra K.",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 65 - Belavadi",
+    "landmark": "Near JK Tyre Factory Road",
+    "description": "Civic issue reported in developing layout: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones.",
+    "severity": "High",
+    "status": "Open",
+    "reported_at": "2026-07-10T21:06:15+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Giridhar Rao",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 19 - Devaraja Mohalla",
+    "landmark": "Opposite Devaraja Market",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-07-10T01:45:48+05:30",
+    "resolved_at": "2026-07-11T00:45:48+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 3.",
+        "updated_by": "Health Officer - Zone 3",
+        "updated_at": "2026-07-11T00:45:48+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Divya Patil",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 30 - Ittigegud",
+    "landmark": "Opposite Mall of Mysore",
+    "description": "Civic environmental observation: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-07-05T19:48:28+05:30",
+    "resolved_at": "2026-07-06T12:48:28+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 5.",
+        "updated_by": "Health Officer - Zone 5",
+        "updated_at": "2026-07-06T12:48:28+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 4
+  },
+  {
+    "citizen_name": "Rekha Somasekhar",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 45 - J.P. Nagar 1st Stage",
+    "landmark": "Opposite Railway Level Crossing",
+    "description": "Civic environmental observation: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-07-05T11:58:22+05:30",
+    "resolved_at": "2026-07-06T16:58:22+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 7.",
+        "updated_by": "Health Officer - Zone 7",
+        "updated_at": "2026-07-06T16:58:22+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 32 - Alanahalli",
+    "landmark": "Opposite Bannur Road Junction",
+    "description": "Civic environmental observation: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances near residential locality.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-07-05T00:20:08+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 5",
+        "updated_at": "2026-07-05T10:20:08+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Suresh Hegde",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 57 - BEML Layout",
+    "landmark": "Opposite BEML Nagar Shopping Complex",
+    "description": "Civic environmental observation: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades near residential locality.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-07-04T18:26:11+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Chandrashekhar S.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 11 - Jayalakshmipuram",
+    "landmark": "Opposite Kalidasa Road West",
+    "description": "Civic environmental observation: uncollected street garbage, open vacant site debris accumulation, commercial waste dumping near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-07-02T12:15:52+05:30",
+    "resolved_at": "2026-07-03T04:15:52+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-07-03T04:15:52+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Geetha Madhavan",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 51 - Kuvempunagar M-Block",
+    "landmark": "Kukkarahalli Lake South Feeder Channel inlet, near Kuvempu Trust Road",
+    "description": "Untreated residential runoff and floating plastic choke observed at feeder canal discharging into Kukkarahalli Lake. Distinct foul odour and algae bloom visible.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-06-25T09:00:00+05:30",
+    "resolved_at": "2026-06-27T20:00:00+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Lake inlet screen cleaned; floating debris trap repaired.",
+        "updated_by": "Assistant Engineer - MUDA Lake Cell",
+        "updated_at": "2026-06-27T20:00:00+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 9
+  },
+  {
+    "citizen_name": "Manjunatha B.",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 33 - Kurubarahalli",
+    "landmark": "Opposite Kurubarahalli Circle",
+    "description": "Civic environmental observation: uncollected street garbage, open vacant site debris accumulation, commercial waste dumping near residential locality.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-06-24T10:13:07+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 5",
+        "updated_at": "2026-06-24T20:13:07+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Manjunatha B.",
+    "category_name": "Dead Animal Carcasses & Stray Hazard",
+    "location_name": "Ward 26 - Rajendranagar",
+    "landmark": "Opposite Rajendranagar Ring Road",
+    "description": "Civic environmental observation: unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades near residential locality.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-06-23T22:32:11+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "R. Shridhar",
+    "category_name": "Industrial Effluent & Toxic Emissions",
+    "location_name": "Ward 18 - Shivarampet",
+    "landmark": "Opposite D. Devaraj Urs Road North",
+    "description": "Civic environmental observation: chemical smoke discharge, foul odours, untreated factory wash release in industrial zones near residential locality.",
+    "severity": "Low",
+    "status": "Open",
+    "reported_at": "2026-06-22T04:51:12+05:30",
+    "resolved_at": null,
+    "authority_name": "KSPCB",
+    "responses": [],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Kavitha Basavaraj",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 10 - Gokulam 3rd Stage",
+    "landmark": "Opposite Contours Road",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-06-21T10:25:55+05:30",
+    "resolved_at": "2026-06-22T21:25:55+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-06-22T21:25:55+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Underground Drainage (UGD) Overflow",
+    "location_name": "Ward 57 - BEML Layout",
+    "landmark": "Opposite Rajarajeshwari Temple",
+    "description": "Civic environmental observation: sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-06-18T19:54:02+05:30",
+    "resolved_at": "2026-06-19T20:54:02+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 8.",
+        "updated_by": "Health Officer - Zone 8",
+        "updated_at": "2026-06-19T20:54:02+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 2
+  },
+  {
+    "citizen_name": "Meenakshi Sundaram",
+    "category_name": "Hazardous Tree Pruning & Fallen Branches",
+    "location_name": "Ward 13 - Yadavagiri",
+    "landmark": "Opposite Cheluvamba Park",
+    "description": "Civic environmental observation: weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels near residential locality.",
+    "severity": "Low",
+    "status": "Resolved",
+    "reported_at": "2026-06-17T03:40:13+05:30",
+    "resolved_at": "2026-06-18T20:40:13+05:30",
+    "authority_name": "Forest Dept",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 2.",
+        "updated_by": "Health Officer - Zone 2",
+        "updated_at": "2026-06-18T20:40:13+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Lakshmi Narayana",
+    "category_name": "Noise Pollution & High-Decibel Amplifiers",
+    "location_name": "Ward 37 - Sunnadakeri",
+    "landmark": "Opposite Sunnadakeri 1st Cross",
+    "description": "Civic environmental observation: commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-06-16T17:23:29+05:30",
+    "resolved_at": "2026-06-17T15:23:29+05:30",
+    "authority_name": "KSPCB",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 6.",
+        "updated_by": "Health Officer - Zone 6",
+        "updated_at": "2026-06-17T15:23:29+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Anand Murthy",
+    "category_name": "Construction Debris & Road Encroachment",
+    "location_name": "Ward 34 - K.C. Layout",
+    "landmark": "Opposite K.C. Layout Park",
+    "description": "Civic environmental observation: unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways near residential locality.",
+    "severity": "Low",
+    "status": "In Progress",
+    "reported_at": "2026-06-11T23:01:01+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 5",
+        "updated_at": "2026-06-12T09:01:01+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 1
+  },
+  {
+    "citizen_name": "Manjunatha B.",
+    "category_name": "Stormwater Drain Clogging & Flooding",
+    "location_name": "Ward 2 - Lakshmikanthanagar",
+    "landmark": "Opposite Surya Temple",
+    "description": "Civic environmental observation: silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging near residential locality.",
+    "severity": "Medium",
+    "status": "Resolved",
+    "reported_at": "2026-06-09T11:41:10+05:30",
+    "resolved_at": "2026-06-10T05:41:10+05:30",
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 1.",
+        "updated_by": "Health Officer - Zone 1",
+        "updated_at": "2026-06-10T05:41:10+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  },
+  {
+    "citizen_name": "Harish Shenoy",
+    "category_name": "Lake Water Contamination & Runoff",
+    "location_name": "Ward 35 - Chamundi Hill Foothills",
+    "landmark": "Opposite Foothill Steps",
+    "description": "Civic environmental observation: untreated sewage inlets, chemical frothing, plastic accumulation along kukkarahalli, karanji, and lingambudhi lakes near residential locality.",
+    "severity": "High",
+    "status": "Resolved",
+    "reported_at": "2026-06-04T05:53:45+05:30",
+    "resolved_at": "2026-06-04T18:53:45+05:30",
+    "authority_name": "MUDA",
+    "responses": [
+      {
+        "action_taken": "Remediation action verified and closed by ward squad in Zone 5.",
+        "updated_by": "Health Officer - Zone 5",
+        "updated_at": "2026-06-04T18:53:45+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 3
+  },
+  {
+    "citizen_name": "Anupama Joshi",
+    "category_name": "Solid Waste Blackspot & Garbage Dumping",
+    "location_name": "Ward 8 - Gokulam 1st Stage",
+    "landmark": "Opposite Doctor's Corner",
+    "description": "Civic environmental observation: uncollected street garbage, open vacant site debris accumulation, commercial waste dumping near residential locality.",
+    "severity": "High",
+    "status": "In Progress",
+    "reported_at": "2026-06-01T17:49:41+05:30",
+    "resolved_at": null,
+    "authority_name": "MCC",
+    "responses": [
+      {
+        "action_taken": "Field inspection scheduled with ward contractor.",
+        "updated_by": "Ward Supervisor - Zone 2",
+        "updated_at": "2026-06-02T03:49:41+05:30"
+      }
+    ],
+    "reopened_count": 0,
+    "corroborations": 5
+  }
+]

@@ -1,0 +1,915 @@
+[
+  {
+    "ward_no": 1,
+    "ward_name": "Ward 1 - Hebbal",
+    "zone": "Zone 1",
+    "localities": [
+      "Hebbal 1st Stage",
+      "Lokanayakanagar",
+      "Ring Road Junction",
+      "Surya Bakery"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.3551,
+    "lng": 76.6025
+  },
+  {
+    "ward_no": 2,
+    "ward_name": "Ward 2 - Lakshmikanthanagar",
+    "zone": "Zone 1",
+    "localities": [
+      "KRS Road",
+      "Lakshmikanthanagar Main",
+      "Surya Temple"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.352,
+    "lng": 76.611
+  },
+  {
+    "ward_no": 3,
+    "ward_name": "Ward 3 - Kumbarakoppal",
+    "zone": "Zone 1",
+    "localities": [
+      "Kumbarakoppal Main Road",
+      "Mahajana High School",
+      "Subhash Nagar"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.3485,
+    "lng": 76.618
+  },
+  {
+    "ward_no": 4,
+    "ward_name": "Ward 4 - Lokanayakanagar",
+    "zone": "Zone 1",
+    "localities": [
+      "Industrial Suburb",
+      "Lokanayakanagar Bus Stop",
+      "ESI Hospital Hebbal"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.354,
+    "lng": 76.615
+  },
+  {
+    "ward_no": 5,
+    "ward_name": "Ward 5 - Vijayanagar 1st Stage",
+    "zone": "Zone 1",
+    "localities": [
+      "Vijayanagar Water Tank",
+      "High Tension Road",
+      "Yogic Center"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.342,
+    "lng": 76.608
+  },
+  {
+    "ward_no": 6,
+    "ward_name": "Ward 6 - Surya Bakery Layout",
+    "zone": "Zone 1",
+    "localities": [
+      "Surya Bakery Circle",
+      "KRS Link Road",
+      "Cauvery Layout"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.346,
+    "lng": 76.614
+  },
+  {
+    "ward_no": 7,
+    "ward_name": "Ward 7 - Mahajana Layout",
+    "zone": "Zone 1",
+    "localities": [
+      "Mahajana PU College",
+      "Jayalakshmi Layout",
+      "KRS Highway"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.341,
+    "lng": 76.62
+  },
+  {
+    "ward_no": 8,
+    "ward_name": "Ward 8 - Gokulam 1st Stage",
+    "zone": "Zone 2",
+    "localities": [
+      "Doctor's Corner",
+      "8th Cross Gokulam",
+      "Yoga Shala Circle"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.336,
+    "lng": 76.627
+  },
+  {
+    "ward_no": 9,
+    "ward_name": "Ward 9 - Gokulam 2nd Stage",
+    "zone": "Zone 2",
+    "localities": [
+      "Kalidasa Road",
+      "Gokulam Park",
+      "Aditya Hospital Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.332,
+    "lng": 76.625
+  },
+  {
+    "ward_no": 10,
+    "ward_name": "Ward 10 - Gokulam 3rd Stage",
+    "zone": "Zone 2",
+    "localities": [
+      "Contours Road",
+      "Panchamukhi Ganesha Temple",
+      "Nirmithi Kendra"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.329,
+    "lng": 76.622
+  },
+  {
+    "ward_no": 11,
+    "ward_name": "Ward 11 - Jayalakshmipuram",
+    "zone": "Zone 2",
+    "localities": [
+      "Mahavira Road",
+      "BM Hospital Circle",
+      "Kalidasa Road West"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.325,
+    "lng": 76.628
+  },
+  {
+    "ward_no": 12,
+    "ward_name": "Ward 12 - V.V. Mohalla",
+    "zone": "Zone 2",
+    "localities": [
+      "Kalidasa Road North",
+      "Vontikoppal Temple Circle",
+      "Akashavani Circle"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.328,
+    "lng": 76.634
+  },
+  {
+    "ward_no": 13,
+    "ward_name": "Ward 13 - Yadavagiri",
+    "zone": "Zone 2",
+    "localities": [
+      "Akashavani",
+      "Cheluvamba Park",
+      "Railway Officers Colony"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.327,
+    "lng": 76.643
+  },
+  {
+    "ward_no": 14,
+    "ward_name": "Ward 14 - Vani Vilas Water Works",
+    "zone": "Zone 2",
+    "localities": [
+      "VVWW Station",
+      "Yadavagiri Industrial",
+      "Princess Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.334,
+    "lng": 76.645
+  },
+  {
+    "ward_no": 15,
+    "ward_name": "Ward 15 - Mandi Mohalla",
+    "zone": "Zone 3",
+    "localities": [
+      "Ashoka Road",
+      "Sawday Road",
+      "Mandi Market",
+      "Jumma Masjid"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.32,
+    "lng": 76.651
+  },
+  {
+    "ward_no": 16,
+    "ward_name": "Ward 16 - Lashkar Mohalla",
+    "zone": "Zone 3",
+    "localities": [
+      "City Bus Stand",
+      "St. Philomena's Church",
+      "Irwin Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.316,
+    "lng": 76.656
+  },
+  {
+    "ward_no": 17,
+    "ward_name": "Ward 17 - Tilak Nagar",
+    "zone": "Zone 3",
+    "localities": [
+      "Tilak Nagar Main",
+      "Mandi Police Station",
+      "Pulikeshi Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.323,
+    "lng": 76.652
+  },
+  {
+    "ward_no": 18,
+    "ward_name": "Ward 18 - Shivarampet",
+    "zone": "Zone 3",
+    "localities": [
+      "D. Devaraj Urs Road North",
+      "Santhapet",
+      "Chikka Gadiyara"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.311,
+    "lng": 76.647
+  },
+  {
+    "ward_no": 19,
+    "ward_name": "Ward 19 - Devaraja Mohalla",
+    "zone": "Zone 3",
+    "localities": [
+      "Devaraja Market",
+      "Sayyaji Rao Road",
+      "Dufferin Clock Tower"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.308,
+    "lng": 76.652
+  },
+  {
+    "ward_no": 20,
+    "ward_name": "Ward 20 - Sayyaji Rao Road",
+    "zone": "Zone 3",
+    "localities": [
+      "Mysore Palace North Gate",
+      "KR Circle",
+      "Dhanvanthri Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.307,
+    "lng": 76.655
+  },
+  {
+    "ward_no": 21,
+    "ward_name": "Ward 21 - Subbarayanakere",
+    "zone": "Zone 3",
+    "localities": [
+      "Subbarayanakere Ground",
+      "Chamaraja Double Road",
+      "K.R. Hospital"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.304,
+    "lng": 76.648
+  },
+  {
+    "ward_no": 22,
+    "ward_name": "Ward 22 - Bannimantap 'A' Layout",
+    "zone": "Zone 4",
+    "localities": [
+      "Bannimantap Torchlight Parade Ground",
+      "JSS Dental College",
+      "Highway Circle"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.336,
+    "lng": 76.656
+  },
+  {
+    "ward_no": 23,
+    "ward_name": "Ward 23 - Bannimantap 'B' Layout",
+    "zone": "Zone 4",
+    "localities": [
+      "LIC Office Circle",
+      "Hudco Colony",
+      "Bannimantap Industrial"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.341,
+    "lng": 76.659
+  },
+  {
+    "ward_no": 24,
+    "ward_name": "Ward 24 - N.R. Mohalla",
+    "zone": "Zone 4",
+    "localities": [
+      "Fountain Circle",
+      "Shivaji Road",
+      "St. Joseph's Hospital"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.328,
+    "lng": 76.662
+  },
+  {
+    "ward_no": 25,
+    "ward_name": "Ward 25 - Subashnagar",
+    "zone": "Zone 4",
+    "localities": [
+      "Subashnagar Main",
+      "Bangalore-Mysore Road",
+      "N.R. Police Station"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.331,
+    "lng": 76.668
+  },
+  {
+    "ward_no": 26,
+    "ward_name": "Ward 26 - Rajendranagar",
+    "zone": "Zone 4",
+    "localities": [
+      "Rajendranagar Ring Road",
+      "KSRTC Depot 2",
+      "Erumere Gate"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.338,
+    "lng": 76.667
+  },
+  {
+    "ward_no": 27,
+    "ward_name": "Ward 27 - Kesare",
+    "zone": "Zone 4",
+    "localities": [
+      "Kesare 1st Stage",
+      "Kesare 2nd Stage",
+      "R.S. Naidu Nagar"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.345,
+    "lng": 76.671
+  },
+  {
+    "ward_no": 28,
+    "ward_name": "Ward 28 - Udayagiri",
+    "zone": "Zone 4",
+    "localities": [
+      "Udayagiri Circle",
+      "Mahadevapura Road",
+      "Sathagalli Bus Stand"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.326,
+    "lng": 76.678
+  },
+  {
+    "ward_no": 29,
+    "ward_name": "Ward 29 - Nazarbad",
+    "zone": "Zone 5",
+    "localities": [
+      "SP Office Circle",
+      "Hardings Circle",
+      "Mysore Club Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.306,
+    "lng": 76.666
+  },
+  {
+    "ward_no": 30,
+    "ward_name": "Ward 30 - Ittigegud",
+    "zone": "Zone 5",
+    "localities": [
+      "Mysore Zoo",
+      "Mall of Mysore",
+      "Indira Gandhi Rashtriya Manav Sangrahalaya"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.302,
+    "lng": 76.667
+  },
+  {
+    "ward_no": 31,
+    "ward_name": "Ward 31 - Siddartha Layout",
+    "zone": "Zone 5",
+    "localities": [
+      "Siddartha High School",
+      "T. Narasipura Road",
+      "Vinaya Marga"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.301,
+    "lng": 76.68
+  },
+  {
+    "ward_no": 32,
+    "ward_name": "Ward 32 - Alanahalli",
+    "zone": "Zone 5",
+    "localities": [
+      "Alanahalli Circle",
+      "Bannur Road Junction",
+      "Lalithadripura Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.298,
+    "lng": 76.691
+  },
+  {
+    "ward_no": 33,
+    "ward_name": "Ward 33 - Kurubarahalli",
+    "zone": "Zone 5",
+    "localities": [
+      "Kurubarahalli Circle",
+      "Lalitha Mahal Palace",
+      "Helipad Ground"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.296,
+    "lng": 76.677
+  },
+  {
+    "ward_no": 34,
+    "ward_name": "Ward 34 - K.C. Layout",
+    "zone": "Zone 5",
+    "localities": [
+      "K.C. Layout Park",
+      "Chamundi Vihar Stadium",
+      "Shalivahana Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.304,
+    "lng": 76.672
+  },
+  {
+    "ward_no": 35,
+    "ward_name": "Ward 35 - Chamundi Hill Foothills",
+    "zone": "Zone 5",
+    "localities": [
+      "Nandi Statue Route",
+      "Foothill Steps",
+      "Tawrekere Reservoir"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.285,
+    "lng": 76.673
+  },
+  {
+    "ward_no": 36,
+    "ward_name": "Ward 36 - Fort Mohalla",
+    "zone": "Zone 6",
+    "localities": [
+      "Mysore Palace South Gate",
+      "Gun House Circle",
+      "Basaveshwara Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.299,
+    "lng": 76.655
+  },
+  {
+    "ward_no": 37,
+    "ward_name": "Ward 37 - Sunnadakeri",
+    "zone": "Zone 6",
+    "localities": [
+      "Sunnadakeri 1st Cross",
+      "Ramanuja Road North",
+      "Santhana Venugopala Temple"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.298,
+    "lng": 76.649
+  },
+  {
+    "ward_no": 38,
+    "ward_name": "Ward 38 - Agrahara",
+    "zone": "Zone 6",
+    "localities": [
+      "Agrahara Circle",
+      "Vani Vilas Market",
+      "Thyagaraja Road",
+      "101 Ganesha Temple"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.295,
+    "lng": 76.65
+  },
+  {
+    "ward_no": 39,
+    "ward_name": "Ward 39 - Chamundipuram",
+    "zone": "Zone 6",
+    "localities": [
+      "Chamundipuram Circle",
+      "Silk Factory Road",
+      "Ramanuja Road South"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.291,
+    "lng": 76.652
+  },
+  {
+    "ward_no": 40,
+    "ward_name": "Ward 40 - Ramanuja Road",
+    "zone": "Zone 6",
+    "localities": [
+      "Jayanagar 1st Block",
+      "Ramanuja Road 14th Cross",
+      "Madhavachar Circle"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.293,
+    "lng": 76.647
+  },
+  {
+    "ward_no": 41,
+    "ward_name": "Ward 41 - Madhavachar Road",
+    "zone": "Zone 6",
+    "localities": [
+      "Madhavachar Road",
+      "Chamarajapuram Railway Halt",
+      "Krishnamurthypuram"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.296,
+    "lng": 76.643
+  },
+  {
+    "ward_no": 42,
+    "ward_name": "Ward 42 - Kannegowdana Koppal",
+    "zone": "Zone 6",
+    "localities": [
+      "KG Koppal Underpass",
+      "Chamarajapuram Post Office",
+      "New Kantharaj Urs Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.298,
+    "lng": 76.638
+  },
+  {
+    "ward_no": 43,
+    "ward_name": "Ward 43 - Vidyaranyapuram",
+    "zone": "Zone 7",
+    "localities": [
+      "Vidyaranyapuram 1st Main",
+      "Sewage Farm Road",
+      "Sterling Theater Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.286,
+    "lng": 76.648
+  },
+  {
+    "ward_no": 44,
+    "ward_name": "Ward 44 - Ashokapuram",
+    "zone": "Zone 7",
+    "localities": [
+      "Ashokapuram Railway Workshop",
+      "Manandavadi Road",
+      "Aranya Bhavan"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.283,
+    "lng": 76.641
+  },
+  {
+    "ward_no": 45,
+    "ward_name": "Ward 45 - J.P. Nagar 1st Stage",
+    "zone": "Zone 7",
+    "localities": [
+      "Gobli Mara Circle",
+      "J.P. Nagar Ring Road",
+      "Railway Level Crossing"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.274,
+    "lng": 76.647
+  },
+  {
+    "ward_no": 46,
+    "ward_name": "Ward 46 - J.P. Nagar 2nd Stage",
+    "zone": "Zone 7",
+    "localities": [
+      "Police Booth Circle",
+      "Cauvery School Road",
+      "Mahadevapura Link"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.268,
+    "lng": 76.651
+  },
+  {
+    "ward_no": 47,
+    "ward_name": "Ward 47 - Kanakagiri",
+    "zone": "Zone 7",
+    "localities": [
+      "Kanakagiri Main",
+      "Gundu Rao Nagar",
+      "Vidyaranyapuram South"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.28,
+    "lng": 76.652
+  },
+  {
+    "ward_no": 48,
+    "ward_name": "Ward 48 - Vishweshwara Nagar",
+    "zone": "Zone 7",
+    "localities": [
+      "Vishweshwara Nagar Industrial",
+      "KSSIDC Sheds",
+      "Gajanana Circle"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.276,
+    "lng": 76.638
+  },
+  {
+    "ward_no": 49,
+    "ward_name": "Ward 49 - Industrial Estate South",
+    "zone": "Zone 7",
+    "localities": [
+      "KRS Road Industrial",
+      "Silk Weaving Factory",
+      "South Ring Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.271,
+    "lng": 76.635
+  },
+  {
+    "ward_no": 50,
+    "ward_name": "Ward 50 - Kuvempunagar A-Block",
+    "zone": "Zone 8",
+    "localities": [
+      "Kuvempunagar Complex",
+      "Anikethana Road",
+      "Panchamukhi Circle"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.292,
+    "lng": 76.626
+  },
+  {
+    "ward_no": 51,
+    "ward_name": "Ward 51 - Kuvempunagar M-Block",
+    "zone": "Zone 8",
+    "localities": [
+      "Kukkarahalli Lake South Gate",
+      "Kuvempu Trust",
+      "Udayaranga Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.295,
+    "lng": 76.629
+  },
+  {
+    "ward_no": 52,
+    "ward_name": "Ward 52 - Saraswathipuram",
+    "zone": "Zone 8",
+    "localities": [
+      "Kukkarahalli Lake West Gate",
+      "Kautilya Circle",
+      "Maruthi Temple Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.302,
+    "lng": 76.632
+  },
+  {
+    "ward_no": 53,
+    "ward_name": "Ward 53 - Sharadadevinagar",
+    "zone": "Zone 8",
+    "localities": [
+      "Sharadadevinagar Circle",
+      "Shanthiveera Circle",
+      "Central Excise Layout"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.291,
+    "lng": 76.618
+  },
+  {
+    "ward_no": 54,
+    "ward_name": "Ward 54 - Ramakrishnanagar",
+    "zone": "Zone 8",
+    "localities": [
+      "G-Block Park",
+      "Ramakrishnanagar Circle",
+      "E-Block Market"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.284,
+    "lng": 76.622
+  },
+  {
+    "ward_no": 55,
+    "ward_name": "Ward 55 - Vivekananda Nagar",
+    "zone": "Zone 8",
+    "localities": [
+      "Vivekananda Circle",
+      "Siddalingeshwara Temple",
+      "D-Block"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.281,
+    "lng": 76.627
+  },
+  {
+    "ward_no": 56,
+    "ward_name": "Ward 56 - Srirampura",
+    "zone": "Zone 8",
+    "localities": [
+      "Srirampura Water Tank",
+      "BEML 1st Stage",
+      "Manandavadi Highway"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.269,
+    "lng": 76.625
+  },
+  {
+    "ward_no": 57,
+    "ward_name": "Ward 57 - BEML Layout",
+    "zone": "Zone 8",
+    "localities": [
+      "BEML Nagar Shopping Complex",
+      "Rajarajeshwari Temple",
+      "Ring Road South"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.264,
+    "lng": 76.62
+  },
+  {
+    "ward_no": 58,
+    "ward_name": "Ward 58 - Bogadi 1st Stage",
+    "zone": "Zone 9",
+    "localities": [
+      "Gaddige Main Road",
+      "Maramma Temple Road",
+      "Amritha Vidyalayam"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.303,
+    "lng": 76.608
+  },
+  {
+    "ward_no": 59,
+    "ward_name": "Ward 59 - Bogadi 2nd Stage",
+    "zone": "Zone 9",
+    "localities": [
+      "Ring Road Flyover",
+      "Bank Colony",
+      "Nirmithi Kendra Bogadi"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.301,
+    "lng": 76.598
+  },
+  {
+    "ward_no": 60,
+    "ward_name": "Ward 60 - Dattagalli",
+    "zone": "Zone 9",
+    "localities": [
+      "Kanakadasa Circle",
+      "Ring Road Dattagalli",
+      "Andolana Circle"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.287,
+    "lng": 76.606
+  },
+  {
+    "ward_no": 61,
+    "ward_name": "Ward 61 - Vijayanagar 2nd Stage",
+    "zone": "Zone 9",
+    "localities": [
+      "Vijayanagar Club",
+      "Water Tank Circle",
+      "Yoganarasimha Temple"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.338,
+    "lng": 76.601
+  },
+  {
+    "ward_no": 62,
+    "ward_name": "Ward 62 - Vijayanagar 3rd Stage",
+    "zone": "Zone 9",
+    "localities": [
+      "Abhishek Circle",
+      "Basaveshwara Park",
+      "Hebbal Link Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.334,
+    "lng": 76.594
+  },
+  {
+    "ward_no": 63,
+    "ward_name": "Ward 63 - Vijayanagar 4th Stage",
+    "zone": "Zone 9",
+    "localities": [
+      "Hootagalli Junction",
+      "Police Station Road",
+      "BEL Layout"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.327,
+    "lng": 76.588
+  },
+  {
+    "ward_no": 64,
+    "ward_name": "Ward 64 - Hootagalli",
+    "zone": "Zone 9",
+    "localities": [
+      "Hootagalli Industrial Area",
+      "Koorgalli Main",
+      "Automotive Axles Road"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.336,
+    "lng": 76.581
+  },
+  {
+    "ward_no": 65,
+    "ward_name": "Ward 65 - Belavadi",
+    "zone": "Zone 9",
+    "localities": [
+      "Belavadi Grama Panchayat",
+      "JK Tyre Factory Road",
+      "Ring Road Belavadi"
+    ],
+    "verified": true,
+    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
+    "lat": 12.342,
+    "lng": 76.574
+  }
+]

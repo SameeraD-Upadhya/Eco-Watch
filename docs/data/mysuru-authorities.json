@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mysuru City Corporation",
+    "short_name": "MCC",
+    "scope": "Municipal solid waste, underground drainage, stormwater maintenance, road works, public sanitation across 65 wards",
+    "helpline": "0821-2418800 / 0821-2440890",
+    "portal_url": "https://mysurucitycorporation.co.in",
+    "contact_officer_title": "Executive Engineer (Environment) & Ward Health Officer"
+  },
+  {
+    "name": "Karnataka State Pollution Control Board",
+    "short_name": "KSPCB",
+    "scope": "Air quality index monitoring, industrial effluent control in Hebbal & Hootagalli, noise standard enforcement",
+    "helpline": "0821-2514101",
+    "portal_url": "https://kspcb.karnataka.gov.in",
+    "contact_officer_title": "Environmental Officer, Regional Office Mysore"
+  },
+  {
+    "name": "Mysuru Urban Development Authority",
+    "short_name": "MUDA",
+    "scope": "Urban layout development, civic amenity protection, preservation and maintenance of Kukkarahalli & Lingambudhi lakes",
+    "helpline": "0821-2420108",
+    "portal_url": "https://muda.karnataka.gov.in",
+    "contact_officer_title": "Superintending Engineer & Lake Conservation Cell"
+  },
+  {
+    "name": "Chamundeshwari Electricity Supply Corporation",
+    "short_name": "CHESCOM",
+    "scope": "Electrical distribution safety, public illumination, hazardous transformer clearance, high-tension lines",
+    "helpline": "1912 / 0821-2343380",
+    "portal_url": "https://chescom.karnataka.gov.in",
+    "contact_officer_title": "Assistant Executive Engineer (Electrical Works)"
+  },
+  {
+    "name": "Karnataka Forest Department",
+    "short_name": "Forest Dept",
+    "scope": "Hazardous road tree pruning, storm branch clearance, Chamundi Hill buffer zone protection, urban wildlife rescue",
+    "helpline": "0821-2480902",
+    "portal_url": "https://aranya.gov.in",
+    "contact_officer_title": "Range Forest Officer, Mysore Urban Range"
+  }
+]
