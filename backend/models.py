@@ -98,6 +98,10 @@ class LocationCreate(BaseModel):
     lat: Optional[float] = None
     lng: Optional[float] = None
     verified: Optional[bool] = True
+    verification_status: Optional[str] = Field("verified", max_length=50)
+    source_url: Optional[str] = Field("", max_length=500)
+    source_retrieved_on: Optional[str] = Field("", max_length=50)
+    geometry_note: Optional[str] = Field("", max_length=500)
     source_note: Optional[str] = Field("", max_length=500)
 
     @field_validator("ward_name")
@@ -117,8 +121,20 @@ class LocationResponse(BaseModel):
     lat: Optional[float] = None
     lng: Optional[float] = None
     verified: bool = True
+    verification_status: Optional[str] = "verified"
+    source_url: Optional[str] = ""
+    source_retrieved_on: Optional[str] = ""
+    geometry_note: Optional[str] = ""
     source_note: Optional[str] = ""
     created_at: str
+
+# Landmark Model
+class LandmarkResponse(BaseModel):
+    name: str
+    type: str
+    lat: float
+    lng: float
+    source_url: str
 
 # Report Models
 class ResponseLogItem(BaseModel):

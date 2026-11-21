@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Mysuru Palace (Amba Vilas)",
+    "type": "Heritage / Royal Residence",
+    "lat": 12.3052,
+    "lng": 76.6552,
+    "source_url": "https://mysurucitycorporation.co.in"
+  },
+  {
+    "name": "Chamundi Hill Nandi & Sri Chamundeshwari Temple",
+    "type": "Ecological Reserve & Pilgrimage",
+    "lat": 12.2725,
+    "lng": 76.671,
+    "source_url": "https://mysore.nic.in"
+  },
+  {
+    "name": "Kukkarahalli Lake",
+    "type": "Wetland & Urban Lake",
+    "lat": 12.3117,
+    "lng": 76.6322,
+    "source_url": "https://muda.karnataka.gov.in"
+  },
+  {
+    "name": "Karanji Lake Nature Park",
+    "type": "Wetland Sanctuary",
+    "lat": 12.3023,
+    "lng": 76.6738,
+    "source_url": "https://mysorezoo.info"
+  },
+  {
+    "name": "Lingambudhi Lake & Botanical Reserve",
+    "type": "Protected Biodiversity Reserve",
+    "lat": 12.2618,
+    "lng": 76.6186,
+    "source_url": "https://aranya.gov.in"
+  },
+  {
+    "name": "Hebbal Lake",
+    "type": "Industrial Buffer Waterbody",
+    "lat": 12.361,
+    "lng": 76.612,
+    "source_url": "https://kspcb.karnataka.gov.in"
+  },
+  {
+    "name": "Mysuru Railway Junction",
+    "type": "Transportation Terminal",
+    "lat": 12.3135,
+    "lng": 76.6441,
+    "source_url": "https://mysore.nic.in"
+  },
+  {
+    "name": "KSRTC Suburb Bus Stand (Central)",
+    "type": "Transit Terminal",
+    "lat": 12.3088,
+    "lng": 76.6596,
+    "source_url": "https://mysore.nic.in"
+  },
+  {
+    "name": "Devaraja Market (Heritage Bazaar)",
+    "type": "Commercial Heritage Hub",
+    "lat": 12.3101,
+    "lng": 76.6515,
+    "source_url": "https://mysurucitycorporation.co.in"
+  },
+  {
+    "name": "Sri Chamarajendra Zoological Gardens",
+    "type": "Wildlife Conservation Reserve",
+    "lat": 12.3015,
+    "lng": 76.6668,
+    "source_url": "https://mysorezoo.info"
+  },
+  {
+    "name": "Hebbal Industrial Area & Electronic City",
+    "type": "Industrial Cluster",
+    "lat": 12.367,
+    "lng": 76.598,
+    "source_url": "https://kspcb.karnataka.gov.in"
+  },
+  {
+    "name": "Bannimantap Torchlight Parade Grounds",
+    "type": "Public Civic Ground",
+    "lat": 12.336,
+    "lng": 76.656,
+    "source_url": "https://mysurucitycorporation.co.in"
+  }
+]

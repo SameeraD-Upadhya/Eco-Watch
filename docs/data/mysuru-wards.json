@@ -1,915 +1,1045 @@
 [
   {
     "ward_no": 1,
-    "ward_name": "Ward 1 - Hebbal",
-    "zone": "Zone 1",
+    "ward_name": "Hebballu \u2013 Lakshmikantha Nagara",
+    "zone": "Zone 5",
     "localities": [
       "Hebbal 1st Stage",
-      "Lokanayakanagar",
-      "Ring Road Junction",
-      "Surya Bakery"
+      "Lakshmikantha Nagar Main",
+      "KRS Ring Road",
+      "Surya Temple Layout"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
     "lat": 12.3551,
-    "lng": 76.6025
+    "lng": 76.6025,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 2,
-    "ward_name": "Ward 2 - Lakshmikanthanagar",
-    "zone": "Zone 1",
+    "ward_name": "Manchegowdana Koppalu",
+    "zone": "Zone 5",
     "localities": [
-      "KRS Road",
-      "Lakshmikanthanagar Main",
-      "Surya Temple"
+      "Manchegowdanakoppalu Main Road",
+      "Panchamukhi Temple Road",
+      "Basaveshwara Temple Street"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.352,
-    "lng": 76.611
+    "lat": 12.351,
+    "lng": 76.6095,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 3,
-    "ward_name": "Ward 3 - Kumbarakoppal",
-    "zone": "Zone 1",
+    "ward_name": "Mahadeshwara Badavane",
+    "zone": "Zone 5",
     "localities": [
-      "Kumbarakoppal Main Road",
-      "Mahajana High School",
-      "Subhash Nagar"
+      "Mahadeshwara Badavane",
+      "Vidyavardhaka Layout",
+      "KRS Road Commercial"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.3485,
-    "lng": 76.618
+    "lat": 12.3475,
+    "lng": 76.614,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 4,
-    "ward_name": "Ward 4 - Lokanayakanagar",
-    "zone": "Zone 1",
+    "ward_name": "Hebbalu \u2013 Lokanayaka Nagara",
+    "zone": "Zone 5",
     "localities": [
-      "Industrial Suburb",
-      "Lokanayakanagar Bus Stop",
-      "ESI Hospital Hebbal"
+      "Lokanayakanagar 2nd Stage",
+      "Hebbal Industrial Suburb",
+      "ESI Hospital Corridor"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
     "lat": 12.354,
-    "lng": 76.615
+    "lng": 76.615,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 5,
-    "ward_name": "Ward 5 - Vijayanagar 1st Stage",
-    "zone": "Zone 1",
+    "ward_name": "Kumbara Koppalu",
+    "zone": "Zone 5",
     "localities": [
-      "Vijayanagar Water Tank",
-      "High Tension Road",
-      "Yogic Center"
+      "Kumbarakoppal Main Road",
+      "Mahajana High School Ground",
+      "Ganesha Temple Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.342,
-    "lng": 76.608
+    "lat": 12.3485,
+    "lng": 76.618,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 6,
-    "ward_name": "Ward 6 - Surya Bakery Layout",
-    "zone": "Zone 1",
+    "ward_name": "Gokulam III Stage",
+    "zone": "Zone 3",
     "localities": [
-      "Surya Bakery Circle",
-      "KRS Link Road",
-      "Cauvery Layout"
+      "Gokulam 3rd Stage 5th Main",
+      "Contours Road",
+      "Panchamukhi Ganesha Temple"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.346,
-    "lng": 76.614
+    "lat": 12.329,
+    "lng": 76.622,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 7,
-    "ward_name": "Ward 7 - Mahajana Layout",
-    "zone": "Zone 1",
+    "ward_name": "Metagalli",
+    "zone": "Zone 6",
     "localities": [
-      "Mahajana PU College",
-      "Jayalakshmi Layout",
-      "KRS Highway"
+      "Metagalli Main Road",
+      "KIADB Industrial Area",
+      "Railway Gate Cross"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.341,
-    "lng": 76.62
+    "lat": 12.3515,
+    "lng": 76.641,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 8,
-    "ward_name": "Ward 8 - Gokulam 1st Stage",
-    "zone": "Zone 2",
+    "ward_name": "Bannimantapa HUDCO Badavane",
+    "zone": "Zone 6",
     "localities": [
-      "Doctor's Corner",
-      "8th Cross Gokulam",
-      "Yoga Shala Circle"
+      "HUDCO Colony",
+      "Torchlight Ground Road",
+      "LIC Office Circle"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.336,
-    "lng": 76.627
+    "lat": 12.3395,
+    "lng": 76.6575,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 9,
-    "ward_name": "Ward 9 - Gokulam 2nd Stage",
-    "zone": "Zone 2",
-    "localities": [
-      "Kalidasa Road",
-      "Gokulam Park",
-      "Aditya Hospital Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.332,
-    "lng": 76.625
-  },
-  {
-    "ward_no": 10,
-    "ward_name": "Ward 10 - Gokulam 3rd Stage",
-    "zone": "Zone 2",
-    "localities": [
-      "Contours Road",
-      "Panchamukhi Ganesha Temple",
-      "Nirmithi Kendra"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.329,
-    "lng": 76.622
-  },
-  {
-    "ward_no": 11,
-    "ward_name": "Ward 11 - Jayalakshmipuram",
-    "zone": "Zone 2",
-    "localities": [
-      "Mahavira Road",
-      "BM Hospital Circle",
-      "Kalidasa Road West"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.325,
-    "lng": 76.628
-  },
-  {
-    "ward_no": 12,
-    "ward_name": "Ward 12 - V.V. Mohalla",
-    "zone": "Zone 2",
-    "localities": [
-      "Kalidasa Road North",
-      "Vontikoppal Temple Circle",
-      "Akashavani Circle"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.328,
-    "lng": 76.634
-  },
-  {
-    "ward_no": 13,
-    "ward_name": "Ward 13 - Yadavagiri",
-    "zone": "Zone 2",
-    "localities": [
-      "Akashavani",
-      "Cheluvamba Park",
-      "Railway Officers Colony"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.327,
-    "lng": 76.643
-  },
-  {
-    "ward_no": 14,
-    "ward_name": "Ward 14 - Vani Vilas Water Works",
-    "zone": "Zone 2",
-    "localities": [
-      "VVWW Station",
-      "Yadavagiri Industrial",
-      "Princess Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.334,
-    "lng": 76.645
-  },
-  {
-    "ward_no": 15,
-    "ward_name": "Ward 15 - Mandi Mohalla",
-    "zone": "Zone 3",
-    "localities": [
-      "Ashoka Road",
-      "Sawday Road",
-      "Mandi Market",
-      "Jumma Masjid"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.32,
-    "lng": 76.651
-  },
-  {
-    "ward_no": 16,
-    "ward_name": "Ward 16 - Lashkar Mohalla",
-    "zone": "Zone 3",
-    "localities": [
-      "City Bus Stand",
-      "St. Philomena's Church",
-      "Irwin Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.316,
-    "lng": 76.656
-  },
-  {
-    "ward_no": 17,
-    "ward_name": "Ward 17 - Tilak Nagar",
-    "zone": "Zone 3",
-    "localities": [
-      "Tilak Nagar Main",
-      "Mandi Police Station",
-      "Pulikeshi Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.323,
-    "lng": 76.652
-  },
-  {
-    "ward_no": 18,
-    "ward_name": "Ward 18 - Shivarampet",
-    "zone": "Zone 3",
-    "localities": [
-      "D. Devaraj Urs Road North",
-      "Santhapet",
-      "Chikka Gadiyara"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.311,
-    "lng": 76.647
-  },
-  {
-    "ward_no": 19,
-    "ward_name": "Ward 19 - Devaraja Mohalla",
-    "zone": "Zone 3",
-    "localities": [
-      "Devaraja Market",
-      "Sayyaji Rao Road",
-      "Dufferin Clock Tower"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.308,
-    "lng": 76.652
-  },
-  {
-    "ward_no": 20,
-    "ward_name": "Ward 20 - Sayyaji Rao Road",
-    "zone": "Zone 3",
-    "localities": [
-      "Mysore Palace North Gate",
-      "KR Circle",
-      "Dhanvanthri Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.307,
-    "lng": 76.655
-  },
-  {
-    "ward_no": 21,
-    "ward_name": "Ward 21 - Subbarayanakere",
-    "zone": "Zone 3",
-    "localities": [
-      "Subbarayanakere Ground",
-      "Chamaraja Double Road",
-      "K.R. Hospital"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.304,
-    "lng": 76.648
-  },
-  {
-    "ward_no": 22,
-    "ward_name": "Ward 22 - Bannimantap 'A' Layout",
-    "zone": "Zone 4",
-    "localities": [
-      "Bannimantap Torchlight Parade Ground",
-      "JSS Dental College",
-      "Highway Circle"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.336,
-    "lng": 76.656
-  },
-  {
-    "ward_no": 23,
-    "ward_name": "Ward 23 - Bannimantap 'B' Layout",
-    "zone": "Zone 4",
-    "localities": [
-      "LIC Office Circle",
-      "Hudco Colony",
-      "Bannimantap Industrial"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.341,
-    "lng": 76.659
-  },
-  {
-    "ward_no": 24,
-    "ward_name": "Ward 24 - N.R. Mohalla",
-    "zone": "Zone 4",
-    "localities": [
-      "Fountain Circle",
-      "Shivaji Road",
-      "St. Joseph's Hospital"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.328,
-    "lng": 76.662
-  },
-  {
-    "ward_no": 25,
-    "ward_name": "Ward 25 - Subashnagar",
-    "zone": "Zone 4",
-    "localities": [
-      "Subashnagar Main",
-      "Bangalore-Mysore Road",
-      "N.R. Police Station"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.331,
-    "lng": 76.668
-  },
-  {
-    "ward_no": 26,
-    "ward_name": "Ward 26 - Rajendranagar",
-    "zone": "Zone 4",
-    "localities": [
-      "Rajendranagar Ring Road",
-      "KSRTC Depot 2",
-      "Erumere Gate"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.338,
-    "lng": 76.667
-  },
-  {
-    "ward_no": 27,
-    "ward_name": "Ward 27 - Kesare",
-    "zone": "Zone 4",
+    "ward_name": "Kesare",
+    "zone": "Zone 6",
     "localities": [
       "Kesare 1st Stage",
       "Kesare 2nd Stage",
-      "R.S. Naidu Nagar"
+      "R.S. Naidu Nagar Link Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.345,
-    "lng": 76.671
+    "lat": 12.346,
+    "lng": 76.671,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 10,
+    "ward_name": "Rajeeva Nagara",
+    "zone": "Zone 7",
+    "localities": [
+      "Rajeev Nagar 1st Stage",
+      "Udayagiri Link Road",
+      "Al-Badar Masjid Road"
+    ],
+    "lat": 12.336,
+    "lng": 76.679,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 11,
+    "ward_name": "Shanthinagara 1",
+    "zone": "Zone 7",
+    "localities": [
+      "Shanthi Nagar 1st Main",
+      "N.R. Mohalla Boundary",
+      "Urdu Primary School Road"
+    ],
+    "lat": 12.3325,
+    "lng": 76.674,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 12,
+    "ward_name": "Shanthinagara 2",
+    "zone": "Zone 7",
+    "localities": [
+      "Shanthi Nagar 2nd Main",
+      "Mahadevapura Road Junction",
+      "Government Hospital Cross"
+    ],
+    "lat": 12.33,
+    "lng": 76.6765,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 13,
+    "ward_name": "Udayagiri",
+    "zone": "Zone 8",
+    "localities": [
+      "Udayagiri Circle",
+      "Sathagalli Bus Stand Corridor",
+      "Water Tank Road"
+    ],
+    "lat": 12.326,
+    "lng": 76.678,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 14,
+    "ward_name": "Sathyanagara",
+    "zone": "Zone 8",
+    "localities": [
+      "Sathyanagar Main",
+      "Kalyanagiri Link",
+      "St. Mary's School Road"
+    ],
+    "lat": 12.324,
+    "lng": 76.6815,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 15,
+    "ward_name": "Rajendranagara",
+    "zone": "Zone 8",
+    "localities": [
+      "Rajendranagar Ring Road",
+      "KSRTC Depot 2 Gate",
+      "Dr. Ambedkar Hall"
+    ],
+    "lat": 12.338,
+    "lng": 76.667,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 16,
+    "ward_name": "Subhashnagara",
+    "zone": "Zone 7",
+    "localities": [
+      "Subhashnagar 3rd Cross",
+      "Bangalore-Mysore Highway Road",
+      "N.R. Police Station Road"
+    ],
+    "lat": 12.331,
+    "lng": 76.668,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 17,
+    "ward_name": "Bannimantapa",
+    "zone": "Zone 6",
+    "localities": [
+      "Bannimantap Highway Circle",
+      "JSS Dental College Road",
+      "Hanumantha Nagar"
+    ],
+    "lat": 12.335,
+    "lng": 76.653,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 18,
+    "ward_name": "Yadavagiri",
+    "zone": "Zone 3",
+    "localities": [
+      "Akashavani Circle",
+      "Cheluvamba Park Avenue",
+      "Railway Officers Colony"
+    ],
+    "lat": 12.327,
+    "lng": 76.643,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 19,
+    "ward_name": "Jayalakshmipuram / V.V. Mohalla",
+    "zone": "Zone 3",
+    "localities": [
+      "Kalidasa Road Commercial",
+      "Vontikoppal Temple Circle",
+      "BM Hospital Road"
+    ],
+    "lat": 12.3265,
+    "lng": 76.631,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 20,
+    "ward_name": "Vijayanagara 1st & 2nd Stage",
+    "zone": "Zone 3",
+    "localities": [
+      "Vijayanagar Water Tank",
+      "High Tension Road",
+      "Abhishek Circle"
+    ],
+    "lat": 12.342,
+    "lng": 76.608,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 21,
+    "ward_name": "Gangothri Ward",
+    "zone": "Zone 3",
+    "localities": [
+      "Manasagangotri Campus North",
+      "Kukkarahalli Lake Gate",
+      "Senate Bhavan Road"
+    ],
+    "lat": 12.316,
+    "lng": 76.626,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 22,
+    "ward_name": "Paduvarahalli / Vontikoppal",
+    "zone": "Zone 3",
+    "localities": [
+      "Paduvarahalli Village Main",
+      "Princess Road",
+      "Mathru Mandali Circle"
+    ],
+    "lat": 12.321,
+    "lng": 76.634,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 23,
+    "ward_name": "Subbarayanakere",
+    "zone": "Zone 4",
+    "localities": [
+      "Subbarayanakere Ground",
+      "Chamaraja Double Road",
+      "K.R. Hospital Boulevard"
+    ],
+    "lat": 12.304,
+    "lng": 76.648,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 24,
+    "ward_name": "Mandi Mohalla",
+    "zone": "Zone 6",
+    "localities": [
+      "Sawday Road",
+      "Ashoka Road South",
+      "Mandi Market Cross"
+    ],
+    "lat": 12.32,
+    "lng": 76.651,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 25,
+    "ward_name": "Thilaknagara",
+    "zone": "Zone 6",
+    "localities": [
+      "Thilaknagar Main Road",
+      "Pulikeshi Road",
+      "Mandi Police Station Cross"
+    ],
+    "lat": 12.323,
+    "lng": 76.652,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 26,
+    "ward_name": "Meenabazaar",
+    "zone": "Zone 7",
+    "localities": [
+      "Meena Bazaar Road",
+      "N.R. Road",
+      "Commercial Textile Street"
+    ],
+    "lat": 12.3215,
+    "lng": 76.658,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 27,
+    "ward_name": "Veeranagere",
+    "zone": "Zone 7",
+    "localities": [
+      "Veeranagere Circle",
+      "Eidgah Maidan Cross",
+      "St. Philomena's College Road"
+    ],
+    "lat": 12.3245,
+    "lng": 76.662,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 28,
-    "ward_name": "Ward 28 - Udayagiri",
-    "zone": "Zone 4",
+    "ward_name": "Gandhinagara",
+    "zone": "Zone 7",
     "localities": [
-      "Udayagiri Circle",
-      "Mahadevapura Road",
-      "Sathagalli Bus Stand"
+      "Gandhinagar 1st Cross",
+      "St. Joseph's Hospital Road",
+      "Shivaji Road North"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.326,
-    "lng": 76.678
+    "lat": 12.3275,
+    "lng": 76.6645,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 29,
-    "ward_name": "Ward 29 - Nazarbad",
-    "zone": "Zone 5",
+    "ward_name": "N.R. Mohalla",
+    "zone": "Zone 7",
     "localities": [
-      "SP Office Circle",
-      "Hardings Circle",
-      "Mysore Club Road"
+      "Fountain Circle",
+      "Shivaji Road South",
+      "N.R. Mohalla Market"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.306,
-    "lng": 76.666
+    "lat": 12.328,
+    "lng": 76.662,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 30,
-    "ward_name": "Ward 30 - Ittigegud",
-    "zone": "Zone 5",
+    "ward_name": "Kyathamaranahalli",
+    "zone": "Zone 8",
     "localities": [
-      "Mysore Zoo",
-      "Mall of Mysore",
-      "Indira Gandhi Rashtriya Manav Sangrahalaya"
+      "Kyathamaranahalli Main",
+      "Madeshwara Temple Road",
+      "Ambedkar Bhawan"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.302,
-    "lng": 76.667
+    "lat": 12.323,
+    "lng": 76.671,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 31,
-    "ward_name": "Ward 31 - Siddartha Layout",
-    "zone": "Zone 5",
+    "ward_name": "K.N. Pura (Ghousianagara)",
+    "zone": "Zone 8",
     "localities": [
-      "Siddartha High School",
-      "T. Narasipura Road",
-      "Vinaya Marga"
+      "K.N. Pura Main Street",
+      "Ghousianagar West",
+      "Moulana Abul Kalam Azad Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.301,
-    "lng": 76.68
+    "lat": 12.321,
+    "lng": 76.674,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 32,
-    "ward_name": "Ward 32 - Alanahalli",
-    "zone": "Zone 5",
+    "ward_name": "Gousiyanagara A-Block",
+    "zone": "Zone 8",
     "localities": [
-      "Alanahalli Circle",
-      "Bannur Road Junction",
-      "Lalithadripura Road"
+      "Gousiyanagar A Block",
+      "Usmania Block",
+      "Eidgah Ground Corridor"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.298,
-    "lng": 76.691
+    "lat": 12.319,
+    "lng": 76.677,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 33,
-    "ward_name": "Ward 33 - Kurubarahalli",
-    "zone": "Zone 5",
+    "ward_name": "Azeez Sait Nagara",
+    "zone": "Zone 8",
     "localities": [
-      "Kurubarahalli Circle",
-      "Lalitha Mahal Palace",
-      "Helipad Ground"
+      "Azeez Sait Nagar Main",
+      "Bada Makaan Road",
+      "Community Health Center Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.296,
-    "lng": 76.677
+    "lat": 12.317,
+    "lng": 76.68,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 34,
-    "ward_name": "Ward 34 - K.C. Layout",
-    "zone": "Zone 5",
+    "ward_name": "Kalyanagiri",
+    "zone": "Zone 8",
     "localities": [
-      "K.C. Layout Park",
-      "Chamundi Vihar Stadium",
-      "Shalivahana Road"
+      "Kalyanagiri Central Road",
+      "Subhash Chandra Bose Road",
+      "Kalyanagiri Park"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.304,
-    "lng": 76.672
+    "lat": 12.315,
+    "lng": 76.683,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 35,
-    "ward_name": "Ward 35 - Chamundi Hill Foothills",
-    "zone": "Zone 5",
+    "ward_name": "Sathagalli Badavane 1st Stage",
+    "zone": "Zone 8",
     "localities": [
-      "Nandi Statue Route",
-      "Foothill Steps",
-      "Tawrekere Reservoir"
+      "Sathagalli 1st Stage",
+      "Sathagalli KSRTC Bus Depot",
+      "Mahadevapura Ring Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.285,
-    "lng": 76.673
+    "lat": 12.322,
+    "lng": 76.689,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 36,
-    "ward_name": "Ward 36 - Fort Mohalla",
-    "zone": "Zone 6",
+    "ward_name": "Yeraganahalli (Ambedkar Colony)",
+    "zone": "Zone 9",
     "localities": [
-      "Mysore Palace South Gate",
-      "Gun House Circle",
-      "Basaveshwara Road"
+      "Yeraganahalli Main",
+      "Ambedkar Colony Road",
+      "Vidya Vardhaka School Cross"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.299,
-    "lng": 76.655
+    "lat": 12.31,
+    "lng": 76.684,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 37,
-    "ward_name": "Ward 37 - Sunnadakeri",
-    "zone": "Zone 6",
+    "ward_name": "Raghavendra Nagara",
+    "zone": "Zone 9",
     "localities": [
-      "Sunnadakeri 1st Cross",
-      "Ramanuja Road North",
-      "Santhana Venugopala Temple"
+      "Raghavendra Nagar Main Road",
+      "Guru Raghavendra Temple",
+      "T. Narasipura Highway"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.298,
-    "lng": 76.649
+    "lat": 12.308,
+    "lng": 76.688,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 38,
-    "ward_name": "Ward 38 - Agrahara",
-    "zone": "Zone 6",
+    "ward_name": "Giriyabovipalya",
+    "zone": "Zone 9",
+    "localities": [
+      "Giriyabovipalya Cross",
+      "Old Police Station Road",
+      "Chamundi Hill Link"
+    ],
+    "lat": 12.305,
+    "lng": 76.685,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 39,
+    "ward_name": "Gayatripuram 1st Stage",
+    "zone": "Zone 9",
+    "localities": [
+      "Gayatripuram 1st Stage",
+      "Chamundi Vihar Stadium Gate",
+      "Vinaya Marga"
+    ],
+    "lat": 12.313,
+    "lng": 76.673,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 40,
+    "ward_name": "Lashkar Mohalla",
+    "zone": "Zone 4",
+    "localities": [
+      "City Bus Stand Complex",
+      "Irwin Road",
+      "St. Philomena's Cathedral Road"
+    ],
+    "lat": 12.316,
+    "lng": 76.656,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 41,
+    "ward_name": "Devaraja Mohalla",
+    "zone": "Zone 4",
+    "localities": [
+      "Devaraja Market",
+      "Sayyaji Rao Road",
+      "D. Devaraj Urs Road North"
+    ],
+    "lat": 12.308,
+    "lng": 76.652,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 42,
+    "ward_name": "K.G. Koppal",
+    "zone": "Zone 2",
+    "localities": [
+      "K.G. Koppal Main Road",
+      "Underbridge Road",
+      "Chamarajapuram Station Cross"
+    ],
+    "lat": 12.298,
+    "lng": 76.638,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 43,
+    "ward_name": "T.K. Layout",
+    "zone": "Zone 2",
+    "localities": [
+      "T.K. Layout 2nd Stage",
+      "Panchamukhi Temple Cross",
+      "Bannur Suburb Road"
+    ],
+    "lat": 12.297,
+    "lng": 76.626,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 44,
+    "ward_name": "Janathanagara",
+    "zone": "Zone 2",
+    "localities": [
+      "Janathanagar 1st Main",
+      "Railway Gate West",
+      "Janathanagar Park"
+    ],
+    "lat": 12.293,
+    "lng": 76.62,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 45,
+    "ward_name": "Sharadadevinagara",
+    "zone": "Zone 2",
+    "localities": [
+      "Sharadadevi Nagar Circle",
+      "Shanthala Theater Road",
+      "Cauvery School Road"
+    ],
+    "lat": 12.291,
+    "lng": 76.612,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 46,
+    "ward_name": "Dattagalli",
+    "zone": "Zone 2",
+    "localities": [
+      "Dattagalli 3rd Stage",
+      "Ring Road Dattagalli Junction",
+      "B.M. Sri Nagar"
+    ],
+    "lat": 12.285,
+    "lng": 76.605,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 47,
+    "ward_name": "Kuvempu Nagara",
+    "zone": "Zone 2",
+    "localities": [
+      "Kuvempunagar Complex",
+      "Anikethana Road",
+      "Vivekananda Circle"
+    ],
+    "lat": 12.289,
+    "lng": 76.628,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 48,
+    "ward_name": "Jayanagara",
+    "zone": "Zone 4",
+    "localities": [
+      "Jayanagar Railway Crossing",
+      "Madhavachar Circle",
+      "Ramanuja Road North"
+    ],
+    "lat": 12.296,
+    "lng": 76.643,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 49,
+    "ward_name": "Lakshmipuram",
+    "zone": "Zone 4",
+    "localities": [
+      "Lakshmipuram Main Road",
+      "Nanjaraja Bahadur Choultry",
+      "Narayan Shastry Road"
+    ],
+    "lat": 12.301,
+    "lng": 76.646,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 50,
+    "ward_name": "Sunnadakeri",
+    "zone": "Zone 1",
+    "localities": [
+      "Sunnadakeri 1st Cross",
+      "Ramanuja Road 5th Cross",
+      "Santhana Venugopala Temple"
+    ],
+    "lat": 12.298,
+    "lng": 76.649,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 51,
+    "ward_name": "Agrahara",
+    "zone": "Zone 1",
     "localities": [
       "Agrahara Circle",
       "Vani Vilas Market",
       "Thyagaraja Road",
       "101 Ganesha Temple"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
     "lat": 12.295,
-    "lng": 76.65
+    "lng": 76.65,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
-    "ward_no": 39,
-    "ward_name": "Ward 39 - Chamundipuram",
-    "zone": "Zone 6",
+    "ward_no": 52,
+    "ward_name": "Ittigegudu",
+    "zone": "Zone 9",
+    "localities": [
+      "Mysore Zoo Frontage",
+      "Mall of Mysore Corridor",
+      "Indira Gandhi Manav Sangrahalaya"
+    ],
+    "lat": 12.302,
+    "lng": 76.667,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 53,
+    "ward_name": "Kurubarahalli",
+    "zone": "Zone 9",
+    "localities": [
+      "Kurubarahalli Circle",
+      "Lalitha Mahal Palace Avenue",
+      "Helipad Ground Road"
+    ],
+    "lat": 12.296,
+    "lng": 76.677,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 54,
+    "ward_name": "Gunduraonagara",
+    "zone": "Zone 1",
+    "localities": [
+      "Gundu Rao Nagar 1st Main",
+      "Silk Factory Outer Road",
+      "Chamundi Hill Foothill Trail"
+    ],
+    "lat": 12.288,
+    "lng": 76.657,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
+  },
+  {
+    "ward_no": 55,
+    "ward_name": "Chamundipuram",
+    "zone": "Zone 1",
     "localities": [
       "Chamundipuram Circle",
       "Silk Factory Road",
       "Ramanuja Road South"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
     "lat": 12.291,
-    "lng": 76.652
-  },
-  {
-    "ward_no": 40,
-    "ward_name": "Ward 40 - Ramanuja Road",
-    "zone": "Zone 6",
-    "localities": [
-      "Jayanagar 1st Block",
-      "Ramanuja Road 14th Cross",
-      "Madhavachar Circle"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.293,
-    "lng": 76.647
-  },
-  {
-    "ward_no": 41,
-    "ward_name": "Ward 41 - Madhavachar Road",
-    "zone": "Zone 6",
-    "localities": [
-      "Madhavachar Road",
-      "Chamarajapuram Railway Halt",
-      "Krishnamurthypuram"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.296,
-    "lng": 76.643
-  },
-  {
-    "ward_no": 42,
-    "ward_name": "Ward 42 - Kannegowdana Koppal",
-    "zone": "Zone 6",
-    "localities": [
-      "KG Koppal Underpass",
-      "Chamarajapuram Post Office",
-      "New Kantharaj Urs Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.298,
-    "lng": 76.638
-  },
-  {
-    "ward_no": 43,
-    "ward_name": "Ward 43 - Vidyaranyapuram",
-    "zone": "Zone 7",
-    "localities": [
-      "Vidyaranyapuram 1st Main",
-      "Sewage Farm Road",
-      "Sterling Theater Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.286,
-    "lng": 76.648
-  },
-  {
-    "ward_no": 44,
-    "ward_name": "Ward 44 - Ashokapuram",
-    "zone": "Zone 7",
-    "localities": [
-      "Ashokapuram Railway Workshop",
-      "Manandavadi Road",
-      "Aranya Bhavan"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.283,
-    "lng": 76.641
-  },
-  {
-    "ward_no": 45,
-    "ward_name": "Ward 45 - J.P. Nagar 1st Stage",
-    "zone": "Zone 7",
-    "localities": [
-      "Gobli Mara Circle",
-      "J.P. Nagar Ring Road",
-      "Railway Level Crossing"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.274,
-    "lng": 76.647
-  },
-  {
-    "ward_no": 46,
-    "ward_name": "Ward 46 - J.P. Nagar 2nd Stage",
-    "zone": "Zone 7",
-    "localities": [
-      "Police Booth Circle",
-      "Cauvery School Road",
-      "Mahadevapura Link"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.268,
-    "lng": 76.651
-  },
-  {
-    "ward_no": 47,
-    "ward_name": "Ward 47 - Kanakagiri",
-    "zone": "Zone 7",
-    "localities": [
-      "Kanakagiri Main",
-      "Gundu Rao Nagar",
-      "Vidyaranyapuram South"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.28,
-    "lng": 76.652
-  },
-  {
-    "ward_no": 48,
-    "ward_name": "Ward 48 - Vishweshwara Nagar",
-    "zone": "Zone 7",
-    "localities": [
-      "Vishweshwara Nagar Industrial",
-      "KSSIDC Sheds",
-      "Gajanana Circle"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.276,
-    "lng": 76.638
-  },
-  {
-    "ward_no": 49,
-    "ward_name": "Ward 49 - Industrial Estate South",
-    "zone": "Zone 7",
-    "localities": [
-      "KRS Road Industrial",
-      "Silk Weaving Factory",
-      "South Ring Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.271,
-    "lng": 76.635
-  },
-  {
-    "ward_no": 50,
-    "ward_name": "Ward 50 - Kuvempunagar A-Block",
-    "zone": "Zone 8",
-    "localities": [
-      "Kuvempunagar Complex",
-      "Anikethana Road",
-      "Panchamukhi Circle"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.292,
-    "lng": 76.626
-  },
-  {
-    "ward_no": 51,
-    "ward_name": "Ward 51 - Kuvempunagar M-Block",
-    "zone": "Zone 8",
-    "localities": [
-      "Kukkarahalli Lake South Gate",
-      "Kuvempu Trust",
-      "Udayaranga Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.295,
-    "lng": 76.629
-  },
-  {
-    "ward_no": 52,
-    "ward_name": "Ward 52 - Saraswathipuram",
-    "zone": "Zone 8",
-    "localities": [
-      "Kukkarahalli Lake West Gate",
-      "Kautilya Circle",
-      "Maruthi Temple Road"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.302,
-    "lng": 76.632
-  },
-  {
-    "ward_no": 53,
-    "ward_name": "Ward 53 - Sharadadevinagar",
-    "zone": "Zone 8",
-    "localities": [
-      "Sharadadevinagar Circle",
-      "Shanthiveera Circle",
-      "Central Excise Layout"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.291,
-    "lng": 76.618
-  },
-  {
-    "ward_no": 54,
-    "ward_name": "Ward 54 - Ramakrishnanagar",
-    "zone": "Zone 8",
-    "localities": [
-      "G-Block Park",
-      "Ramakrishnanagar Circle",
-      "E-Block Market"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.284,
-    "lng": 76.622
-  },
-  {
-    "ward_no": 55,
-    "ward_name": "Ward 55 - Vivekananda Nagar",
-    "zone": "Zone 8",
-    "localities": [
-      "Vivekananda Circle",
-      "Siddalingeshwara Temple",
-      "D-Block"
-    ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.281,
-    "lng": 76.627
+    "lng": 76.652,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 56,
-    "ward_name": "Ward 56 - Srirampura",
-    "zone": "Zone 8",
+    "ward_name": "Krishnamurthipuram",
+    "zone": "Zone 2",
     "localities": [
-      "Srirampura Water Tank",
-      "BEML 1st Stage",
-      "Manandavadi Highway"
+      "Ballal Circle",
+      "K.R. Boulevard Commercial",
+      "Chamarajapuram Court Complex"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.269,
-    "lng": 76.625
+    "lat": 12.3015,
+    "lng": 76.639,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 57,
-    "ward_name": "Ward 57 - BEML Layout",
-    "zone": "Zone 8",
+    "ward_name": "Kuvempu Nagara C.I.T.B.",
+    "zone": "Zone 2",
     "localities": [
-      "BEML Nagar Shopping Complex",
-      "Rajarajeshwari Temple",
-      "Ring Road South"
+      "CITB Choultry Road",
+      "Navodaya Layout",
+      "Kuvempunagar Post Office"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.264,
-    "lng": 76.62
+    "lat": 12.284,
+    "lng": 76.632,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 58,
-    "ward_name": "Ward 58 - Bogadi 1st Stage",
-    "zone": "Zone 9",
+    "ward_name": "Ramakrishnanagara",
+    "zone": "Zone 2",
     "localities": [
-      "Gaddige Main Road",
-      "Maramma Temple Road",
-      "Amritha Vidyalayam"
+      "Ramakrishnanagar E & F Block",
+      "Gnanaganga School Road",
+      "Niveditha Nagar Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.303,
-    "lng": 76.608
+    "lat": 12.278,
+    "lng": 76.621,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 59,
-    "ward_name": "Ward 59 - Bogadi 2nd Stage",
-    "zone": "Zone 9",
+    "ward_name": "Kuvempu Nagara M Block",
+    "zone": "Zone 2",
     "localities": [
-      "Ring Road Flyover",
-      "Bank Colony",
-      "Nirmithi Kendra Bogadi"
+      "Kuvempunagar M Block",
+      "Udayaranga Road",
+      "Panchavati Circle"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.301,
-    "lng": 76.598
+    "lat": 12.282,
+    "lng": 76.626,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 60,
-    "ward_name": "Ward 60 - Dattagalli",
-    "zone": "Zone 9",
+    "ward_name": "Ashokapuram",
+    "zone": "Zone 1",
     "localities": [
-      "Kanakadasa Circle",
-      "Ring Road Dattagalli",
-      "Andolana Circle"
+      "Ashokapuram Railway Station",
+      "Dr. B.R. Ambedkar Circle",
+      "Brahmaramba Temple Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
     "lat": 12.287,
-    "lng": 76.606
+    "lng": 76.646,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 61,
-    "ward_name": "Ward 61 - Vijayanagar 2nd Stage",
-    "zone": "Zone 9",
+    "ward_name": "Vidyaranyapuram",
+    "zone": "Zone 1",
     "localities": [
-      "Vijayanagar Club",
-      "Water Tank Circle",
-      "Yoganarasimha Temple"
+      "Vidyaranyapuram Main Road",
+      "Mahavira Circle",
+      "Kannegowda Circle",
+      "Sewage Farm Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.338,
-    "lng": 76.601
+    "lat": 12.281,
+    "lng": 76.651,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 62,
-    "ward_name": "Ward 62 - Vijayanagar 3rd Stage",
-    "zone": "Zone 9",
+    "ward_name": "Vishweshwaranagara",
+    "zone": "Zone 1",
     "localities": [
-      "Abhishek Circle",
-      "Basaveshwara Park",
-      "Hebbal Link Road"
+      "Vishweshwaranagar Industrial Area",
+      "Sterling Theater Road",
+      "Hebbal Road Link"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.334,
-    "lng": 76.594
+    "lat": 12.275,
+    "lng": 76.656,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 63,
-    "ward_name": "Ward 63 - Vijayanagar 4th Stage",
-    "zone": "Zone 9",
+    "ward_name": "J.P. Nagara",
+    "zone": "Zone 2",
     "localities": [
-      "Hootagalli Junction",
-      "Police Station Road",
-      "BEL Layout"
+      "J.P. Nagar 1st Stage",
+      "Goblimara Circle",
+      "Ring Road South Junction"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.327,
-    "lng": 76.588
+    "lat": 12.268,
+    "lng": 76.642,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 64,
-    "ward_name": "Ward 64 - Hootagalli",
-    "zone": "Zone 9",
+    "ward_name": "Aravindanagara",
+    "zone": "Zone 2",
     "localities": [
-      "Hootagalli Industrial Area",
-      "Koorgalli Main",
-      "Automotive Axles Road"
+      "Aravinda Nagar Main",
+      "Kamannana Gudi Cross",
+      "Kuvempunagar Ext South"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.336,
-    "lng": 76.581
+    "lat": 12.274,
+    "lng": 76.631,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   },
   {
     "ward_no": 65,
-    "ward_name": "Ward 65 - Belavadi",
-    "zone": "Zone 9",
+    "ward_name": "Srirampura",
+    "zone": "Zone 2",
     "localities": [
-      "Belavadi Grama Panchayat",
-      "JK Tyre Factory Road",
-      "Ring Road Belavadi"
+      "Srirampura 2nd Stage",
+      "Mahadevapura Road South",
+      "Lingambudhi Palya Road"
     ],
-    "verified": true,
-    "source_note": "Mysuru City Corporation Delimitation Notification & Urban Development Dept Gazette",
-    "lat": 12.342,
-    "lng": 76.574
+    "lat": 12.265,
+    "lng": 76.625,
+    "verification_status": "verified",
+    "source_url": "https://mysore.nic.in/en/document-category/elections/",
+    "source_retrieved_on": "2026-11-21",
+    "geometry_note": "Notified MCC Ward centroid and delimitation boundary under Urban Development Department 2018 notification."
   }
 ]

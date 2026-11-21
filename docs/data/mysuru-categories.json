@@ -1,82 +1,102 @@
 [
   {
+    "id": "cat-waste",
     "name": "Solid Waste Blackspot & Garbage Dumping",
-    "description": "Uncollected street garbage, open vacant site debris accumulation, commercial waste dumping",
+    "description": "Uncollected street garbage, open vacant site debris accumulation, commercial waste dumping along public corridors.",
     "color_hex": "#2F5D46",
     "sla_hours": 24,
     "icon": "Trash2",
+    "responsible_authority_id": "auth-mcc",
     "authority_short_name": "MCC"
   },
   {
+    "id": "cat-ugd",
     "name": "Underground Drainage (UGD) Overflow",
-    "description": "Sewage manhole backflow, blocked secondary sanitary lines, contaminated drainage spills",
+    "description": "Sanitary sewer manhole backflow, blocked secondary sewer lines, foul water discharge onto road surfaces.",
     "color_hex": "#2F6F8F",
     "sla_hours": 24,
     "icon": "Droplets",
+    "responsible_authority_id": "auth-mcc",
     "authority_short_name": "MCC"
   },
   {
+    "id": "cat-lake",
     "name": "Lake Water Contamination & Runoff",
-    "description": "Untreated sewage inlets, chemical frothing, plastic accumulation along Kukkarahalli, Karanji, and Lingambudhi lakes",
+    "description": "Untreated domestic/industrial wastewater inflow, weed proliferation, plastic accumulation along lake perimeters.",
     "color_hex": "#3F7D5A",
     "sla_hours": 72,
     "icon": "Waves",
+    "responsible_authority_id": "auth-muda",
     "authority_short_name": "MUDA"
   },
   {
+    "id": "cat-effluent",
     "name": "Industrial Effluent & Toxic Emissions",
-    "description": "Chemical smoke discharge, foul odours, untreated factory wash release in industrial zones",
+    "description": "Untreated factory wash discharge, toxic chemical smoke release, industrial sewer dumping in industrial clusters.",
     "color_hex": "#A8322B",
     "sla_hours": 48,
     "icon": "Factory",
+    "responsible_authority_id": "auth-kspcb",
     "authority_short_name": "KSPCB"
   },
   {
+    "id": "cat-debris",
     "name": "Construction Debris & Road Encroachment",
-    "description": "Unattended construction sand, gravel heaps, demolition rubble obstructing pedestrian walkways and carriageways",
+    "description": "Unattended building sand heaps, demolition rubble blocking pedestrian pavements and road carriageways.",
     "color_hex": "#8C5E32",
     "sla_hours": 48,
     "icon": "Truck",
+    "responsible_authority_id": "auth-mcc",
     "authority_short_name": "MCC"
   },
   {
+    "id": "cat-air",
     "name": "Air Quality & Vehicular Smoke Hazard",
-    "description": "Visible particulate emissions, bus stand diesel soot concentration, leaf burning in public open spaces",
+    "description": "High particulate smoke emissions, bus terminal diesel soot concentration, biomass/leaf burning in public corridors.",
     "color_hex": "#4A574F",
     "sla_hours": 48,
     "icon": "Wind",
+    "responsible_authority_id": "auth-kspcb",
     "authority_short_name": "KSPCB"
   },
   {
+    "id": "cat-noise",
     "name": "Noise Pollution & High-Decibel Amplifiers",
-    "description": "Commercial public address violations beyond permissible decibel limits, late-night acoustic disturbances",
+    "description": "Commercial public address system decibel violations, late-night acoustic disturbances beyond regulatory thresholds.",
     "color_hex": "#B7791F",
     "sla_hours": 12,
     "icon": "Volume2",
+    "responsible_authority_id": "auth-kspcb",
     "authority_short_name": "KSPCB"
   },
   {
+    "id": "cat-carcass",
     "name": "Dead Animal Carcasses & Stray Hazard",
-    "description": "Unattended animal carcasses, rabies risk hotspots, stray cattle public thoroughfare blockades",
+    "description": "Unattended animal carcasses on public thoroughfares, high rabies exposure risk, stray cattle road obstruction.",
     "color_hex": "#B4432F",
     "sla_hours": 12,
     "icon": "AlertTriangle",
+    "responsible_authority_id": "auth-mcc",
     "authority_short_name": "MCC"
   },
   {
+    "id": "cat-trees",
     "name": "Hazardous Tree Pruning & Fallen Branches",
-    "description": "Weak canopy over electrical cables, fallen roadside tree trunks obstructing stormwater channels",
+    "description": "Overgrown roadside canopies threatening overhead powerlines, fallen tree trunks obstructing stormwater channels.",
     "color_hex": "#5A6B5C",
     "sla_hours": 36,
     "icon": "Trees",
+    "responsible_authority_id": "auth-forest",
     "authority_short_name": "Forest Dept"
   },
   {
+    "id": "cat-stormwater",
     "name": "Stormwater Drain Clogging & Flooding",
-    "description": "Silted storm drains (raja kaluve), plastic debris choke points causing street waterlogging",
+    "description": "Silted major stormwater drains (raja kaluve), plastic debris choke points causing localized monsoon street flooding.",
     "color_hex": "#2F6F8F",
     "sla_hours": 24,
     "icon": "CloudRain",
+    "responsible_authority_id": "auth-mcc",
     "authority_short_name": "MCC"
   }
 ]

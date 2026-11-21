@@ -1,42 +1,47 @@
 [
   {
+    "id": "auth-mcc",
     "name": "Mysuru City Corporation",
     "short_name": "MCC",
-    "scope": "Municipal solid waste, underground drainage, stormwater maintenance, road works, public sanitation across 65 wards",
-    "helpline": "0821-2418800 / 0821-2440890",
+    "scope": "Municipal solid waste management, underground drainage (UGD), stormwater drains, public sanitation, and local road maintenance across 65 MCC wards.",
     "portal_url": "https://mysurucitycorporation.co.in",
-    "contact_officer_title": "Executive Engineer (Environment) & Ward Health Officer"
+    "contact_officer_title": "Executive Engineer (Environment) & Assistant Commissioner (Health)",
+    "source_url": "https://mysurucitycorporation.co.in"
   },
   {
+    "id": "auth-kspcb",
     "name": "Karnataka State Pollution Control Board",
     "short_name": "KSPCB",
-    "scope": "Air quality index monitoring, industrial effluent control in Hebbal & Hootagalli, noise standard enforcement",
-    "helpline": "0821-2514101",
+    "scope": "Ambient air quality index (AQI) monitoring, industrial effluent compliance in Hebbal industrial cluster, and environmental noise regulation.",
     "portal_url": "https://kspcb.karnataka.gov.in",
-    "contact_officer_title": "Environmental Officer, Regional Office Mysore"
+    "contact_officer_title": "Regional Environmental Officer, Mysore Urban Regional Office",
+    "source_url": "https://kspcb.karnataka.gov.in"
   },
   {
+    "id": "auth-muda",
     "name": "Mysuru Urban Development Authority",
     "short_name": "MUDA",
-    "scope": "Urban layout development, civic amenity protection, preservation and maintenance of Kukkarahalli & Lingambudhi lakes",
-    "helpline": "0821-2420108",
+    "scope": "Master layout urban planning, civic amenity land protection, rejuvenation and desilting of designated urban lakes (Kukkarahalli, Lingambudhi).",
     "portal_url": "https://muda.karnataka.gov.in",
-    "contact_officer_title": "Superintending Engineer & Lake Conservation Cell"
+    "contact_officer_title": "Superintending Engineer & Lake Conservation Cell",
+    "source_url": "https://muda.karnataka.gov.in"
   },
   {
+    "id": "auth-chescom",
     "name": "Chamundeshwari Electricity Supply Corporation",
     "short_name": "CHESCOM",
-    "scope": "Electrical distribution safety, public illumination, hazardous transformer clearance, high-tension lines",
-    "helpline": "1912 / 0821-2343380",
+    "scope": "Urban electrical distribution grid maintenance, street lighting infrastructure, high-tension cable clearance, and transformer safety.",
     "portal_url": "https://chescom.karnataka.gov.in",
-    "contact_officer_title": "Assistant Executive Engineer (Electrical Works)"
+    "contact_officer_title": "Executive Engineer (Electrical Maintenance), Mysore City Division",
+    "source_url": "https://chescom.karnataka.gov.in"
   },
   {
+    "id": "auth-forest",
     "name": "Karnataka Forest Department",
     "short_name": "Forest Dept",
-    "scope": "Hazardous road tree pruning, storm branch clearance, Chamundi Hill buffer zone protection, urban wildlife rescue",
-    "helpline": "0821-2480902",
+    "scope": "Canopy pruning of hazardous roadside trees, clearance of storm-fallen branches, Chamundi Hill conservation buffer protection, and urban wildlife rescue.",
     "portal_url": "https://aranya.gov.in",
-    "contact_officer_title": "Range Forest Officer, Mysore Urban Range"
+    "contact_officer_title": "Range Forest Officer, Mysore Territorial Range",
+    "source_url": "https://aranya.gov.in"
   }
 ]

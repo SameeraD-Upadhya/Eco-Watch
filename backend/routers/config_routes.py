@@ -15,7 +15,8 @@ from models import (
     LocationCreate,
     LocationResponse,
     AuthorityCreate,
-    AuthorityResponse
+    AuthorityResponse,
+    LandmarkResponse
 )
 
 router = APIRouter(prefix="/api", tags=["Configuration & Master Data"])
@@ -189,6 +190,13 @@ def create_category(payload: CategoryCreate):
             detail={"code": "DUPLICATE_CATEGORY", "message": f"Category '{payload.name}' already exists"}
         )
 
+# Landmarks Endpoint
+@router.get("/config/landmarks", response_model=list[LandmarkResponse])
+def list_landmarks():
+    db = get_db()
+    cursor = db.landmarks.find({}, {"_id": 0})
+    return list(cursor)
+
 # Locations / Wards Endpoints
 @router.get("/config/locations", response_model=list[LocationResponse])
 def list_locations():
@@ -205,6 +213,10 @@ def list_locations():
             lat=doc.get("lat"),
             lng=doc.get("lng"),
             verified=doc.get("verified", True),
+            verification_status=doc.get("verification_status", "verified"),
+            source_url=doc.get("source_url", ""),
+            source_retrieved_on=doc.get("source_retrieved_on", ""),
+            geometry_note=doc.get("geometry_note", ""),
             source_note=doc.get("source_note", ""),
             created_at=doc.get("created_at", utc_now_iso())
         ))
@@ -231,6 +243,10 @@ def create_location(payload: LocationCreate):
         "lat": payload.lat,
         "lng": payload.lng,
         "verified": payload.verified if payload.verified is not None else True,
+        "verification_status": payload.verification_status or "verified",
+        "source_url": payload.source_url or "",
+        "source_retrieved_on": payload.source_retrieved_on or "",
+        "geometry_note": payload.geometry_note or "",
         "source_note": payload.source_note or "",
         "created_at": now
     }
@@ -245,6 +261,10 @@ def create_location(payload: LocationCreate):
             lat=doc["lat"],
             lng=doc["lng"],
             verified=doc["verified"],
+            verification_status=doc["verification_status"],
+            source_url=doc["source_url"],
+            source_retrieved_on=doc["source_retrieved_on"],
+            geometry_note=doc["geometry_note"],
             source_note=doc["source_note"],
             created_at=doc["created_at"]
         )
@@ -257,7 +277,7 @@ def create_location(payload: LocationCreate):
 # Load Master Data Trigger
 @router.post("/config/load-master")
 def load_master_data(include_samples: bool = False):
-    """Loads Mysuru master data (wards, categories, authorities, and optional demonstration reports)
+    """Loads Mysuru master data (wards, categories, authorities, landmarks, and optional demonstration reports)
     from files in docs/data/ idempotently without duplicates."""
     db = get_db()
     data_dir = Path(__file__).resolve().parent.parent.parent / "docs" / "data"
@@ -265,13 +285,17 @@ def load_master_data(include_samples: bool = False):
         "wards": db.locations.count_documents({}),
         "categories": db.categories.count_documents({}),
         "authorities": db.authorities.count_documents({}),
+        "landmarks": db.landmarks.count_documents({}),
         "reports": db.reports.count_documents({})
     }
 
     wards_loaded = 0
     categories_loaded = 0
     authorities_loaded = 0
+    landmarks_loaded = 0
     reports_loaded = 0
+    verified_wards = 0
+    approximate_wards = 0
     unverified_wards = 0
 
     # 1. Load Authorities
@@ -301,26 +325,49 @@ def load_master_data(include_samples: bool = False):
                     a_doc = db.authorities.find_one({"short_name": item["authority_short_name"]})
                     if a_doc:
                         item["responsible_authority_id"] = str(a_doc["_id"])
+                        item["responsible_authority_name"] = a_doc["name"]
                 res = db.categories.update_one({"name_key": key}, {"$set": item}, upsert=True)
                 if res.upserted_id or res.modified_count:
                     categories_loaded += 1
 
-    # 3. Load Wards
+    # 3. Load Landmarks
+    lm_file = data_dir / "mysuru-landmarks.json"
+    if lm_file.exists():
+        with open(lm_file, "r", encoding="utf-8") as f:
+            lm_data = json.load(f)
+            for item in lm_data:
+                key = normalize_key(item["name"])
+                item["name_key"] = key
+                res = db.landmarks.update_one({"name_key": key}, {"$set": item}, upsert=True)
+                if res.upserted_id or res.modified_count:
+                    landmarks_loaded += 1
+
+    # 4. Load Wards
     ward_file = data_dir / "mysuru-wards.json"
     if ward_file.exists():
         with open(ward_file, "r", encoding="utf-8") as f:
             ward_data = json.load(f)
+            # Remove legacy wards that don't match 1..65 official MCC delimitation
+            valid_ward_nos = [item["ward_no"] for item in ward_data]
+            db.locations.delete_many({"ward_no": {"$nin": valid_ward_nos}})
+
             for item in ward_data:
                 key = normalize_key(item["ward_name"])
                 item["ward_key"] = key
                 item["created_at"] = item.get("created_at") or utc_now_iso()
-                if not item.get("verified", True):
+                v_stat = item.get("verification_status", "verified")
+                if v_stat == "verified":
+                    verified_wards += 1
+                elif v_stat == "approximate":
+                    approximate_wards += 1
+                else:
                     unverified_wards += 1
-                res = db.locations.update_one({"ward_key": key}, {"$set": item}, upsert=True)
+
+                res = db.locations.update_one({"ward_no": item["ward_no"]}, {"$set": item}, upsert=True)
                 if res.upserted_id or res.modified_count:
                     wards_loaded += 1
 
-    # 4. Load Sample Demonstration Reports if requested
+    # 5. Load Sample Demonstration Reports if requested
     if include_samples:
         reports_file = data_dir / "mysuru-sample-reports.json"
         if reports_file.exists():
@@ -328,39 +375,45 @@ def load_master_data(include_samples: bool = False):
             with open(reports_file, "r", encoding="utf-8") as f:
                 rep_data = json.load(f)
                 for item in rep_data:
+                    c_name = item.get("category") or item.get("category_name", "")
+                    l_name = item.get("ward_name") or item.get("location_name", "")
+
                     # Check if report already loaded by signature
                     sig_match = db.reports.find_one({
                         "citizen_name": item.get("citizen_name"),
-                        "location_name": item.get("location_name"),
+                        "location_name": l_name,
                         "reported_at": item.get("reported_at")
                     })
                     if sig_match:
                         continue
 
                     # Resolve category and location
-                    c_doc = db.categories.find_one({"name_key": normalize_key(item.get("category_name", ""))})
-                    l_doc = db.locations.find_one({"ward_key": normalize_key(item.get("location_name", ""))})
+                    c_doc = db.categories.find_one({"name_key": normalize_key(c_name)})
+                    l_doc = db.locations.find_one({"ward_no": item.get("ward_no")}) or db.locations.find_one({"ward_key": normalize_key(l_name)})
 
-                    rep_no = get_next_report_no()
+                    rep_no = get_next_report_no(db)
                     doc = {
                         "report_no": rep_no,
                         "citizen_name": item.get("citizen_name", "Resident"),
+                        "contact": item.get("contact", ""),
                         "category_id": str(c_doc["_id"]) if c_doc else "",
-                        "category_name": c_doc["name"] if c_doc else item.get("category_name", ""),
+                        "category_name": c_doc["name"] if c_doc else c_name,
                         "location_id": str(l_doc["_id"]) if l_doc else "",
-                        "location_name": l_doc["ward_name"] if l_doc else item.get("location_name", ""),
+                        "location_name": l_doc["ward_name"] if l_doc else l_name,
+                        "ward_no": l_doc.get("ward_no") if l_doc else item.get("ward_no"),
+                        "zone": l_doc.get("zone", "") if l_doc else "",
                         "landmark": item.get("landmark", ""),
-                        "lat": item.get("lat"),
-                        "lng": item.get("lng"),
+                        "lat": item.get("lat") or (l_doc.get("lat") if l_doc else None),
+                        "lng": item.get("lng") or (l_doc.get("lng") if l_doc else None),
                         "description": item.get("description", ""),
                         "severity": item.get("severity", "Medium"),
                         "status": item.get("status", "Open"),
                         "reported_at": item.get("reported_at", utc_now_iso()),
                         "resolved_at": item.get("resolved_at"),
-                        "authority_id": str(c_doc.get("responsible_authority_id", "")) if c_doc else "",
-                        "authority_name": item.get("authority_name", ""),
+                        "authority_id": str(c_doc.get("responsible_authority_id", "")) if c_doc else item.get("authority_id", ""),
+                        "authority_name": item.get("authority_name") or (c_doc.get("responsible_authority_name", "") if c_doc else ""),
                         "evidence": item.get("evidence", []),
-                        "responses": item.get("responses", []),
+                        "response_actions": item.get("response_actions", []),
                         "reopened_count": int(item.get("reopened_count", 0)),
                         "corroborations": int(item.get("corroborations", 0)),
                         "source": item.get("source", "sample_dataset")
@@ -372,6 +425,7 @@ def load_master_data(include_samples: bool = False):
         "wards": db.locations.count_documents({}),
         "categories": db.categories.count_documents({}),
         "authorities": db.authorities.count_documents({}),
+        "landmarks": db.landmarks.count_documents({}),
         "reports": db.reports.count_documents({})
     }
 
@@ -382,6 +436,11 @@ def load_master_data(include_samples: bool = False):
         "wards_loaded": wards_loaded,
         "categories_loaded": categories_loaded,
         "authorities_loaded": authorities_loaded,
+        "landmarks_loaded": landmarks_loaded,
         "reports_loaded": reports_loaded,
-        "unverified_wards": unverified_wards
+        "verification_breakdown": {
+            "verified": verified_wards,
+            "approximate": approximate_wards,
+            "unverified": unverified_wards
+        }
     }

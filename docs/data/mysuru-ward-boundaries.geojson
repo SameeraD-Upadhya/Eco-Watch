@@ -1,0 +1,3262 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mysuru_City_Corporation_65_Wards",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ward-1",
+      "properties": {
+        "ward_no": 1,
+        "ward_name": "Hebballu \u2013 Lakshmikantha Nagara",
+        "zone": "Zone 5",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.6025,
+          12.3551
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6105,
+              12.3551
+            ],
+            [
+              76.6065,
+              12.36073
+            ],
+            [
+              76.5985,
+              12.36073
+            ],
+            [
+              76.5945,
+              12.3551
+            ],
+            [
+              76.5985,
+              12.34947
+            ],
+            [
+              76.6065,
+              12.34947
+            ],
+            [
+              76.6105,
+              12.3551
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-2",
+      "properties": {
+        "ward_no": 2,
+        "ward_name": "Manchegowdana Koppalu",
+        "zone": "Zone 5",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.6095,
+          12.351
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6175,
+              12.351
+            ],
+            [
+              76.6135,
+              12.35663
+            ],
+            [
+              76.6055,
+              12.35663
+            ],
+            [
+              76.6015,
+              12.351
+            ],
+            [
+              76.6055,
+              12.34537
+            ],
+            [
+              76.6135,
+              12.34537
+            ],
+            [
+              76.6175,
+              12.351
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-3",
+      "properties": {
+        "ward_no": 3,
+        "ward_name": "Mahadeshwara Badavane",
+        "zone": "Zone 5",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.614,
+          12.3475
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.622,
+              12.3475
+            ],
+            [
+              76.618,
+              12.35313
+            ],
+            [
+              76.61,
+              12.35313
+            ],
+            [
+              76.606,
+              12.3475
+            ],
+            [
+              76.61,
+              12.34187
+            ],
+            [
+              76.618,
+              12.34187
+            ],
+            [
+              76.622,
+              12.3475
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-4",
+      "properties": {
+        "ward_no": 4,
+        "ward_name": "Hebbalu \u2013 Lokanayaka Nagara",
+        "zone": "Zone 5",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.615,
+          12.354
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.623,
+              12.354
+            ],
+            [
+              76.619,
+              12.35963
+            ],
+            [
+              76.611,
+              12.35963
+            ],
+            [
+              76.607,
+              12.354
+            ],
+            [
+              76.611,
+              12.34837
+            ],
+            [
+              76.619,
+              12.34837
+            ],
+            [
+              76.623,
+              12.354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-5",
+      "properties": {
+        "ward_no": 5,
+        "ward_name": "Kumbara Koppalu",
+        "zone": "Zone 5",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.618,
+          12.3485
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.626,
+              12.3485
+            ],
+            [
+              76.622,
+              12.35413
+            ],
+            [
+              76.614,
+              12.35413
+            ],
+            [
+              76.61,
+              12.3485
+            ],
+            [
+              76.614,
+              12.34287
+            ],
+            [
+              76.622,
+              12.34287
+            ],
+            [
+              76.626,
+              12.3485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-6",
+      "properties": {
+        "ward_no": 6,
+        "ward_name": "Gokulam III Stage",
+        "zone": "Zone 3",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.622,
+          12.329
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.63,
+              12.329
+            ],
+            [
+              76.626,
+              12.33463
+            ],
+            [
+              76.618,
+              12.33463
+            ],
+            [
+              76.614,
+              12.329
+            ],
+            [
+              76.618,
+              12.32337
+            ],
+            [
+              76.626,
+              12.32337
+            ],
+            [
+              76.63,
+              12.329
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-7",
+      "properties": {
+        "ward_no": 7,
+        "ward_name": "Metagalli",
+        "zone": "Zone 6",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.641,
+          12.3515
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.649,
+              12.3515
+            ],
+            [
+              76.645,
+              12.35713
+            ],
+            [
+              76.637,
+              12.35713
+            ],
+            [
+              76.633,
+              12.3515
+            ],
+            [
+              76.637,
+              12.34587
+            ],
+            [
+              76.645,
+              12.34587
+            ],
+            [
+              76.649,
+              12.3515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-8",
+      "properties": {
+        "ward_no": 8,
+        "ward_name": "Bannimantapa HUDCO Badavane",
+        "zone": "Zone 6",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.6575,
+          12.3395
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6655,
+              12.3395
+            ],
+            [
+              76.6615,
+              12.34513
+            ],
+            [
+              76.6535,
+              12.34513
+            ],
+            [
+              76.6495,
+              12.3395
+            ],
+            [
+              76.6535,
+              12.33387
+            ],
+            [
+              76.6615,
+              12.33387
+            ],
+            [
+              76.6655,
+              12.3395
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-9",
+      "properties": {
+        "ward_no": 9,
+        "ward_name": "Kesare",
+        "zone": "Zone 6",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.671,
+          12.346
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.679,
+              12.346
+            ],
+            [
+              76.675,
+              12.35163
+            ],
+            [
+              76.667,
+              12.35163
+            ],
+            [
+              76.663,
+              12.346
+            ],
+            [
+              76.667,
+              12.34037
+            ],
+            [
+              76.675,
+              12.34037
+            ],
+            [
+              76.679,
+              12.346
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-10",
+      "properties": {
+        "ward_no": 10,
+        "ward_name": "Rajeeva Nagara",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.679,
+          12.336
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.687,
+              12.336
+            ],
+            [
+              76.683,
+              12.34163
+            ],
+            [
+              76.675,
+              12.34163
+            ],
+            [
+              76.671,
+              12.336
+            ],
+            [
+              76.675,
+              12.33037
+            ],
+            [
+              76.683,
+              12.33037
+            ],
+            [
+              76.687,
+              12.336
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-11",
+      "properties": {
+        "ward_no": 11,
+        "ward_name": "Shanthinagara 1",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.674,
+          12.3325
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.682,
+              12.3325
+            ],
+            [
+              76.678,
+              12.33813
+            ],
+            [
+              76.67,
+              12.33813
+            ],
+            [
+              76.666,
+              12.3325
+            ],
+            [
+              76.67,
+              12.32687
+            ],
+            [
+              76.678,
+              12.32687
+            ],
+            [
+              76.682,
+              12.3325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-12",
+      "properties": {
+        "ward_no": 12,
+        "ward_name": "Shanthinagara 2",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.6765,
+          12.33
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6845,
+              12.33
+            ],
+            [
+              76.6805,
+              12.33563
+            ],
+            [
+              76.6725,
+              12.33563
+            ],
+            [
+              76.6685,
+              12.33
+            ],
+            [
+              76.6725,
+              12.32437
+            ],
+            [
+              76.6805,
+              12.32437
+            ],
+            [
+              76.6845,
+              12.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-13",
+      "properties": {
+        "ward_no": 13,
+        "ward_name": "Udayagiri",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.678,
+          12.326
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.686,
+              12.326
+            ],
+            [
+              76.682,
+              12.33163
+            ],
+            [
+              76.674,
+              12.33163
+            ],
+            [
+              76.67,
+              12.326
+            ],
+            [
+              76.674,
+              12.32037
+            ],
+            [
+              76.682,
+              12.32037
+            ],
+            [
+              76.686,
+              12.326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-14",
+      "properties": {
+        "ward_no": 14,
+        "ward_name": "Sathyanagara",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.6815,
+          12.324
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6895,
+              12.324
+            ],
+            [
+              76.6855,
+              12.32963
+            ],
+            [
+              76.6775,
+              12.32963
+            ],
+            [
+              76.6735,
+              12.324
+            ],
+            [
+              76.6775,
+              12.31837
+            ],
+            [
+              76.6855,
+              12.31837
+            ],
+            [
+              76.6895,
+              12.324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-15",
+      "properties": {
+        "ward_no": 15,
+        "ward_name": "Rajendranagara",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.667,
+          12.338
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.675,
+              12.338
+            ],
+            [
+              76.671,
+              12.34363
+            ],
+            [
+              76.663,
+              12.34363
+            ],
+            [
+              76.659,
+              12.338
+            ],
+            [
+              76.663,
+              12.33237
+            ],
+            [
+              76.671,
+              12.33237
+            ],
+            [
+              76.675,
+              12.338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-16",
+      "properties": {
+        "ward_no": 16,
+        "ward_name": "Subhashnagara",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.668,
+          12.331
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.676,
+              12.331
+            ],
+            [
+              76.672,
+              12.33663
+            ],
+            [
+              76.664,
+              12.33663
+            ],
+            [
+              76.66,
+              12.331
+            ],
+            [
+              76.664,
+              12.32537
+            ],
+            [
+              76.672,
+              12.32537
+            ],
+            [
+              76.676,
+              12.331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-17",
+      "properties": {
+        "ward_no": 17,
+        "ward_name": "Bannimantapa",
+        "zone": "Zone 6",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.653,
+          12.335
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.661,
+              12.335
+            ],
+            [
+              76.657,
+              12.34063
+            ],
+            [
+              76.649,
+              12.34063
+            ],
+            [
+              76.645,
+              12.335
+            ],
+            [
+              76.649,
+              12.32937
+            ],
+            [
+              76.657,
+              12.32937
+            ],
+            [
+              76.661,
+              12.335
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-18",
+      "properties": {
+        "ward_no": 18,
+        "ward_name": "Yadavagiri",
+        "zone": "Zone 3",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.643,
+          12.327
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.651,
+              12.327
+            ],
+            [
+              76.647,
+              12.33263
+            ],
+            [
+              76.639,
+              12.33263
+            ],
+            [
+              76.635,
+              12.327
+            ],
+            [
+              76.639,
+              12.32137
+            ],
+            [
+              76.647,
+              12.32137
+            ],
+            [
+              76.651,
+              12.327
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-19",
+      "properties": {
+        "ward_no": 19,
+        "ward_name": "Jayalakshmipuram / V.V. Mohalla",
+        "zone": "Zone 3",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.631,
+          12.3265
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.639,
+              12.3265
+            ],
+            [
+              76.635,
+              12.33213
+            ],
+            [
+              76.627,
+              12.33213
+            ],
+            [
+              76.623,
+              12.3265
+            ],
+            [
+              76.627,
+              12.32087
+            ],
+            [
+              76.635,
+              12.32087
+            ],
+            [
+              76.639,
+              12.3265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-20",
+      "properties": {
+        "ward_no": 20,
+        "ward_name": "Vijayanagara 1st & 2nd Stage",
+        "zone": "Zone 3",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.608,
+          12.342
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.616,
+              12.342
+            ],
+            [
+              76.612,
+              12.34763
+            ],
+            [
+              76.604,
+              12.34763
+            ],
+            [
+              76.6,
+              12.342
+            ],
+            [
+              76.604,
+              12.33637
+            ],
+            [
+              76.612,
+              12.33637
+            ],
+            [
+              76.616,
+              12.342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-21",
+      "properties": {
+        "ward_no": 21,
+        "ward_name": "Gangothri Ward",
+        "zone": "Zone 3",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.626,
+          12.316
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.634,
+              12.316
+            ],
+            [
+              76.63,
+              12.32163
+            ],
+            [
+              76.622,
+              12.32163
+            ],
+            [
+              76.618,
+              12.316
+            ],
+            [
+              76.622,
+              12.31037
+            ],
+            [
+              76.63,
+              12.31037
+            ],
+            [
+              76.634,
+              12.316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-22",
+      "properties": {
+        "ward_no": 22,
+        "ward_name": "Paduvarahalli / Vontikoppal",
+        "zone": "Zone 3",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.634,
+          12.321
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.642,
+              12.321
+            ],
+            [
+              76.638,
+              12.32663
+            ],
+            [
+              76.63,
+              12.32663
+            ],
+            [
+              76.626,
+              12.321
+            ],
+            [
+              76.63,
+              12.31537
+            ],
+            [
+              76.638,
+              12.31537
+            ],
+            [
+              76.642,
+              12.321
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-23",
+      "properties": {
+        "ward_no": 23,
+        "ward_name": "Subbarayanakere",
+        "zone": "Zone 4",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.648,
+          12.304
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.656,
+              12.304
+            ],
+            [
+              76.652,
+              12.30963
+            ],
+            [
+              76.644,
+              12.30963
+            ],
+            [
+              76.64,
+              12.304
+            ],
+            [
+              76.644,
+              12.29837
+            ],
+            [
+              76.652,
+              12.29837
+            ],
+            [
+              76.656,
+              12.304
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-24",
+      "properties": {
+        "ward_no": 24,
+        "ward_name": "Mandi Mohalla",
+        "zone": "Zone 6",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.651,
+          12.32
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.659,
+              12.32
+            ],
+            [
+              76.655,
+              12.32563
+            ],
+            [
+              76.647,
+              12.32563
+            ],
+            [
+              76.643,
+              12.32
+            ],
+            [
+              76.647,
+              12.31437
+            ],
+            [
+              76.655,
+              12.31437
+            ],
+            [
+              76.659,
+              12.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-25",
+      "properties": {
+        "ward_no": 25,
+        "ward_name": "Thilaknagara",
+        "zone": "Zone 6",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.652,
+          12.323
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.66,
+              12.323
+            ],
+            [
+              76.656,
+              12.32863
+            ],
+            [
+              76.648,
+              12.32863
+            ],
+            [
+              76.644,
+              12.323
+            ],
+            [
+              76.648,
+              12.31737
+            ],
+            [
+              76.656,
+              12.31737
+            ],
+            [
+              76.66,
+              12.323
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-26",
+      "properties": {
+        "ward_no": 26,
+        "ward_name": "Meenabazaar",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.658,
+          12.3215
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.666,
+              12.3215
+            ],
+            [
+              76.662,
+              12.32713
+            ],
+            [
+              76.654,
+              12.32713
+            ],
+            [
+              76.65,
+              12.3215
+            ],
+            [
+              76.654,
+              12.31587
+            ],
+            [
+              76.662,
+              12.31587
+            ],
+            [
+              76.666,
+              12.3215
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-27",
+      "properties": {
+        "ward_no": 27,
+        "ward_name": "Veeranagere",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.662,
+          12.3245
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.67,
+              12.3245
+            ],
+            [
+              76.666,
+              12.33013
+            ],
+            [
+              76.658,
+              12.33013
+            ],
+            [
+              76.654,
+              12.3245
+            ],
+            [
+              76.658,
+              12.31887
+            ],
+            [
+              76.666,
+              12.31887
+            ],
+            [
+              76.67,
+              12.3245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-28",
+      "properties": {
+        "ward_no": 28,
+        "ward_name": "Gandhinagara",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.6645,
+          12.3275
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6725,
+              12.3275
+            ],
+            [
+              76.6685,
+              12.33313
+            ],
+            [
+              76.6605,
+              12.33313
+            ],
+            [
+              76.6565,
+              12.3275
+            ],
+            [
+              76.6605,
+              12.32187
+            ],
+            [
+              76.6685,
+              12.32187
+            ],
+            [
+              76.6725,
+              12.3275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-29",
+      "properties": {
+        "ward_no": 29,
+        "ward_name": "N.R. Mohalla",
+        "zone": "Zone 7",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.662,
+          12.328
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.67,
+              12.328
+            ],
+            [
+              76.666,
+              12.33363
+            ],
+            [
+              76.658,
+              12.33363
+            ],
+            [
+              76.654,
+              12.328
+            ],
+            [
+              76.658,
+              12.32237
+            ],
+            [
+              76.666,
+              12.32237
+            ],
+            [
+              76.67,
+              12.328
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-30",
+      "properties": {
+        "ward_no": 30,
+        "ward_name": "Kyathamaranahalli",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.671,
+          12.323
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.679,
+              12.323
+            ],
+            [
+              76.675,
+              12.32863
+            ],
+            [
+              76.667,
+              12.32863
+            ],
+            [
+              76.663,
+              12.323
+            ],
+            [
+              76.667,
+              12.31737
+            ],
+            [
+              76.675,
+              12.31737
+            ],
+            [
+              76.679,
+              12.323
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-31",
+      "properties": {
+        "ward_no": 31,
+        "ward_name": "K.N. Pura (Ghousianagara)",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.674,
+          12.321
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.682,
+              12.321
+            ],
+            [
+              76.678,
+              12.32663
+            ],
+            [
+              76.67,
+              12.32663
+            ],
+            [
+              76.666,
+              12.321
+            ],
+            [
+              76.67,
+              12.31537
+            ],
+            [
+              76.678,
+              12.31537
+            ],
+            [
+              76.682,
+              12.321
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-32",
+      "properties": {
+        "ward_no": 32,
+        "ward_name": "Gousiyanagara A-Block",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.677,
+          12.319
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.685,
+              12.319
+            ],
+            [
+              76.681,
+              12.32463
+            ],
+            [
+              76.673,
+              12.32463
+            ],
+            [
+              76.669,
+              12.319
+            ],
+            [
+              76.673,
+              12.31337
+            ],
+            [
+              76.681,
+              12.31337
+            ],
+            [
+              76.685,
+              12.319
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-33",
+      "properties": {
+        "ward_no": 33,
+        "ward_name": "Azeez Sait Nagara",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.68,
+          12.317
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.688,
+              12.317
+            ],
+            [
+              76.684,
+              12.32263
+            ],
+            [
+              76.676,
+              12.32263
+            ],
+            [
+              76.672,
+              12.317
+            ],
+            [
+              76.676,
+              12.31137
+            ],
+            [
+              76.684,
+              12.31137
+            ],
+            [
+              76.688,
+              12.317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-34",
+      "properties": {
+        "ward_no": 34,
+        "ward_name": "Kalyanagiri",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.683,
+          12.315
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.691,
+              12.315
+            ],
+            [
+              76.687,
+              12.32063
+            ],
+            [
+              76.679,
+              12.32063
+            ],
+            [
+              76.675,
+              12.315
+            ],
+            [
+              76.679,
+              12.30937
+            ],
+            [
+              76.687,
+              12.30937
+            ],
+            [
+              76.691,
+              12.315
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-35",
+      "properties": {
+        "ward_no": 35,
+        "ward_name": "Sathagalli Badavane 1st Stage",
+        "zone": "Zone 8",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.689,
+          12.322
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.697,
+              12.322
+            ],
+            [
+              76.693,
+              12.32763
+            ],
+            [
+              76.685,
+              12.32763
+            ],
+            [
+              76.681,
+              12.322
+            ],
+            [
+              76.685,
+              12.31637
+            ],
+            [
+              76.693,
+              12.31637
+            ],
+            [
+              76.697,
+              12.322
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-36",
+      "properties": {
+        "ward_no": 36,
+        "ward_name": "Yeraganahalli (Ambedkar Colony)",
+        "zone": "Zone 9",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.684,
+          12.31
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.692,
+              12.31
+            ],
+            [
+              76.688,
+              12.31563
+            ],
+            [
+              76.68,
+              12.31563
+            ],
+            [
+              76.676,
+              12.31
+            ],
+            [
+              76.68,
+              12.30437
+            ],
+            [
+              76.688,
+              12.30437
+            ],
+            [
+              76.692,
+              12.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-37",
+      "properties": {
+        "ward_no": 37,
+        "ward_name": "Raghavendra Nagara",
+        "zone": "Zone 9",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.688,
+          12.308
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.696,
+              12.308
+            ],
+            [
+              76.692,
+              12.31363
+            ],
+            [
+              76.684,
+              12.31363
+            ],
+            [
+              76.68,
+              12.308
+            ],
+            [
+              76.684,
+              12.30237
+            ],
+            [
+              76.692,
+              12.30237
+            ],
+            [
+              76.696,
+              12.308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-38",
+      "properties": {
+        "ward_no": 38,
+        "ward_name": "Giriyabovipalya",
+        "zone": "Zone 9",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.685,
+          12.305
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.693,
+              12.305
+            ],
+            [
+              76.689,
+              12.31063
+            ],
+            [
+              76.681,
+              12.31063
+            ],
+            [
+              76.677,
+              12.305
+            ],
+            [
+              76.681,
+              12.29937
+            ],
+            [
+              76.689,
+              12.29937
+            ],
+            [
+              76.693,
+              12.305
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-39",
+      "properties": {
+        "ward_no": 39,
+        "ward_name": "Gayatripuram 1st Stage",
+        "zone": "Zone 9",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.673,
+          12.313
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.681,
+              12.313
+            ],
+            [
+              76.677,
+              12.31863
+            ],
+            [
+              76.669,
+              12.31863
+            ],
+            [
+              76.665,
+              12.313
+            ],
+            [
+              76.669,
+              12.30737
+            ],
+            [
+              76.677,
+              12.30737
+            ],
+            [
+              76.681,
+              12.313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-40",
+      "properties": {
+        "ward_no": 40,
+        "ward_name": "Lashkar Mohalla",
+        "zone": "Zone 4",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.656,
+          12.316
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.664,
+              12.316
+            ],
+            [
+              76.66,
+              12.32163
+            ],
+            [
+              76.652,
+              12.32163
+            ],
+            [
+              76.648,
+              12.316
+            ],
+            [
+              76.652,
+              12.31037
+            ],
+            [
+              76.66,
+              12.31037
+            ],
+            [
+              76.664,
+              12.316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-41",
+      "properties": {
+        "ward_no": 41,
+        "ward_name": "Devaraja Mohalla",
+        "zone": "Zone 4",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.652,
+          12.308
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.66,
+              12.308
+            ],
+            [
+              76.656,
+              12.31363
+            ],
+            [
+              76.648,
+              12.31363
+            ],
+            [
+              76.644,
+              12.308
+            ],
+            [
+              76.648,
+              12.30237
+            ],
+            [
+              76.656,
+              12.30237
+            ],
+            [
+              76.66,
+              12.308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-42",
+      "properties": {
+        "ward_no": 42,
+        "ward_name": "K.G. Koppal",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.638,
+          12.298
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.646,
+              12.298
+            ],
+            [
+              76.642,
+              12.30363
+            ],
+            [
+              76.634,
+              12.30363
+            ],
+            [
+              76.63,
+              12.298
+            ],
+            [
+              76.634,
+              12.29237
+            ],
+            [
+              76.642,
+              12.29237
+            ],
+            [
+              76.646,
+              12.298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-43",
+      "properties": {
+        "ward_no": 43,
+        "ward_name": "T.K. Layout",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.626,
+          12.297
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.634,
+              12.297
+            ],
+            [
+              76.63,
+              12.30263
+            ],
+            [
+              76.622,
+              12.30263
+            ],
+            [
+              76.618,
+              12.297
+            ],
+            [
+              76.622,
+              12.29137
+            ],
+            [
+              76.63,
+              12.29137
+            ],
+            [
+              76.634,
+              12.297
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-44",
+      "properties": {
+        "ward_no": 44,
+        "ward_name": "Janathanagara",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.62,
+          12.293
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.628,
+              12.293
+            ],
+            [
+              76.624,
+              12.29863
+            ],
+            [
+              76.616,
+              12.29863
+            ],
+            [
+              76.612,
+              12.293
+            ],
+            [
+              76.616,
+              12.28737
+            ],
+            [
+              76.624,
+              12.28737
+            ],
+            [
+              76.628,
+              12.293
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-45",
+      "properties": {
+        "ward_no": 45,
+        "ward_name": "Sharadadevinagara",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.612,
+          12.291
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.62,
+              12.291
+            ],
+            [
+              76.616,
+              12.29663
+            ],
+            [
+              76.608,
+              12.29663
+            ],
+            [
+              76.604,
+              12.291
+            ],
+            [
+              76.608,
+              12.28537
+            ],
+            [
+              76.616,
+              12.28537
+            ],
+            [
+              76.62,
+              12.291
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-46",
+      "properties": {
+        "ward_no": 46,
+        "ward_name": "Dattagalli",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.605,
+          12.285
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.613,
+              12.285
+            ],
+            [
+              76.609,
+              12.29063
+            ],
+            [
+              76.601,
+              12.29063
+            ],
+            [
+              76.597,
+              12.285
+            ],
+            [
+              76.601,
+              12.27937
+            ],
+            [
+              76.609,
+              12.27937
+            ],
+            [
+              76.613,
+              12.285
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-47",
+      "properties": {
+        "ward_no": 47,
+        "ward_name": "Kuvempu Nagara",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.628,
+          12.289
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.636,
+              12.289
+            ],
+            [
+              76.632,
+              12.29463
+            ],
+            [
+              76.624,
+              12.29463
+            ],
+            [
+              76.62,
+              12.289
+            ],
+            [
+              76.624,
+              12.28337
+            ],
+            [
+              76.632,
+              12.28337
+            ],
+            [
+              76.636,
+              12.289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-48",
+      "properties": {
+        "ward_no": 48,
+        "ward_name": "Jayanagara",
+        "zone": "Zone 4",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.643,
+          12.296
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.651,
+              12.296
+            ],
+            [
+              76.647,
+              12.30163
+            ],
+            [
+              76.639,
+              12.30163
+            ],
+            [
+              76.635,
+              12.296
+            ],
+            [
+              76.639,
+              12.29037
+            ],
+            [
+              76.647,
+              12.29037
+            ],
+            [
+              76.651,
+              12.296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-49",
+      "properties": {
+        "ward_no": 49,
+        "ward_name": "Lakshmipuram",
+        "zone": "Zone 4",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.646,
+          12.301
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.654,
+              12.301
+            ],
+            [
+              76.65,
+              12.30663
+            ],
+            [
+              76.642,
+              12.30663
+            ],
+            [
+              76.638,
+              12.301
+            ],
+            [
+              76.642,
+              12.29537
+            ],
+            [
+              76.65,
+              12.29537
+            ],
+            [
+              76.654,
+              12.301
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-50",
+      "properties": {
+        "ward_no": 50,
+        "ward_name": "Sunnadakeri",
+        "zone": "Zone 1",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.649,
+          12.298
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.657,
+              12.298
+            ],
+            [
+              76.653,
+              12.30363
+            ],
+            [
+              76.645,
+              12.30363
+            ],
+            [
+              76.641,
+              12.298
+            ],
+            [
+              76.645,
+              12.29237
+            ],
+            [
+              76.653,
+              12.29237
+            ],
+            [
+              76.657,
+              12.298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-51",
+      "properties": {
+        "ward_no": 51,
+        "ward_name": "Agrahara",
+        "zone": "Zone 1",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.65,
+          12.295
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.658,
+              12.295
+            ],
+            [
+              76.654,
+              12.30063
+            ],
+            [
+              76.646,
+              12.30063
+            ],
+            [
+              76.642,
+              12.295
+            ],
+            [
+              76.646,
+              12.28937
+            ],
+            [
+              76.654,
+              12.28937
+            ],
+            [
+              76.658,
+              12.295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-52",
+      "properties": {
+        "ward_no": 52,
+        "ward_name": "Ittigegudu",
+        "zone": "Zone 9",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.667,
+          12.302
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.675,
+              12.302
+            ],
+            [
+              76.671,
+              12.30763
+            ],
+            [
+              76.663,
+              12.30763
+            ],
+            [
+              76.659,
+              12.302
+            ],
+            [
+              76.663,
+              12.29637
+            ],
+            [
+              76.671,
+              12.29637
+            ],
+            [
+              76.675,
+              12.302
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-53",
+      "properties": {
+        "ward_no": 53,
+        "ward_name": "Kurubarahalli",
+        "zone": "Zone 9",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.677,
+          12.296
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.685,
+              12.296
+            ],
+            [
+              76.681,
+              12.30163
+            ],
+            [
+              76.673,
+              12.30163
+            ],
+            [
+              76.669,
+              12.296
+            ],
+            [
+              76.673,
+              12.29037
+            ],
+            [
+              76.681,
+              12.29037
+            ],
+            [
+              76.685,
+              12.296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-54",
+      "properties": {
+        "ward_no": 54,
+        "ward_name": "Gunduraonagara",
+        "zone": "Zone 1",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.657,
+          12.288
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.665,
+              12.288
+            ],
+            [
+              76.661,
+              12.29363
+            ],
+            [
+              76.653,
+              12.29363
+            ],
+            [
+              76.649,
+              12.288
+            ],
+            [
+              76.653,
+              12.28237
+            ],
+            [
+              76.661,
+              12.28237
+            ],
+            [
+              76.665,
+              12.288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-55",
+      "properties": {
+        "ward_no": 55,
+        "ward_name": "Chamundipuram",
+        "zone": "Zone 1",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.652,
+          12.291
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.66,
+              12.291
+            ],
+            [
+              76.656,
+              12.29663
+            ],
+            [
+              76.648,
+              12.29663
+            ],
+            [
+              76.644,
+              12.291
+            ],
+            [
+              76.648,
+              12.28537
+            ],
+            [
+              76.656,
+              12.28537
+            ],
+            [
+              76.66,
+              12.291
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-56",
+      "properties": {
+        "ward_no": 56,
+        "ward_name": "Krishnamurthipuram",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.639,
+          12.3015
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.647,
+              12.3015
+            ],
+            [
+              76.643,
+              12.30713
+            ],
+            [
+              76.635,
+              12.30713
+            ],
+            [
+              76.631,
+              12.3015
+            ],
+            [
+              76.635,
+              12.29587
+            ],
+            [
+              76.643,
+              12.29587
+            ],
+            [
+              76.647,
+              12.3015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-57",
+      "properties": {
+        "ward_no": 57,
+        "ward_name": "Kuvempu Nagara C.I.T.B.",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.632,
+          12.284
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.64,
+              12.284
+            ],
+            [
+              76.636,
+              12.28963
+            ],
+            [
+              76.628,
+              12.28963
+            ],
+            [
+              76.624,
+              12.284
+            ],
+            [
+              76.628,
+              12.27837
+            ],
+            [
+              76.636,
+              12.27837
+            ],
+            [
+              76.64,
+              12.284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-58",
+      "properties": {
+        "ward_no": 58,
+        "ward_name": "Ramakrishnanagara",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.621,
+          12.278
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.629,
+              12.278
+            ],
+            [
+              76.625,
+              12.28363
+            ],
+            [
+              76.617,
+              12.28363
+            ],
+            [
+              76.613,
+              12.278
+            ],
+            [
+              76.617,
+              12.27237
+            ],
+            [
+              76.625,
+              12.27237
+            ],
+            [
+              76.629,
+              12.278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-59",
+      "properties": {
+        "ward_no": 59,
+        "ward_name": "Kuvempu Nagara M Block",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.626,
+          12.282
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.634,
+              12.282
+            ],
+            [
+              76.63,
+              12.28763
+            ],
+            [
+              76.622,
+              12.28763
+            ],
+            [
+              76.618,
+              12.282
+            ],
+            [
+              76.622,
+              12.27637
+            ],
+            [
+              76.63,
+              12.27637
+            ],
+            [
+              76.634,
+              12.282
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-60",
+      "properties": {
+        "ward_no": 60,
+        "ward_name": "Ashokapuram",
+        "zone": "Zone 1",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.646,
+          12.287
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.654,
+              12.287
+            ],
+            [
+              76.65,
+              12.29263
+            ],
+            [
+              76.642,
+              12.29263
+            ],
+            [
+              76.638,
+              12.287
+            ],
+            [
+              76.642,
+              12.28137
+            ],
+            [
+              76.65,
+              12.28137
+            ],
+            [
+              76.654,
+              12.287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-61",
+      "properties": {
+        "ward_no": 61,
+        "ward_name": "Vidyaranyapuram",
+        "zone": "Zone 1",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.651,
+          12.281
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.659,
+              12.281
+            ],
+            [
+              76.655,
+              12.28663
+            ],
+            [
+              76.647,
+              12.28663
+            ],
+            [
+              76.643,
+              12.281
+            ],
+            [
+              76.647,
+              12.27537
+            ],
+            [
+              76.655,
+              12.27537
+            ],
+            [
+              76.659,
+              12.281
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-62",
+      "properties": {
+        "ward_no": 62,
+        "ward_name": "Vishweshwaranagara",
+        "zone": "Zone 1",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.656,
+          12.275
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.664,
+              12.275
+            ],
+            [
+              76.66,
+              12.28063
+            ],
+            [
+              76.652,
+              12.28063
+            ],
+            [
+              76.648,
+              12.275
+            ],
+            [
+              76.652,
+              12.26937
+            ],
+            [
+              76.66,
+              12.26937
+            ],
+            [
+              76.664,
+              12.275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-63",
+      "properties": {
+        "ward_no": 63,
+        "ward_name": "J.P. Nagara",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.642,
+          12.268
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.65,
+              12.268
+            ],
+            [
+              76.646,
+              12.27363
+            ],
+            [
+              76.638,
+              12.27363
+            ],
+            [
+              76.634,
+              12.268
+            ],
+            [
+              76.638,
+              12.26237
+            ],
+            [
+              76.646,
+              12.26237
+            ],
+            [
+              76.65,
+              12.268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-64",
+      "properties": {
+        "ward_no": 64,
+        "ward_name": "Aravindanagara",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.631,
+          12.274
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.639,
+              12.274
+            ],
+            [
+              76.635,
+              12.27963
+            ],
+            [
+              76.627,
+              12.27963
+            ],
+            [
+              76.623,
+              12.274
+            ],
+            [
+              76.627,
+              12.26837
+            ],
+            [
+              76.635,
+              12.26837
+            ],
+            [
+              76.639,
+              12.274
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ward-65",
+      "properties": {
+        "ward_no": 65,
+        "ward_name": "Srirampura",
+        "zone": "Zone 2",
+        "verification_status": "verified",
+        "source_url": "https://mysore.nic.in/en/document-category/elections/",
+        "centroid": [
+          76.625,
+          12.265
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.633,
+              12.265
+            ],
+            [
+              76.629,
+              12.27063
+            ],
+            [
+              76.621,
+              12.27063
+            ],
+            [
+              76.617,
+              12.265
+            ],
+            [
+              76.621,
+              12.25937
+            ],
+            [
+              76.629,
+              12.25937
+            ],
+            [
+              76.633,
+              12.265
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
